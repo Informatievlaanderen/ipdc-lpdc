@@ -2,7 +2,7 @@
 {
   "name": "ipdc-lpdc-ap",
   "type": "ap",
-  "eap": "ipdc-ldpc-AP.eap",
+  "eap": "ipdc-lpdc-AP.eap",
   "diagram": "ipdc-lpdc-ap",
   "template": "ipdc-lpdc-ap.j2",
   "title": "ipdc-lpdc - Applicatieprofiel",
