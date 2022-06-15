@@ -1,18 +1,19 @@
 [
 {
-  "name": "ipdc-lpdc-ap",
+  "name": "ipdc-lpdc-im",
   "type": "ap",
   "eap": "IPDC-LPDC-AP.eap",
   "diagram": "ipdc-lpdc-ap",
-  "template": "ipdc-lpdc-ap.j2",
-  "title": "ipdc-lpdc - Applicatieprofiel",
+  "template": "ipdc-lpdc-im.j2",
+  "title": "IPDC - LPDC (Implementatiemodel)",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "publication-date": "2022-05-11",
+  "publication-date": "2022-06-16",
   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
   "contributors-file": "stakeholders.csv",
-  "contributors-column": "MijnKolom",
-  "site": "site-skeleton/ipdc-lpdc-ap",
+  "contributors-column": "Contribution",
+  "site": "site-skeleton/ipdc-lpdc-im",
   "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
+  "dependencies": []
 }
 ]
