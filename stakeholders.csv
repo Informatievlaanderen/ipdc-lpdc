@@ -1,5 +1,9 @@
-Voornaam;Naam;Affiliatie;E-mail;Website;MijnKolom
-Wouter;De Cock;AuteurAffiliatie;wouter.decock@wdcsolutions.be;http://www.wdcsolutions.be ;
-Heidi;Bottu;EditorAffiliatie;;;
-Dieter;Van Peer;MedewerkerAffiliatie;;;
-Nog aanvullen;Met ABB;;;;
+Voornaam;Naam;Affiliatie;E-mail;Website;Contribution
+Wouter;De Cock;WDC Solutions;wouter.decock@wdcsolutions.be;https://www.wdcsolutions.be;A
+Heidi;Bottu;Kunlabora;heidi.bottu@kunlabora.be;https://www.kunlabora.be;E
+Dieter;Van Peer;Kunlabora;dieter.vanpeer@kunlabora.be;https://www.kunlabora.be;E
+Stefanie;Kerkhof;Digitaal Vlaanderen;stefanie.kerkhof@vlaanderen.be;https://www.vlaanderen.be/digitaal-vlaanderen;C
+Felix;Ruiz de Arcaute;redpencil;felix.ruizdearcaute@redpencil.io <felix.ruizdearcaute@redpencil.io>;https://redpencil.io;C
+Boris;De Vloed;devloed.com;boris@devloed.com;https://www.linkedin.com/in/borisdevloed;C
+Bert;Van Nuffelen;Digitaal Vlaanderen;bert.vannuffelen@vlaanderen.be;https://www.vlaanderen.be/digitaal-vlaanderen;C
+Dirk;De Smedt;Digitaal Vlaanderen;dirk.desmedt@vlaanderen.be;https://www.vlaanderen.be/digitaal-vlaanderen;C
