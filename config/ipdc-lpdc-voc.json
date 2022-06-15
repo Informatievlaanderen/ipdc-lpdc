@@ -5,13 +5,14 @@
   "eap": "IPDC-LPDC-AP.eap",
   "diagram": "ipdc-lpdc-ap",
   "template": "ipdc-lpdc-voc.j2",
-  "title": "ipdc-lpdc Vocabularium",
+  "title": "IPDC - LPDC (Vocabularium)",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-  "publication-date": "2020-01-31",
+  "publication-date": "2022-06-15",
   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
   "contributors-file": "stakeholders.csv",
-  "contributors-column": "MijnKolom",
+  "contributors-column": "Contribution",
   "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
+  "dependencies": []
 }
 ]
