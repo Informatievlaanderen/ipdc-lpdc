@@ -40,59 +40,59 @@
     skos:definition   "Areas of information areas related to citizens: Travel within the Union"@en ;
     skos:inScheme     <dvcs:SingleDigitalGatewayGebied> ;
     skos:topConceptOf <dvcs:SingleDigitalGatewayGebied> ;
-    skos:narrower     <dvc:Reizen...> ;
-    skos:narrower     <dvc:Reizen...> ;
-    skos:narrower     <dvc:Reizen...> ;
-    skos:narrower     <dvc:Reizen...> ;
-    skos:narrower     <dvc:Reizen...> .
+    skos:narrower     <dvc:ReizenDocumenten> ;
+    skos:narrower     <dvc:ReizenRechtenVerplichtingen> ;
+    skos:narrower     <dvc:ReizenOndersteuningBeperkteMobiliteit> ;
+    skos:narrower     <dvc:ReizenGoederen> ;
+    skos:narrower     <dvc:ReizenElektronischeGegevens> .
 
-<dvc:Reizen...>
+<dvc:ReizenDocumenten>
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Verplichte reisdocumenten"@nl ;
+    skos:prefLabel  "Required travel documents"@en ;
     skos:altLabel   "A1" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Documenten die van EU-burgers, hun gezinsleden die geen EU-burgers zijn, alleenreizende minderjarigen en niet-EU-burgers verlangd worden wanneer zij EU-binnengrenzen overschrijden (identiteitsbewijs, visum, paspoort)"@nl ;
+    skos:definition "Documents required of Union citizens, their family members who are not Union citizens, minors travelling alone and non-Union citizens when travelling across borders within the Union (ID card, visa, passport)"@en ;
     skos:inScheme   <dvcs:SingleDigitalGatewayGebied> ;
     skos:broader    <dvc:Reizen> .
 
-<dvc:Reizen...>
+<dvc:ReizenRechtenVerplichtingen>
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Rechten en verplichtingen van reizigers"@nl ;
+    skos:prefLabel  "Rights and obligations of travellers"@en ;
     skos:altLabel   "A2" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Rechten en verplichtingen van reizigers die per vliegtuig, trein, schip of bus in of vanuit de Unie reizen en van personen die pakketreizen of gekoppelde reisarrangementen kopen"@nl ;
+    skos:definition "Rights and obligations of travellers by plane, train, ship, bus in and from the Union, and of those who buy travel packages or linked travel arrangements"@en ;
     skos:inScheme   <dvcs:SingleDigitalGatewayGebied> ;
     skos:broader    <dvc:Reizen> .
 
-<dvc:Reizen...>
+<dvc:ReizenOndersteuningBeperkteMobiliteit>
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Ondersteuning in geval van beperkte mobiliteit"@nl ;
+    skos:prefLabel  "Assistance in case of reduced mobility"@en ;
     skos:altLabel   "A3" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Ondersteuning in geval van beperkte mobiliteit bij reizen in of vanuit de Unie"@nl ;
+    skos:definition "Assistance in case of reduced mobility when travelling in and from the Union"@en ;
     skos:inScheme   <dvcs:SingleDigitalGatewayGebied> ;
     skos:broader    <dvc:Reizen> .
 
-<dvc:Reizen...>
+<dvc:ReizenGoederen>
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Vervoer van goederen"@nl ;
+    skos:prefLabel  "Transport of goods"@en ;
     skos:altLabel   "A4" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Vervoer van dieren, planten, alcohol, tabak, sigaretten en andere goederen bij reizen in de Unie"@nl ;
+    skos:definition "Transport of animals, plants, alcohol, tobacco, cigarettes and other goods when travelling in the Union"@en ;
     skos:inScheme   <dvcs:SingleDigitalGatewayGebied> ;
     skos:broader    <dvc:Reizen> .
 
-<dvc:Reizen...>
+<dvc:ReizenElektronischeGegevens>
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Communicatie met elektronische berichten"@nl ;
+    skos:prefLabel  "Communication with electronic messages"@en ;
     skos:altLabel   "A5" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Spraaktelefonie en verzending en ontvangst van elektronische berichten en elektronische gegevens binnen de Unie."@nl ;
+    skos:definition "Voice calling and sending and receiving electronic messages and electronic data within the Union"@en ;
     skos:inScheme   <dvcs:SingleDigitalGatewayGebied> ;
     skos:broader    <dvc:Reizen> .
 
@@ -110,103 +110,103 @@
     skos:definition   "Areas of information areas related to citizens: Work and retirement within the Union"@en ;
     skos:inScheme     <dvcs:SingleDigitalGatewayGebied> ;
     skos:topConceptOf <dvcs:SingleDigitalGatewayGebied> ;
-    skos:narrower     <dvc:WerkEnPensionering...> ;
-    skos:narrower     <dvc:WerkEnPensionering...> ;
-    skos:narrower     <dvc:WerkEnPensionering...> ;
-    skos:narrower     <dvc:WerkEnPensionering...> ;
-    skos:narrower     <dvc:WerkEnPensionering...> ;
-    skos:narrower     <dvc:WerkEnPensionering...> ;
-    skos:narrower     <dvc:WerkEnPensionering...> ;
-    skos:narrower     <dvc:WerkEnPensionering...> ;
-    skos:narrower     <dvc:WerkEnPensionering...> .
+    skos:narrower     <dvc:WerkEnPensioneringWerkZoeken> ;
+    skos:narrower     <dvc:WerkEnPensioneringGaanWerken> ;
+    skos:narrower     <dvc:WerkEnPensioneringErkenningKwalificaties> ;
+    skos:narrower     <dvc:WerkEnPensioneringBelastingheffing> ;
+    skos:narrower     <dvc:WerkEnPensioneringAansprakelijkheidEnVerzekeringen> ;
+    skos:narrower     <dvc:WerkEnPensioneringArbeidsvoorwaarden> ;
+    skos:narrower     <dvc:WerkEnPensioneringGelijkeBehandeling> ;
+    skos:narrower     <dvc:WerkEnPensioneringGezondheidEnVeiligheid> ;
+    skos:narrower     <dvc:WerkEnPensioneringSocialezekerheidsrechten> .
 
-<dvc:WerkEnPensionering...>
+<dvc:WerkEnPensioneringWerkZoeken>
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Werk zoeken"@nl ;
+    skos:prefLabel  "Seeking employment"@en ;
     skos:altLabel   "B1" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Werk zoeken in een andere lidstaat"@nl ;
+    skos:definition "Seeking employment in another Member State"@en ;
     skos:inScheme   <dvcs:SingleDigitalGatewayGebied> ;
     skos:broader    <dvc:WerkEnPensionering> .
 
-<dvc:WerkEnPensionering...>
+<dvc:WerkEnPensioneringGaanWerken>
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Gaan werken"@nl ;
+    skos:prefLabel  "Taking up employment"@en ;
     skos:altLabel   "B2" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Gaan werken in een andere lidstaat"@nl ;
+    skos:definition "Taking up employment in another Member State"@en ;
     skos:inScheme   <dvcs:SingleDigitalGatewayGebied> ;
     skos:broader    <dvc:WerkEnPensionering> .
 
-<dvc:WerkEnPensionering...>
+<dvc:WerkEnPensioneringErkenningKwalificaties>
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Erkenning van kwalificaties"@nl ;
+    skos:prefLabel  "Recognition of qualifications"@en ;
     skos:altLabel   "B3" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Erkenning van kwalificaties met het oog op werk in een andere lidstaat"@nl ;
+    skos:definition "Recognition of qualifications with a view to employment in another Member State"@en ;
     skos:inScheme   <dvcs:SingleDigitalGatewayGebied> ;
     skos:broader    <dvc:WerkEnPensionering> .
 
-<dvc:WerkEnPensionering...>
+<dvc:WerkEnPensioneringBelastingheffing>
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Belastingheffing"@nl ;
+    skos:prefLabel  "Taxation"@en ;
     skos:altLabel   "B4" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Belastingheffing in een andere lidstaat"@nl ;
+    skos:definition "Taxation in another Member State"@en ;
     skos:inScheme   <dvcs:SingleDigitalGatewayGebied> ;
     skos:broader    <dvc:WerkEnPensionering> .
 
-<dvc:WerkEnPensionering...>
+<dvc:WerkEnPensioneringAansprakelijkheidEnVerzekeringen>
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Regels inzake aansprakelijkheid en verzekeringen"@nl ;
+    skos:prefLabel  "Rules on liability and insurance"@en ;
     skos:altLabel   "B5" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Regels inzake aansprakelijkheid en verplichte verzekeringen in verband met verblijf of werk in een andere lidstaat"@nl ;
+    skos:definition "Rules on liability and mandatory insurance linked to residence or employment in another Member State"@en ;
     skos:inScheme   <dvcs:SingleDigitalGatewayGebied> ;
     skos:broader    <dvc:WerkEnPensionering> .
 
-<dvc:WerkEnPensionering...>
+<dvc:WerkEnPensioneringArbeidsvoorwaarden>
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Vastgestelde arbeidsvoorwaarden en -omstandigheden"@nl ;
+    skos:prefLabel  "Terms and conditions of employment"@en ;
     skos:altLabel   "B6" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Bij wet of wettelijk instrument vastgestelde arbeidsvoorwaarden en -omstandigheden, ook voor gedetacheerde werknemers (met inbegrip van informatie over werktijden, betaald verlof, vakantierechten, rechten en verplichtingen in verband met overuren, medisch onderzoek, beëindiging van contracten en ontslag)"@nl ;
+    skos:definition "Terms and conditions of employment, including for posted workers, as stipulated by law or statutory instrument (including information on working hours, paid leave, holiday entitlements, rights and obligations regarding overtime work, health checks, termination of contracts, dismissal and redundancies)"@en ;
     skos:inScheme   <dvcs:SingleDigitalGatewayGebied> ;
     skos:broader    <dvc:WerkEnPensionering> .
 
-<dvc:WerkEnPensionering...>
+<dvc:WerkEnPensioneringGelijkeBehandeling>
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Gelijke behandeling"@nl ;
+    skos:prefLabel  "Equal treatment"@en ;
     skos:altLabel   "B7" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Equal treatment (rules prohibiting discrimination in the workplace, rules on equal pay for men and women and on equal pay for employees on fixed-term or permanent employment contracts)"@nl ;
+    skos:definition "Gelijke behandeling (regels die discriminatie op het werk verbieden, regels inzake gelijke betaling van mannen en vrouwen en inzake gelijke betaling van werknemers met contracten voor bepaalde of onbepaalde tijd);"@en ;
     skos:inScheme   <dvcs:SingleDigitalGatewayGebied> ;
     skos:broader    <dvc:WerkEnPensionering> .
 
-<dvc:WerkEnPensionering...>
+<dvc:WerkEnPensioneringGezondheidEnVeiligheid>
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Verplichtingen gezondheid en veiligheid"@nl ;
+    skos:prefLabel  "Health and safety obligations"@en ;
     skos:altLabel   "B8" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Verplichtingen in verband met gezondheid en veiligheid voor verschillende soorten activiteiten"@nl ;
+    skos:definition "Health and safety obligations in relation to different types of activity"@en ;
     skos:inScheme   <dvcs:SingleDigitalGatewayGebied> ;
     skos:broader    <dvc:WerkEnPensionering> .
 
-<dvc:WerkEnPensionering...>
+<dvc:WerkEnPensioneringSocialezekerheidsrechten>
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Socialezekerheidsrechten en -verplichtingen"@nl ;
+    skos:prefLabel  "Social security rights and obligations"@en ;
     skos:altLabel   "B9" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Socialezekerheidsrechten en -verplichtingen in de Unie, onder meer in verband met pensioenen"@nl ;
+    skos:definition "Social security rights and obligations in the Union including those related to getting pensions"@en ;
     skos:inScheme   <dvcs:SingleDigitalGatewayGebied> ;
     skos:broader    <dvc:WerkEnPensionering> .
 
@@ -224,9 +224,9 @@
     skos:definition   "Areas of information areas related to citizens: Vehicles in the Union"@en ;
     skos:inScheme     <dvcs:SingleDigitalGatewayGebied> ;
     skos:topConceptOf <dvcs:SingleDigitalGatewayGebied> ;
-    skos:narrower     <dvc:Voertuigen...> ;
-    skos:narrower     <dvc:Voertuigen...> ;
-    skos:narrower     <dvc:Voertuigen...> ;
+    skos:narrower     <dvc:VoertuigenVerplaatsing> ;
+    skos:narrower     <dvc:VoertuigenVerleningRijbewijzen> ;
+    skos:narrower     <dvc:Voertuigen> ;
     skos:narrower     <dvc:Voertuigen...> ;
     skos:narrower     <dvc:Voertuigen...> ;
     skos:narrower     <dvc:Voertuigen...> .
@@ -1252,4 +1252,3 @@
                    "Health and safety obligations in relation to different types of activity, including risk prevention, information and training"@en ;
     skos:inScheme  <dvcs:SingleDigitalGatewayGebied> ;
     skos:broader   <dvc:GezondheidVeiligheidWerk> .
-
