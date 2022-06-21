@@ -4,6 +4,7 @@
 
 <dvcs:Status>
     a                  skos:ConceptScheme ;
+    skos:prefLabel     "Status"@en ;
     skos:prefLabel     "Status"@nl ;
     skos:definition    "Status van een publieke dienst"@nl ;
     skos:hasTopConcept <dvc:Actief> ;
