@@ -1,0 +1,16 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dvcs:      <https://data.vlaanderen.be/id/conceptscheme/> .
+@prefix dvc:       <https://data.vlaanderen.be/id/concept/> .
+
+<dvcs:Language>
+    a                  skos:ConceptScheme ;
+    skos:prefLabel     "Taal"@nl ;
+    skos:definition    "Taal"@nl ;
+    skos:hasTopConcept <dvc:Nederlands> .
+
+<dvc:Nederlands>
+    a                 skos:Concept ;
+    skos:prefLabel    "Nederlands"@nl ;
+    skos:definition   "Nederlands"@nl ;
+    skos:inScheme     <dvcs:Language> ;
+    skos:topConceptOf <dvcs:Language> .
