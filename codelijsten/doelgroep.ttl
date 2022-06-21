@@ -1,0 +1,231 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dvcs:      <https://data.vlaanderen.be/id/conceptscheme/> .
+@prefix dvc:       <https://data.vlaanderen.be/id/concept/> .
+
+<dvcs:Doelgroep>
+    a                  skos:ConceptScheme ;
+    skos:prefLabel     "TargetAudience"@en ;
+    skos:prefLabel     "Doelgroep"@nl ;
+    skos:definition    "Doelgroep waarop een publieke dienstverlening gericht is"@nl ;
+    skos:hasTopConcept <dvc:Burger> ;
+    skos:hasTopConcept <dvc:Onderneming> ;
+    skos:hasTopConcept <dvc:Organisatie> ;
+    skos:hasTopConcept <dvc:Vereniging> .
+
+<dvc:Burger>
+    a                 skos:Concept ;
+    skos:prefLabel    "Burger"@nl ;
+    skos:definition   "Doelgroep burgers"@nl ;
+    skos:inScheme     <dvcs:Doelgroep> ;
+    skos:topConceptOf <dvcs:Doelgroep> .
+
+<dvc:Onderneming>
+    a                 skos:Concept ;
+    skos:prefLabel    "Onderneming"@nl ;
+    skos:definition   "Doelgroep onderemingen"@nl ;
+    skos:inScheme     <dvcs:Doelgroep> ;
+    skos:topConceptOf <dvcs:Doelgroep> ;
+    skos:narrower     <dvc:OndernemingLandbouwBosbouwVisserij> ;
+    skos:narrower     <dvc:OndernemingDelfstoffen> ;
+    skos:narrower     <dvc:OndernemingIndustrie> ;
+    skos:narrower     <dvc:OndernemingElektriciteitGas> ;
+    skos:narrower     <dvc:OndernemingWater> ;
+    skos:narrower     <dvc:OndernemingBouwnijverheid> ;
+    skos:narrower     <dvc:OndernemingHandelEnVoertuigen> ;
+    skos:narrower     <dvc:OndernemingVervoerOpslag> ;
+    skos:narrower     <dvc:OndernemingAccommodatieMaaltijden> ;
+    skos:narrower     <dvc:OndernemingInformatieCommunicatie> ;
+    skos:narrower     <dvc:OndernemingFinancienVerzekeringen> ;
+    skos:narrower     <dvc:OndernemingOnroerendGoed> ;
+    skos:narrower     <dvc:OndernemingVrijeBeroepenWetenschappelijk> ;
+    skos:narrower     <dvc:OndernemingAdministatie> ;
+    skos:narrower     <dvc:OndernemingOpenbaarBestuurDefensie> ;
+    skos:narrower     <dvc:OndernemingOnderwijs> ;
+    skos:narrower     <dvc:OndernemingGezondheidszorg> ;
+    skos:narrower     <dvc:OndernemingKunstAmusementRecreactie> ;
+    skos:narrower     <dvc:OndernemingOverige> ;
+    skos:narrower     <dvc:OndernemingHuishoudens> ;
+    skos:narrower     <dvc:OndernemingExtraterritoriaal> .
+
+<dvc:OndernemingLandbouwBosbouwVisserij>
+    a               skos:Concept ;
+    skos:prefLabel  "Landbouw, bosbouw en visserij"@nl ;
+    skos:altLabel   "A" ;
+    skos:definition "Landbouw, bosbouw en visserij"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingDelfstoffen>
+    a               skos:Concept ;
+    skos:prefLabel  "Winning van delfstoffen"@nl ;
+    skos:altLabel   "B" ;
+    skos:definition "Winning van delfstoffen"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingIndustrie>
+    a               skos:Concept ;
+    skos:prefLabel  "Industrie"@nl ;
+    skos:altLabel   "C" ;
+    skos:definition "Industrie"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingElektriciteitGas>
+    a               skos:Concept ;
+    skos:prefLabel  "Productie en distributie van elektriciteit, gas, stoom en gekoelde lucht"@nl ;
+    skos:altLabel   "D" ;
+    skos:definition "Productie en distributie van elektriciteit, gas, stoom en gekoelde lucht"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingWater>
+    a               skos:Concept ;
+    skos:prefLabel  "Distributie van water; afval- en afvalwaterbeheer en sanering"@nl ;
+    skos:altLabel   "E" ;
+    skos:definition "Distributie van water; afval- en afvalwaterbeheer en sanering"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingBouwnijverheid>
+    a               skos:Concept ;
+    skos:prefLabel  "Bouwnijverheid"@nl ;
+    skos:altLabel   "F" ;
+    skos:definition "Bouwnijverheid"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingHandelEnVoertuigen>
+    a               skos:Concept ;
+    skos:prefLabel  "Groot- en detailhandel; reparatie van auto's en motorfietsen"@nl ;
+    skos:altLabel   "G" ;
+    skos:definition "Groot- en detailhandel; reparatie van auto's en motorfietsen (Handel)"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingVervoerOpslag>
+    a               skos:Concept ;
+    skos:prefLabel  "Vervoer en opslag"@nl ;
+    skos:altLabel   "H" ;
+    skos:definition "Vervoer en opslag"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingAccommodatieMaaltijden>
+    a               skos:Concept ;
+    skos:prefLabel  "Verschaffen van accommodatie en maaltijden"@nl ;
+    skos:altLabel   "I" ;
+    skos:definition "Verschaffen van accommodatie en maaltijden (Horeca en toerisme)"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingInformatieCommunicatie>
+    a               skos:Concept ;
+    skos:prefLabel  "Informatie en communicatie"@nl ;
+    skos:altLabel   "J" ;
+    skos:definition "Informatie en communicatie"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingFinancienVerzekeringen>
+    a               skos:Concept ;
+    skos:prefLabel  "Financiële activiteiten en verzekeringen"@nl ;
+    skos:altLabel   "K" ;
+    skos:definition "Financiële activiteiten en verzekeringen"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingOnroerendGoed>
+    a               skos:Concept ;
+    skos:prefLabel  "Exploitatie van en handel in onroerend goed"@nl ;
+    skos:altLabel   "L" ;
+    skos:definition "Exploitatie van en handel in onroerend goed"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingVrijeBeroepenWetenschappelijk>
+    a               skos:Concept ;
+    skos:prefLabel  "Vrije beroepen en wetenschappelijke en technische activiteiten"@nl ;
+    skos:altLabel   "M" ;
+    skos:definition "Vrije beroepen en wetenschappelijke en technische activiteiten"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingAdministatie>
+    a               skos:Concept ;
+    skos:prefLabel  "Administratieve en ondersteunende diensten"@nl ;
+    skos:altLabel   "N" ;
+    skos:definition "Administratieve en ondersteunende diensten"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingOpenbaarBestuurDefensie>
+    a               skos:Concept ;
+    skos:prefLabel  "Openbaar bestuur en defensie; verplichte sociale verzekeringen"@nl ;
+    skos:altLabel   "O" ;
+    skos:definition "Openbaar bestuur en defensie; verplichte sociale verzekeringen"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingOnderwijs>
+    a               skos:Concept ;
+    skos:prefLabel  "Onderwijs"@nl ;
+    skos:altLabel   "P" ;
+    skos:definition "Onderwijs"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingGezondheidszorg>
+    a               skos:Concept ;
+    skos:prefLabel  "Menselijke gezondheidszorg en maatschappelijke dienstverlening"@nl ;
+    skos:altLabel   "Q" ;
+    skos:definition "Menselijke gezondheidszorg en maatschappelijke dienstverlening"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingKunstAmusementRecreactie>
+    a               skos:Concept ;
+    skos:prefLabel  "Kunst, amusement en recreatie"@nl ;
+    skos:altLabel   "R" ;
+    skos:definition "Kunst, amusement en recreatie (Culturele en creatieve sector)"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingOverige>
+    a               skos:Concept ;
+    skos:prefLabel  "Overige diensten"@nl ;
+    skos:altLabel   "S" ;
+    skos:definition "Overige diensten"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:OndernemingHuishoudens>
+    a              skos:Concept ;
+    skos:prefLabel "Huishoudens als werkgever"@nl ;
+    skos:altLabel  "T" ;
+    skos:definition
+                   "Huishoudens als werkgever; niet-gedifferentieerde productie van goederen en diensten door huishoudens voor eigen gebruik"@nl ;
+    skos:inScheme  <dvcs:Doelgroep> ;
+    skos:broader   <dvc:Onderneming> .
+
+<dvc:OndernemingExtraterritoriaal>
+    a               skos:Concept ;
+    skos:prefLabel  "Extraterritoriale organisaties en lichamen"@nl ;
+    skos:altLabel   "U" ;
+    skos:definition "Extraterritoriale organisaties en lichamen"@nl ;
+    skos:inScheme   <dvcs:Doelgroep> ;
+    skos:broader    <dvc:Onderneming> .
+
+<dvc:Organisatie>
+    a                 skos:Concept ;
+    skos:prefLabel    "Organisatie"@nl ;
+    skos:definition   "Doelgroep organisaties"@nl ;
+    skos:inScheme     <dvcs:Doelgroep> ;
+    skos:topConceptOf <dvcs:Doelgroep> .
+
+<dvc:Vereniging>
+    a                 skos:Concept ;
+    skos:prefLabel    "Vereniging"@nl ;
+    skos:definition   "Doelgroep verenigingen"@nl ;
+    skos:inScheme     <dvcs:Doelgroep> ;
+    skos:topConceptOf <dvcs:Doelgroep> .
