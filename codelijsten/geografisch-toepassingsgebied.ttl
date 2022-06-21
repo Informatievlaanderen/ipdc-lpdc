@@ -1,0 +1,49 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dvcs:      <https://data.vlaanderen.be/id/conceptscheme/> .
+@prefix dvc:       <https://data.vlaanderen.be/id/concept/> .
+
+<dvcs:GeografischToepassingsgebied>
+    a                  skos:ConceptScheme ;
+    skos:prefLabel     "Spatial"@en ;
+    skos:prefLabel     "Geografisch toepassingsgebied"@nl ;
+    skos:definition    "Gebied waarin de publieke dienstverlening beschikbaar is"@nl ;
+    skos:hasTopConcept <dvc:Federaal> ;
+    skos:hasTopConcept <dvc:Vlaanderen> ;
+    skos:hasTopConcept <dvc:Provincie> ;
+    skos:hasTopConcept <dvc:Gemeente> ;
+    skos:hasTopConcept <dvc:BrusselsHoofdstedelijkGewest> .
+
+<dvc:Federaal>
+    a                 skos:Concept ;
+    skos:prefLabel    "Federaal"@nl ;
+    skos:definition   "Geografisch toepassingsgebied: Federaal"@nl ;
+    skos:inScheme     <dvcs:GeografischToepassingsgebied> ;
+    skos:topConceptOf <dvcs:GeografischToepassingsgebied> .
+
+<dvc:Vlaanderen>
+    a                 skos:Concept ;
+    skos:prefLabel    "Vlaanderen"@nl ;
+    skos:definition   "Geografisch toepassingsgebied: Vlaanderen"@nl ;
+    skos:inScheme     <dvcs:GeografischToepassingsgebied> ;
+    skos:topConceptOf <dvcs:GeografischToepassingsgebied> .
+
+<dvc:Provincie>
+    a                 skos:Concept ;
+    skos:prefLabel    "Provincie"@nl ;
+    skos:definition   "Geografisch toepassingsgebied: Provincie"@nl ;
+    skos:inScheme     <dvcs:GeografischToepassingsgebied> ;
+    skos:topConceptOf <dvcs:GeografischToepassingsgebied> .
+
+<dvc:Gemeente>
+    a                 skos:Concept ;
+    skos:prefLabel    "Gemeente"@nl ;
+    skos:definition   "Geografisch toepassingsgebied: Gemeente"@nl ;
+    skos:inScheme     <dvcs:GeografischToepassingsgebied> ;
+    skos:topConceptOf <dvcs:GeografischToepassingsgebied> .
+
+<dvc:BrusselsHoofdstedelijkGewest>
+    a                 skos:Concept ;
+    skos:prefLabel    "Brussels Hoofdstedelijk Gewest"@nl ;
+    skos:definition   "Geografisch toepassingsgebied: Brussels Hoofdstedelijk Gewest"@nl ;
+    skos:inScheme     <dvcs:GeografischToepassingsgebied> ;
+    skos:topConceptOf <dvcs:GeografischToepassingsgebied> .
