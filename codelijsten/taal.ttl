@@ -7,11 +7,39 @@
     skos:prefLabel     "Language"@en ;
     skos:prefLabel     "Taal"@nl ;
     skos:definition    "Taal"@nl ;
-    skos:hasTopConcept <dvc:Nederlands> .
+    skos:hasTopConcept <dvc:Nederlands> ;
+    skos:hasTopConcept <dvc:Frans> ;
+    skos:hasTopConcept <dvc:Duits> ;
+    skos:hasTopConcept <dvc:Engels> .
 
 <dvc:Nederlands>
     a                 skos:Concept ;
     skos:prefLabel    "Nederlands"@nl ;
-    skos:definition   "Nederlands"@nl ;
+    skos:altLabel     "NL"@nl ;
+    skos:definition   "Nederlandse taal"@nl ;
+    skos:inScheme     <dvcs:Taal> ;
+    skos:topConceptOf <dvcs:Taal> .
+
+<dvc:Frans>
+    a                 skos:Concept ;
+    skos:prefLabel    "Frans"@nl ;
+    skos:altLabel     "FR"@nl ;
+    skos:definition   "Franse taal"@nl ;
+    skos:inScheme     <dvcs:Taal> ;
+    skos:topConceptOf <dvcs:Taal> .
+
+<dvc:Duits>
+    a                 skos:Concept ;
+    skos:prefLabel    "Duits"@nl ;
+    skos:altLabel     "DE"@nl ;
+    skos:definition   "Duitse taal"@nl ;
+    skos:inScheme     <dvcs:Taal> ;
+    skos:topConceptOf <dvcs:Taal> .
+
+<dvc:Engels>
+    a                 skos:Concept ;
+    skos:prefLabel    "Engels"@nl ;
+    skos:altLabel     "EN"@nl ;
+    skos:definition   "Engelse taal"@nl ;
     skos:inScheme     <dvcs:Taal> ;
     skos:topConceptOf <dvcs:Taal> .
