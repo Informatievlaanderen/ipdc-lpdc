@@ -1,0 +1,1318 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dvcs:      <https://data.vlaanderen.be/id/conceptscheme/> .
+@prefix dvc:       <https://data.vlaanderen.be/id/concept/> .
+
+<dvcs:YourEuropeCategorie>
+    a                  skos:ConceptScheme ;
+    skos:prefLabel     "YourEurope categorie in het kader van de Single Digital Gateway verordening"@nl ;
+    skos:prefLabel     "YourEurope category regaring the Single Digital Gateway regulation"@en ;
+    skos:definition    "Lijst van informatiegebieden die voor burgers en bedrijven van belang zijn bij de uitoefening van hun rechten uit hoofde van de interne markt."@nl ;
+    skos:definition    "List of areas of information relevant for citizens and business exercising their internal market rights."@en ;
+    skos:hasTopConcept <dvc:Reizen> ;
+    skos:hasTopConcept <dvc:WerkEnPensionering> ;
+    skos:hasTopConcept <dvc:Voertuigen> ;
+    skos:hasTopConcept <dvc:Verblijf> ;
+    skos:hasTopConcept <dvc:OnderwijsOfStage> ;
+    skos:hasTopConcept <dvc:Gezondheidszorg> ;
+    skos:hasTopConcept <dvc:BurgerEnFamilieRechten> ;
+    skos:hasTopConcept <dvc:Consumentenrechten> ;
+    skos:hasTopConcept <dvc:BeschermingPersoonsgegevens> ;
+    skos:hasTopConcept <dvc:Bedrijf> ;
+    skos:hasTopConcept <dvc:Werknemers> ;
+    skos:hasTopConcept <dvc:Belastingen> ;
+    skos:hasTopConcept <dvc:Goederen> ;
+    skos:hasTopConcept <dvc:Diensten> ;
+    skos:hasTopConcept <dvc:Bedrijfsfinanciering> ;
+    skos:hasTopConcept <dvc:Overheidsopdrachten> ;
+    skos:hasTopConcept <dvc:GezondheidVeiligheidWerk> .
+
+
+##############
+### Reizen ###
+##############
+
+<dvc:Reizen>
+    a                 skos:Concept ;
+    skos:prefLabel    "Reizen binnen de Unie"@nl ;
+    skos:prefLabel    "Travel within the Union"@en ;
+    skos:altLabel     "A" ;
+    skos:definition   "Informatiegebieden in verband met burgers: Reizen binnen de Unie"@nl ;
+    skos:definition   "Areas of information areas related to citizens: Travel within the Union"@en ;
+    skos:inScheme     <dvcs:YourEuropeCategorie> ;
+    skos:topConceptOf <dvcs:YourEuropeCategorie> ;
+    skos:narrower     <dvc:ReizenDocumenten> ;
+    skos:narrower     <dvc:ReizenRechtenVerplichtingen> ;
+    skos:narrower     <dvc:ReizenOndersteuningBeperkteMobiliteit> ;
+    skos:narrower     <dvc:ReizenGoederen> ;
+    skos:narrower     <dvc:ReizenElektronischeGegevens> .
+
+<dvc:ReizenDocumenten>
+    a              skos:Concept ;
+    skos:prefLabel "Verplichte reisdocumenten"@nl ;
+    skos:prefLabel "Required travel documents"@en ;
+    skos:altLabel  "A1" ;
+    skos:definition
+                   "Documenten die van EU-burgers, hun gezinsleden die geen EU-burgers zijn, alleenreizende minderjarigen en niet-EU-burgers verlangd worden wanneer zij EU-binnengrenzen overschrijden (identiteitsbewijs, visum, paspoort)"@nl ;
+    skos:definition
+                   "Documents required of Union citizens, their family members who are not Union citizens, minors travelling alone and non-Union citizens when travelling across borders within the Union (ID card, visa, passport)"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Reizen> .
+
+<dvc:ReizenRechtenVerplichtingen>
+    a              skos:Concept ;
+    skos:prefLabel "Rechten en verplichtingen van reizigers"@nl ;
+    skos:prefLabel "Rights and obligations of travellers"@en ;
+    skos:altLabel  "A2" ;
+    skos:definition
+                   "Rechten en verplichtingen van reizigers die per vliegtuig, trein, schip of bus in of vanuit de Unie reizen en van personen die pakketreizen of gekoppelde reisarrangementen kopen"@nl ;
+    skos:definition
+                   "Rights and obligations of travellers by plane, train, ship, bus in and from the Union, and of those who buy travel packages or linked travel arrangements"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Reizen> .
+
+<dvc:ReizenOndersteuningBeperkteMobiliteit>
+    a               skos:Concept ;
+    skos:prefLabel  "Ondersteuning in geval van beperkte mobiliteit"@nl ;
+    skos:prefLabel  "Assistance in case of reduced mobility"@en ;
+    skos:altLabel   "A3" ;
+    skos:definition "Ondersteuning in geval van beperkte mobiliteit bij reizen in of vanuit de Unie"@nl ;
+    skos:definition "Assistance in case of reduced mobility when travelling in and from the Union"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Reizen> .
+
+<dvc:ReizenGoederen>
+    a              skos:Concept ;
+    skos:prefLabel "Vervoer van goederen"@nl ;
+    skos:prefLabel "Transport of goods"@en ;
+    skos:altLabel  "A4" ;
+    skos:definition
+                   "Vervoer van dieren, planten, alcohol, tabak, sigaretten en andere goederen bij reizen in de Unie"@nl ;
+    skos:definition
+                   "Transport of animals, plants, alcohol, tobacco, cigarettes and other goods when travelling in the Union"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Reizen> .
+
+<dvc:ReizenElektronischeGegevens>
+    a              skos:Concept ;
+    skos:prefLabel "Communicatie met elektronische berichten"@nl ;
+    skos:prefLabel "Communication with electronic messages"@en ;
+    skos:altLabel  "A5" ;
+    skos:definition
+                   "Spraaktelefonie en verzending en ontvangst van elektronische berichten en elektronische gegevens binnen de Unie."@nl ;
+    skos:definition
+                   "Voice calling and sending and receiving electronic messages and electronic data within the Union"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Reizen> .
+
+
+##########################
+### WerkEnPensionering ###
+##########################
+
+<dvc:WerkEnPensionering>
+    a                 skos:Concept ;
+    skos:prefLabel    "Werk en pensionering binnen de Unie"@nl ;
+    skos:prefLabel    "Work and retirement within the Union"@en ;
+    skos:altLabel     "B" ;
+    skos:definition   "Informatiegebieden in verband met burgers: Werk en pensionering binnen de Unie"@nl ;
+    skos:definition   "Areas of information areas related to citizens: Work and retirement within the Union"@en ;
+    skos:inScheme     <dvcs:YourEuropeCategorie> ;
+    skos:topConceptOf <dvcs:YourEuropeCategorie> ;
+    skos:narrower     <dvc:WerkEnPensioneringWerkZoeken> ;
+    skos:narrower     <dvc:WerkEnPensioneringGaanWerken> ;
+    skos:narrower     <dvc:WerkEnPensioneringErkenningKwalificaties> ;
+    skos:narrower     <dvc:WerkEnPensioneringBelastingheffing> ;
+    skos:narrower     <dvc:WerkEnPensioneringAansprakelijkheidEnVerzekeringen> ;
+    skos:narrower     <dvc:WerkEnPensioneringArbeidsvoorwaarden> ;
+    skos:narrower     <dvc:WerkEnPensioneringGelijkeBehandeling> ;
+    skos:narrower     <dvc:WerkEnPensioneringGezondheidEnVeiligheid> ;
+    skos:narrower     <dvc:WerkEnPensioneringSocialezekerheidsrechten> .
+
+<dvc:WerkEnPensioneringWerkZoeken>
+    a               skos:Concept ;
+    skos:prefLabel  "Werk zoeken"@nl ;
+    skos:prefLabel  "Seeking employment"@en ;
+    skos:altLabel   "B1" ;
+    skos:definition "Werk zoeken in een andere lidstaat"@nl ;
+    skos:definition "Seeking employment in another Member State"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:WerkEnPensionering> .
+
+<dvc:WerkEnPensioneringGaanWerken>
+    a               skos:Concept ;
+    skos:prefLabel  "Gaan werken"@nl ;
+    skos:prefLabel  "Taking up employment"@en ;
+    skos:altLabel   "B2" ;
+    skos:definition "Gaan werken in een andere lidstaat"@nl ;
+    skos:definition "Taking up employment in another Member State"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:WerkEnPensionering> .
+
+<dvc:WerkEnPensioneringErkenningKwalificaties>
+    a               skos:Concept ;
+    skos:prefLabel  "Erkenning van kwalificaties"@nl ;
+    skos:prefLabel  "Recognition of qualifications"@en ;
+    skos:altLabel   "B3" ;
+    skos:definition "Erkenning van kwalificaties met het oog op werk in een andere lidstaat"@nl ;
+    skos:definition "Recognition of qualifications with a view to employment in another Member State"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:WerkEnPensionering> .
+
+<dvc:WerkEnPensioneringBelastingheffing>
+    a               skos:Concept ;
+    skos:prefLabel  "Belastingheffing"@nl ;
+    skos:prefLabel  "Taxation"@en ;
+    skos:altLabel   "B4" ;
+    skos:definition "Belastingheffing in een andere lidstaat"@nl ;
+    skos:definition "Taxation in another Member State"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:WerkEnPensionering> .
+
+<dvc:WerkEnPensioneringAansprakelijkheidEnVerzekeringen>
+    a              skos:Concept ;
+    skos:prefLabel "Regels inzake aansprakelijkheid en verzekeringen"@nl ;
+    skos:prefLabel "Rules on liability and insurance"@en ;
+    skos:altLabel  "B5" ;
+    skos:definition
+                   "Regels inzake aansprakelijkheid en verplichte verzekeringen in verband met verblijf of werk in een andere lidstaat"@nl ;
+    skos:definition
+                   "Rules on liability and mandatory insurance linked to residence or employment in another Member State"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:WerkEnPensionering> .
+
+<dvc:WerkEnPensioneringArbeidsvoorwaarden>
+    a              skos:Concept ;
+    skos:prefLabel "Vastgestelde arbeidsvoorwaarden en -omstandigheden"@nl ;
+    skos:prefLabel "Terms and conditions of employment"@en ;
+    skos:altLabel  "B6" ;
+    skos:definition
+                   "Bij wet of wettelijk instrument vastgestelde arbeidsvoorwaarden en -omstandigheden, ook voor gedetacheerde werknemers (met inbegrip van informatie over werktijden, betaald verlof, vakantierechten, rechten en verplichtingen in verband met overuren, medisch onderzoek, beëindiging van contracten en ontslag)"@nl ;
+    skos:definition
+                   "Terms and conditions of employment, including for posted workers, as stipulated by law or statutory instrument (including information on working hours, paid leave, holiday entitlements, rights and obligations regarding overtime work, health checks, termination of contracts, dismissal and redundancies)"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:WerkEnPensionering> .
+
+<dvc:WerkEnPensioneringGelijkeBehandeling>
+    a              skos:Concept ;
+    skos:prefLabel "Gelijke behandeling"@nl ;
+    skos:prefLabel "Equal treatment"@en ;
+    skos:altLabel  "B7" ;
+    skos:definition
+                   "Equal treatment (rules prohibiting discrimination in the workplace, rules on equal pay for men and women and on equal pay for employees on fixed-term or permanent employment contracts)"@nl ;
+    skos:definition
+                   "Gelijke behandeling (regels die discriminatie op het werk verbieden, regels inzake gelijke betaling van mannen en vrouwen en inzake gelijke betaling van werknemers met contracten voor bepaalde of onbepaalde tijd);"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:WerkEnPensionering> .
+
+<dvc:WerkEnPensioneringGezondheidEnVeiligheid>
+    a               skos:Concept ;
+    skos:prefLabel  "Verplichtingen gezondheid en veiligheid"@nl ;
+    skos:prefLabel  "Health and safety obligations"@en ;
+    skos:altLabel   "B8" ;
+    skos:definition "Verplichtingen in verband met gezondheid en veiligheid voor verschillende soorten activiteiten"@nl ;
+    skos:definition "Health and safety obligations in relation to different types of activity"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:WerkEnPensionering> .
+
+<dvc:WerkEnPensioneringSocialezekerheidsrechten>
+    a               skos:Concept ;
+    skos:prefLabel  "Socialezekerheidsrechten en -verplichtingen"@nl ;
+    skos:prefLabel  "Social security rights and obligations"@en ;
+    skos:altLabel   "B9" ;
+    skos:definition "Socialezekerheidsrechten en -verplichtingen in de Unie, onder meer in verband met pensioenen"@nl ;
+    skos:definition "Social security rights and obligations in the Union including those related to getting pensions"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:WerkEnPensionering> .
+
+
+##################
+### Voertuigen ###
+##################
+
+<dvc:Voertuigen>
+    a                 skos:Concept ;
+    skos:prefLabel    "Voertuigen in de Unie"@nl ;
+    skos:prefLabel    "Vehicles in the Union"@en ;
+    skos:altLabel     "C" ;
+    skos:definition   "Informatiegebieden in verband met burgers: Voertuigen in de Unie"@nl ;
+    skos:definition   "Areas of information areas related to citizens: Vehicles in the Union"@en ;
+    skos:inScheme     <dvcs:YourEuropeCategorie> ;
+    skos:topConceptOf <dvcs:YourEuropeCategorie> ;
+    skos:narrower     <dvc:VoertuigenVerplaatsing> ;
+    skos:narrower     <dvc:VoertuigenVerleningRijbewijzen> ;
+    skos:narrower     <dvc:VoertuigenVerplichteVerzekering> ;
+    skos:narrower     <dvc:VoertuigenKoopVerkoop> ;
+    skos:narrower     <dvc:VoertuigenVerkeersregels> .
+
+<dvc:VoertuigenVerplaatsing>
+    a               skos:Concept ;
+    skos:prefLabel  "Tijdelijke of permanente verplaatsing van motorvoertuigen"@nl ;
+    skos:prefLabel  "Taking a motor vehicle to another Member State"@en ;
+    skos:altLabel   "C1" ;
+    skos:definition "Tijdelijke of permanente verplaatsing van motorvoertuigen naar een andere lidstaat"@nl ;
+    skos:definition "Taking a motor vehicle temporarily or permanently to another Member State"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Voertuigen> .
+
+<dvc:VoertuigenVerleningRijbewijzen>
+    a               skos:Concept ;
+    skos:prefLabel  "Verkrijging en verlenging van rijbewijzen"@nl ;
+    skos:prefLabel  "Acquiring and renewing a driving licence"@en ;
+    skos:altLabel   "C2" ;
+    skos:definition "Verkrijging en verlenging van rijbewijzen"@nl ;
+    skos:definition "Acquiring and renewing a driving licence"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Voertuigen> .
+
+<dvc:VoertuigenVerplichteVerzekering>
+    a               skos:Concept ;
+    skos:prefLabel  "Verplichte motorrijtuigenverzekering"@nl ;
+    skos:prefLabel  "Mandatory motor vehicle insurance"@en ;
+    skos:altLabel   "C3" ;
+    skos:definition "Verplichte motorrijtuigenverzekering"@nl ;
+    skos:definition "Taking out mandatory motor vehicle insurance"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Voertuigen> .
+
+<dvc:VoertuigenKoopVerkoop>
+    a               skos:Concept ;
+    skos:prefLabel  "Koop en verkoop van motorvoertuigen"@nl ;
+    skos:prefLabel  "Buying and selling a motor vehicle"@en ;
+    skos:altLabel   "C4" ;
+    skos:definition "Koop en verkoop van motorvoertuigen in een andere lidstaat"@nl ;
+    skos:definition "Buying and selling a motor vehicle in another Member State"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Voertuigen> .
+
+<dvc:VoertuigenVerkeersregels>
+    a              skos:Concept ;
+    skos:prefLabel "Nationale verkeersregels en voorschriften voor bestuurders"@nl ;
+    skos:prefLabel "National traffic rules and requirements for drivers"@en ;
+    skos:altLabel  "C5" ;
+    skos:definition
+                   "Nationale verkeersregels en voorschriften voor bestuurders, met inbegrip van algemene regels voor het gebruik van de nationale wegeninfrastructuur: tijdsgebonden heffingen (vignet), afstandsgebonden heffingen (tol), emissiestickers"@nl ;
+    skos:definition
+                   "National traffic rules and requirements for drivers, including general rules for the use of the national road infrastructure: time-based charges (vignette), distancebased charges (toll), emission stickers"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Voertuigen> .
+
+
+################
+### Verblijf ###
+################
+
+<dvc:Verblijf>
+    a                 skos:Concept ;
+    skos:prefLabel    "Verblijf in een andere lidstaat"@nl ;
+    skos:prefLabel    "Residence in another Member State"@en ;
+    skos:altLabel     "D" ;
+    skos:definition   "Informatiegebieden in verband met burgers: Verblijf in een andere lidstaat"@nl ;
+    skos:definition   "Areas of information areas related to citizens: Residence in another Member State"@en ;
+    skos:inScheme     <dvcs:YourEuropeCategorie> ;
+    skos:topConceptOf <dvcs:YourEuropeCategorie> ;
+    skos:narrower     <dvc:VerblijfVerhuizing> ;
+    skos:narrower     <dvc:VerblijfKoopVerkoop> ;
+    skos:narrower     <dvc:VerblijfVerkiezingen> ;
+    skos:narrower     <dvc:VerblijfVerblijfskaarten> ;
+    skos:narrower     <dvc:VerblijfNaturalisatie> ;
+    skos:narrower     <dvc:VerblijfOverlijden> .
+
+<dvc:VerblijfVerhuizing>
+    a               skos:Concept ;
+    skos:prefLabel  "Tijdelijke of permanente verhuizing"@nl ;
+    skos:prefLabel  "Moving temporarily or permanently"@en ;
+    skos:altLabel   "D1" ;
+    skos:definition "Tijdelijke of permanente verhuizing naar een andere lidstaat"@nl ;
+    skos:definition "Moving temporarily or permanently to another Member State"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Verblijf> .
+
+<dvc:VerblijfKoopVerkoop>
+    a              skos:Concept ;
+    skos:prefLabel "Koop en verkoop van vastgoed"@nl ;
+    skos:prefLabel "Purchasing and selling of immovable property"@en ;
+    skos:altLabel  "D2" ;
+    skos:definition
+                   "Koop en verkoop van vastgoed, met inbegrip van voorwaarden en verplichtingen met betrekking tot belasting, eigendom of gebruik van dergelijk vastgoed, waaronder het gebruik ervan als tweede verblijf"@nl ;
+    skos:definition
+                   "Purchasing and selling of real estate, including any conditions and obligations related to taxation, ownership, or use of such property, including its use as a secondary residence"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Verblijf> .
+
+<dvc:VerblijfVerkiezingen>
+    a               skos:Concept ;
+    skos:prefLabel  "Deelname aan verkiezingen"@nl ;
+    skos:prefLabel  "Participating in elections"@en ;
+    skos:altLabel   "D3" ;
+    skos:definition "Deelname aan gemeentelijke verkiezingen en verkiezingen voor het Europees Parlement"@nl ;
+    skos:definition "Participating in municipal elections and elections to the European Parliament"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Verblijf> .
+
+<dvc:VerblijfVerblijfskaarten>
+    a              skos:Concept ;
+    skos:prefLabel "Voorschriften betreffende verblijfskaarten"@nl ;
+    skos:prefLabel "Requirements for residence cards"@en ;
+    skos:altLabel  "D4" ;
+    skos:definition
+                   "Voorschriften betreffende verblijfskaarten voor EU-burgers en hun gezinsleden, waaronder gezinsleden die geen EU-burgers zijn"@nl ;
+    skos:definition
+                   "Requirements for residence cards for Union citizens and their family members, including family members who are not Union citizens"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Verblijf> .
+
+<dvc:VerblijfNaturalisatie>
+    a               skos:Concept ;
+    skos:prefLabel  "Voorwaarden voor naturalisatie"@nl ;
+    skos:prefLabel  "Conditions for naturalisation"@en ;
+    skos:altLabel   "D5" ;
+    skos:definition "Voorwaarden voor de naturalisatie van onderdanen van een andere lidstaat"@nl ;
+    skos:definition "Conditions applicable to the naturalisation of nationals from another Member State"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Verblijf> .
+
+<dvc:VerblijfOverlijden>
+    a              skos:Concept ;
+    skos:prefLabel "Regels in geval van overlijden"@nl ;
+    skos:prefLabel "Rules applicable in the case of death"@en ;
+    skos:altLabel  "D6" ;
+    skos:definition
+                   "Regels die gelden in geval van overlijden, met inbegrip van regels inzake de repatriëring van stoffelijke overschotten naar een andere lidstaat."@nl ;
+    skos:definition
+                   "Rules applicable in the case of death, including rules on the repatriation of remains to another Member State"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Verblijf> .
+
+
+########################
+### OnderwijsOfStage ###
+########################
+
+<dvc:OnderwijsOfStage>
+    a                 skos:Concept ;
+    skos:prefLabel    "Onderwijs of stage in een andere lidstaat"@nl ;
+    skos:prefLabel    "Education or traineeship in another Member State"@en ;
+    skos:altLabel     "E" ;
+    skos:definition   "Informatiegebieden in verband met burgers: Onderwijs of stage in een andere lidstaat"@nl ;
+    skos:definition   "Areas of information areas related to citizens: Education or traineeship in another Member State"@en ;
+    skos:inScheme     <dvcs:YourEuropeCategorie> ;
+    skos:topConceptOf <dvcs:YourEuropeCategorie> ;
+    skos:narrower     <dvc:OnderwijsOfStageOnderwijsstelsel> ;
+    skos:narrower     <dvc:OnderwijsOfStageVrijwilligerswerk> ;
+    skos:narrower     <dvc:OnderwijsOfStageStage> ;
+    skos:narrower     <dvc:OnderwijsOfStageOnderzoek> .
+
+<dvc:OnderwijsOfStageOnderwijsstelsel>
+    a              skos:Concept ;
+    skos:prefLabel "Onderwijsstelsel"@nl ;
+    skos:prefLabel "Education system"@en ;
+    skos:altLabel  "E1" ;
+    skos:definition
+                   "Onderwijsstelsel in een andere lidstaat, met inbegrip van voor- en vroegschoolse educatie en opvang, basis- en secundair onderwijs, hoger onderwijs en volwassenenonderwijs;"@nl ;
+    skos:definition
+                   "Education system in another Member State, including early childhood education and care, primary and secondary education, higher education and adult learning"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:OnderwijsOfStage> .
+
+<dvc:OnderwijsOfStageVrijwilligerswerk>
+    a               skos:Concept ;
+    skos:prefLabel  "Vrijwilligerswerk"@nl ;
+    skos:prefLabel  "Volunteering"@en ;
+    skos:altLabel   "E2" ;
+    skos:definition "Vrijwilligerswerk doen in een andere lidstaat"@nl ;
+    skos:definition "Volunteering in another Member State"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:OnderwijsOfStage> .
+
+<dvc:OnderwijsOfStageStage>
+    a               skos:Concept ;
+    skos:prefLabel  "Stage lopen"@nl ;
+    skos:prefLabel  "Traineeships"@en ;
+    skos:altLabel   "E3" ;
+    skos:definition "Stage lopen in een andere lidstaat"@nl ;
+    skos:definition "Traineeships in another Member State"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:OnderwijsOfStage> .
+
+<dvc:OnderwijsOfStageOnderzoek>
+    a               skos:Concept ;
+    skos:prefLabel  "Onderzoek doen"@nl ;
+    skos:prefLabel  "Conducting research"@en ;
+    skos:altLabel   "E4" ;
+    skos:definition "Onderzoek doen in een andere lidstaat in het kader van een onderwijsprogramma"@nl ;
+    skos:definition "Conducting research in another Member State as part of an education programme"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:OnderwijsOfStage> .
+
+
+#######################
+### Gezondheidszorg ###
+#######################
+
+<dvc:Gezondheidszorg>
+    a                 skos:Concept ;
+    skos:prefLabel    "Gezondheidszorg"@nl ;
+    skos:prefLabel    "Healthcare"@en ;
+    skos:altLabel     "F" ;
+    skos:definition   "Informatiegebieden in verband met burgers: Gezondheidszorg"@nl ;
+    skos:definition   "Areas of information areas related to citizens: Healthcare"@en ;
+    skos:inScheme     <dvcs:YourEuropeCategorie> ;
+    skos:topConceptOf <dvcs:YourEuropeCategorie> ;
+    skos:narrower     <dvc:GezondheidszorgMedischeBehandeling> ;
+    skos:narrower     <dvc:GezondheidszorgGeneesmiddelenKopen> ;
+    skos:narrower     <dvc:GezondheidszorgZiekteverzekering> ;
+    skos:narrower     <dvc:GezondheidszorgPreventieveOpenbareGezondheidsmaatregelen> ;
+    skos:narrower     <dvc:GezondheidszorgNoodnummers> ;
+    skos:narrower     <dvc:GezondheidszorgWoonzorgcentrum> .
+
+<dvc:GezondheidszorgMedischeBehandeling>
+    a               skos:Concept ;
+    skos:prefLabel  "Medische behandeling ondergaan"@nl ;
+    skos:prefLabel  "Getting medical treatment"@en ;
+    skos:altLabel   "F1" ;
+    skos:definition "Een medische behandeling ondergaan in een andere lidstaat"@nl ;
+    skos:definition "Getting medical treatment in another Member State"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Gezondheidszorg> .
+
+<dvc:GezondheidszorgGeneesmiddelenKopen>
+    a              skos:Concept ;
+    skos:prefLabel "Voorgeschreven geneesmiddelen kopen"@nl ;
+    skos:prefLabel "Buying prescribed pharmaceutical products"@en ;
+    skos:altLabel  "F2" ;
+    skos:definition
+                   "Online of in persoon geneesmiddelen kopen in een andere lidstaat dan die waar zij door een arts zijn voorgeschreven"@nl ;
+    skos:definition
+                   "Buying prescribed pharmaceutical products in a Member State other than the one where the prescription was issued, online or in person"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Gezondheidszorg> .
+
+<dvc:GezondheidszorgZiekteverzekering>
+    a              skos:Concept ;
+    skos:prefLabel "Regels inzake ziekteverzekering"@nl ;
+    skos:prefLabel "Health insurance rules"@en ;
+    skos:altLabel  "F3" ;
+    skos:definition
+                   "Regels inzake ziekteverzekering die van toepassing zijn tijdens een kort of langdurig verblijf in een andere lidstaat, met inbegrip van regels over de wijze waarop een Europese ziekteverzekeringskaart moet worden aangevraagd"@nl ;
+    skos:definition
+                   "Health insurance rules applicable in the case of short-term or long-term stays in another Member State, including how to apply for a European Health Insurance Card"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Gezondheidszorg> .
+
+<dvc:GezondheidszorgPreventieveOpenbareGezondheidsmaatregelen>
+    a              skos:Concept ;
+    skos:prefLabel "Rechten en verplichtingen tot preventieve openbare gezondheidsmaatregelen"@nl ;
+    skos:prefLabel "Access rights or obligations to public preventive healthcare measures"@en ;
+    skos:altLabel  "F4" ;
+    skos:definition
+                   "Algemene informatie over toegangsrechten en verplichtingen om deel te nemen aan beschikbare preventieve openbare gezondheidsmaatregelen"@nl ;
+    skos:definition
+                   "General information on access rights or obligations to participate in available public preventive healthcare measures"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Gezondheidszorg> .
+
+<dvc:GezondheidszorgNoodnummers>
+    a               skos:Concept ;
+    skos:prefLabel  "Nationale noodnummers"@nl ;
+    skos:prefLabel  "National emergency numbers"@en ;
+    skos:altLabel   "F5" ;
+    skos:definition "Diensten die worden verstrekt via nationale noodnummers zoals „112” en „116”"@nl ;
+    skos:definition "Services provided through national emergency numbers, including ‘112’ and ‘116’ numbers"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Gezondheidszorg> .
+
+<dvc:GezondheidszorgWoonzorgcentrum>
+    a               skos:Concept ;
+    skos:prefLabel  "Rechten en voorwaarden woonzorgcentrum"@nl ;
+    skos:prefLabel  "Rights and conditions residential care home"@en ;
+    skos:altLabel   "F6" ;
+    skos:definition "Rechten en voorwaarden om naar een woonzorgcentrum te verhuizen"@nl ;
+    skos:definition "Rights and conditions for moving to a residential care home"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Gezondheidszorg> .
+
+
+##############################
+### BurgerEnFamilieRechten ###
+##############################
+
+<dvc:BurgerEnFamilieRechten>
+    a                 skos:Concept ;
+    skos:prefLabel    "Burger- en familierechten"@nl ;
+    skos:prefLabel    "Citizens’ and family rights"@en ;
+    skos:altLabel     "G" ;
+    skos:definition   "Informatiegebieden in verband met burgers: Burger- en familierechten"@nl ;
+    skos:definition   "Areas of information areas related to citizens: Citizens’ and family rights"@en ;
+    skos:inScheme     <dvcs:YourEuropeCategorie> ;
+    skos:topConceptOf <dvcs:YourEuropeCategorie> ;
+    skos:narrower     <dvc:BurgerEnFamilieRechtenKinderen> ;
+    skos:narrower     <dvc:BurgerEnFamilieRechtenPartners> ;
+    skos:narrower     <dvc:BurgerEnFamilieRechtenGenderIdentiteit> ;
+    skos:narrower     <dvc:BurgerEnFamilieRechtenErfrechtenEnPlichten> ;
+    skos:narrower     <dvc:BurgerEnFamilieRechtenOntvoeringKinderen> .
+
+<dvc:BurgerEnFamilieRechtenKinderen>
+    a              skos:Concept ;
+    skos:prefLabel "Rechten en plichten in het kader van kinderen"@nl ;
+    skos:prefLabel "Rights and obligations regarding children"@en ;
+    skos:altLabel  "G1" ;
+    skos:definition
+                   "Geboorte, ouderlijk gezag over minderjarige kinderen, ouderlijke verantwoordelijkheden, regels inzake draagmoederschap en adoptie, met inbegrip van stiefouderadoptie, onderhoudsverplichtingen voor kinderen in een grensoverschrijdende gezinssituatie"@nl ;
+    skos:definition
+                   "Birth, custody for minor children, parental responsibilities, rules on surrogacy and adoption, including second-parent-adoption, maintenance obligations in relation to children in a cross-border family situation"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:BurgerEnFamilieRechten> .
+
+<dvc:BurgerEnFamilieRechtenPartners>
+    a              skos:Concept ;
+    skos:prefLabel "Samenleven van partners"@nl ;
+    skos:prefLabel "Living as a couple"@en ;
+    skos:altLabel  "G2" ;
+    skos:definition
+                   "Samenleven van partners met verschillende nationaliteiten, met inbegrip van partners van hetzelfde geslacht (huwelijk, geregistreerd partnerschap, scheiding van tafel en bed, echtscheiding, huwelijksvermogensrechten, rechten van samenwonenden)"@nl ;
+    skos:definition
+                   "Living as a couple with different nationalities, including same-sex couples (marriage, civil or registered partnership, separation, divorce, marital property rights, the rights of cohabitants)"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:BurgerEnFamilieRechten> .
+
+<dvc:BurgerEnFamilieRechtenGenderIdentiteit>
+    a               skos:Concept ;
+    skos:prefLabel  "Regels inzake genderidentiteit"@nl ;
+    skos:prefLabel  "Rules of gender recognition"@en ;
+    skos:altLabel   "G3" ;
+    skos:definition "Regels inzake erkenning van de genderidentiteit"@nl ;
+    skos:definition "Rules of gender recognition"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:BurgerEnFamilieRechten> .
+
+<dvc:BurgerEnFamilieRechtenErfrechtenEnPlichten>
+    a               skos:Concept ;
+    skos:prefLabel  "Erfrechten en -plichten"@nl ;
+    skos:prefLabel  "Rights and obligations regarding succession"@en ;
+    skos:altLabel   "G4" ;
+    skos:definition "Erfrechten en -plichten in een andere lidstaat, met inbegrip van belastingregels"@nl ;
+    skos:definition "Rights and obligations in relation to succession in another Member State, including tax rules"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:BurgerEnFamilieRechten> .
+
+<dvc:BurgerEnFamilieRechtenOntvoeringKinderen>
+    a               skos:Concept ;
+    skos:prefLabel  "Rechten en regels grensoverschrijdende ontvoering kinderen"@nl ;
+    skos:prefLabel  "Rights and rules for cross-border child abduction"@en ;
+    skos:altLabel   "G5" ;
+    skos:definition "Rechten en regels die gelden bij grensoverschrijdende ontvoering van kinderen door een van de ouders"@nl ;
+    skos:definition "Rights and rules applicable in the case of cross-border parental child abduction"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:BurgerEnFamilieRechten> .
+
+
+##########################
+### Consumentenrechten ###
+##########################
+
+<dvc:Consumentenrechten>
+    a                 skos:Concept ;
+    skos:prefLabel    "Consumentenrechten"@nl ;
+    skos:prefLabel    "Consumer rights"@en ;
+    skos:altLabel     "H" ;
+    skos:definition   "Informatiegebieden in verband met burgers: Consumentenrechten"@nl ;
+    skos:definition   "Areas of information areas related to citizens: Consumer rights"@en ;
+    skos:inScheme     <dvcs:YourEuropeCategorie> ;
+    skos:topConceptOf <dvcs:YourEuropeCategorie> ;
+    skos:narrower     <dvc:ConsumentenrechtenAankoop> ;
+    skos:narrower     <dvc:ConsumentenrechtenBankrekening> ;
+    skos:narrower     <dvc:ConsumentenrechtenNutsvoorzieningen> ;
+    skos:narrower     <dvc:ConsumentenrechtenBetalingen> ;
+    skos:narrower     <dvc:ConsumentenrechtenConsumentenrechten> ;
+    skos:narrower     <dvc:ConsumentenrechtenVeiligheid> ;
+    skos:narrower     <dvc:ConsumentenrechtenHuurMotorvoertuigen> .
+
+<dvc:ConsumentenrechtenAankoop>
+    a              skos:Concept ;
+    skos:prefLabel "Aankoop van goederen, digitale inhoud of diensten"@nl ;
+    skos:prefLabel "Buying goods, digital content or services"@en ;
+    skos:altLabel  "H1" ;
+    skos:definition
+                   "Online of in persoon goederen, digitale inhoud of diensten (waaronder financiële diensten) in een andere lidstaat kopen"@nl ;
+    skos:definition
+                   "Buying goods, digital content or services (including financial services) from another Member State, online or in person"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Consumentenrechten> .
+
+<dvc:ConsumentenrechtenBankrekening>
+    a               skos:Concept ;
+    skos:prefLabel  "Bankrekening hebben"@nl ;
+    skos:prefLabel  "Holding a bank account"@en ;
+    skos:altLabel   "H2" ;
+    skos:definition "Een bankrekening hebben in een andere lidstaat"@nl ;
+    skos:definition "Holding a bank account in another Member State"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Consumentenrechten> .
+
+<dvc:ConsumentenrechtenNutsvoorzieningen>
+    a              skos:Concept ;
+    skos:prefLabel "Aansluiting op nutsvoorzieningen"@nl ;
+    skos:prefLabel "Connection to utilities"@en ;
+    skos:altLabel  "H3" ;
+    skos:definition
+                   "Aansluiting op nutsvoorzieningen, zoals gas, elektriciteit, water, verwijdering van huishoudelijk afval, telecommunicatie en internet"@nl ;
+    skos:definition
+                   "Connection to utilities, such as gas, electricity, water, household waste disposal, telecoms and the internet"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Consumentenrechten> .
+
+<dvc:ConsumentenrechtenBetalingen>
+    a               skos:Concept ;
+    skos:prefLabel  "Betalingen voor grensoverschrijdende betalingen"@nl ;
+    skos:prefLabel  "Payments for cross-border payments"@en ;
+    skos:altLabel   "H4" ;
+    skos:definition "Betalingen, waaronder overmakingen, en termijnen voor grensoverschrijdende betalingen"@nl ;
+    skos:definition "Payments, including credit transfers, delays in cross-border payments"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Consumentenrechten> .
+
+<dvc:ConsumentenrechtenConsumentenrechten>
+    a              skos:Concept ;
+    skos:prefLabel "Consumentenrechten bij aankoop van goederen en diensten"@nl ;
+    skos:prefLabel "Consumer rights related to buying goods and services"@en ;
+    skos:altLabel  "H5" ;
+    skos:definition
+                   "Consumentenrechten en -waarborgen bij aankoop van goederen en diensten, met inbegrip van procedures voor de beslechting van en vergoeding bij consumentengeschillen"@nl ;
+    skos:definition
+                   "Consumer rights and guarantees related to buying goods and services, including procedures for consumer dispute resolution and compensation"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Consumentenrechten> .
+
+<dvc:ConsumentenrechtenVeiligheid>
+    a               skos:Concept ;
+    skos:prefLabel  "Veiligheid en beveiliging van producten"@nl ;
+    skos:prefLabel  "Safety and security of products"@en ;
+    skos:altLabel   "H6" ;
+    skos:definition "Veiligheid en beveiliging van consumentenproducten"@nl ;
+    skos:definition "Safety and security of consumer products"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Consumentenrechten> .
+
+<dvc:ConsumentenrechtenHuurMotorvoertuigen>
+    a               skos:Concept ;
+    skos:prefLabel  "Huur van motorvoertuigen"@nl ;
+    skos:prefLabel  "Renting a motor vehice"@en ;
+    skos:altLabel   "H7" ;
+    skos:definition "Huur van motorvoertuigen"@nl ;
+    skos:definition "Renting a motor vehice"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Consumentenrechten> .
+
+
+###################################
+### BeschermingPersoonsgegevens ###
+###################################
+
+<dvc:BeschermingPersoonsgegevens>
+    a                 skos:Concept ;
+    skos:prefLabel    "Bescherming van persoonsgegevens"@nl ;
+    skos:prefLabel    "Protection of personal data"@en ;
+    skos:altLabel     "I" ;
+    skos:definition   "Informatiegebieden in verband met burgers: Bescherming van persoonsgegevens"@nl ;
+    skos:definition   "Areas of information areas related to citizens: Protection of personal data"@en ;
+    skos:inScheme     <dvcs:YourEuropeCategorie> ;
+    skos:topConceptOf <dvcs:YourEuropeCategorie> ;
+    skos:narrower     <dvc:BeschermingPersoonsgegevensUitoefeningRechten> .
+
+<dvc:BeschermingPersoonsgegevensUitoefeningRechten>
+    a               skos:Concept ;
+    skos:prefLabel  "Uitoefening van de rechten"@nl ;
+    skos:prefLabel  "Exercising data subjects’ rights"@en ;
+    skos:altLabel   "I1" ;
+    skos:definition "Uitoefening van de rechten van de betrokkenen met betrekking tot de bescherming van persoonsgegevens"@nl ;
+    skos:definition "Exercising data subjects’ rights in relation to the protection of personal data"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:BeschermingPersoonsgegevens> .
+
+
+###############
+### Bedrijf ###
+###############
+
+<dvc:Bedrijf>
+    a                 skos:Concept ;
+    skos:prefLabel    "Starten, exploiteren en sluiten van een bedrijf"@nl ;
+    skos:prefLabel    "Starting, running and closing a business"@en ;
+    skos:altLabel     "J" ;
+    skos:definition   "Informatiegebieden in verband met bedrijven: Starten, exploiteren en sluiten van een bedrijf"@nl ;
+    skos:definition   "Areas of information related to businesses: Starting, running and closing a business"@en ;
+    skos:inScheme     <dvcs:YourEuropeCategorie> ;
+    skos:topConceptOf <dvcs:YourEuropeCategorie> ;
+    skos:narrower     <dvc:BedrijfRegistratieproceduresRechtsvormen> ;
+    skos:narrower     <dvc:BedrijfVerplaatsing> ;
+    skos:narrower     <dvc:BedrijfIntellectueleEigendomsrechten> ;
+    skos:narrower     <dvc:BedrijfTransparantie> ;
+    skos:narrower     <dvc:BedrijfOnlineBetaalFuncties> ;
+    skos:narrower     <dvc:BedrijfOvereenkomstenrecht> ;
+    skos:narrower     <dvc:BedrijfInsolventieLiquidatie> ;
+    skos:narrower     <dvc:BedrijfKredietVerzekering> ;
+    skos:narrower     <dvc:BedrijfFusieVerkoop> ;
+    skos:narrower     <dvc:BedrijfAansprakelijkheidBestuurders> ;
+    skos:narrower     <dvc:BedrijfPersoonsgegevens> .
+
+<dvc:BedrijfRegistratieproceduresRechtsvormen>
+    a              skos:Concept ;
+    skos:prefLabel "Registratieprocedures en rechtsvormen"@nl ;
+    skos:prefLabel "Registration procedures and legal forms"@en ;
+    skos:altLabel  "J1" ;
+    skos:definition
+                   "Registratie, wijziging van de rechtsvorm of sluiting van een bedrijf (registratieprocedures en rechtsvormen voor bedrijven)"@nl ;
+    skos:definition
+                   "Registering, changing the legal form of or closing a business (registration procedures and legal forms for carrying out business)"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Bedrijf> .
+
+<dvc:BedrijfVerplaatsing>
+    a               skos:Concept ;
+    skos:prefLabel  "Verplaatsing van een bedrijf"@nl ;
+    skos:prefLabel  "Moving a business"@en ;
+    skos:altLabel   "J2" ;
+    skos:definition "Verplaatsing van een bedrijf naar een andere lidstaat"@nl ;
+    skos:definition "Moving a business to another Member State"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Bedrijf> .
+
+<dvc:BedrijfIntellectueleEigendomsrechten>
+    a              skos:Concept ;
+    skos:prefLabel "Intellectuele-eigendomsrechten"@nl ;
+    skos:prefLabel "Intellectual property rights"@en ;
+    skos:altLabel  "J3" ;
+    skos:definition
+                   "Intellectuele-eigendomsrechten (octrooiaanvragen, registratie van handelsmerken, tekeningen of modellen, verwerving van licenties voor reproductie)"@nl ;
+    skos:definition
+                   "Intellectual property rights (applying for a patent, registering a trademark, a drawing or a design, getting a licence for reproduction)"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Bedrijf> .
+
+<dvc:BedrijfTransparantie>
+    a              skos:Concept ;
+    skos:prefLabel "Transparantie bij handelspraktijken"@nl ;
+    skos:prefLabel "Transparency in commercial practices"@en ;
+    skos:altLabel  "J4" ;
+    skos:definition
+                   "Billijkheid en transparantie bij handelspraktijken, met inbegrip van consumentenrechten en -waarborgen in verband met de verkoop van goederen en diensten;"@nl ;
+    skos:definition
+                   "Fairness and transparency in commercial practices, including consumer rights and guarantees related to selling goods and services"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Bedrijf> .
+
+<dvc:BedrijfOnlineBetaalFuncties>
+    a               skos:Concept ;
+    skos:prefLabel  "Grensoverschrijdende onlinebetaalfuncties"@nl ;
+    skos:prefLabel  "Cross-border online payments facilities"@en ;
+    skos:altLabel   "J5" ;
+    skos:definition "Aanbieden van grensoverschrijdende onlinebetaalfuncties bij de onlineverkoop van goederen en diensten"@nl ;
+    skos:definition "Offering online facilities for cross-border payments when selling goods and services online"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Bedrijf> .
+
+<dvc:BedrijfOvereenkomstenrecht>
+    a               skos:Concept ;
+    skos:prefLabel  "Rechten en verplichtingen overeenkomstenrecht"@nl ;
+    skos:prefLabel  "Rights and obligations contract law"@en ;
+    skos:altLabel   "J6" ;
+    skos:definition "Rechten en verplichtingen uit hoofde van het overeenkomstenrecht, met inbegrip van verschuldigde rente wegens achterstallige betaling"@nl ;
+    skos:definition "Rights and obligations arising under contract law, including late payment interests"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Bedrijf> .
+
+<dvc:BedrijfInsolventieLiquidatie>
+    a               skos:Concept ;
+    skos:prefLabel  "Insolventieprocedures en liquidatie"@nl ;
+    skos:prefLabel  "Insolvency proceedings and liquidation"@en ;
+    skos:altLabel   "J7" ;
+    skos:definition "Insolventieprocedures en liquidatie van bedrijven"@nl ;
+    skos:definition "Insolvency proceedings and liquidation of companies"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Bedrijf> .
+
+<dvc:BedrijfKredietVerzekering>
+    a               skos:Concept ;
+    skos:prefLabel  "Kredietverzekering"@nl ;
+    skos:prefLabel  "Credit insurance"@en ;
+    skos:altLabel   "J8" ;
+    skos:definition "kredietverzekering"@nl ;
+    skos:definition "Credit insurance"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Bedrijf> .
+
+<dvc:BedrijfFusieVerkoop>
+    a               skos:Concept ;
+    skos:prefLabel  "Bedrijfsfusies of verkoop"@nl ;
+    skos:prefLabel  "Mergers or selling"@en ;
+    skos:altLabel   "J9" ;
+    skos:definition "Bedrijfsfusies of verkoop van een bedrijf"@nl ;
+    skos:definition "Mergers of companies or selling a business"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Bedrijf> .
+
+<dvc:BedrijfAansprakelijkheidBestuurders>
+    a               skos:Concept ;
+    skos:prefLabel  "Wettelijke aansprakelijkheid van bestuurders"@nl ;
+    skos:prefLabel  "Civil liability of directors"@en ;
+    skos:altLabel   "J10" ;
+    skos:definition "Wettelijke aansprakelijkheid van bestuurders en commissarissen van een bedrijf"@nl ;
+    skos:definition "Civil liability of directors of a company"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Bedrijf> .
+
+<dvc:BedrijfPersoonsgegevens>
+    a               skos:Concept ;
+    skos:prefLabel  "Verwerking van persoonsgegevens"@nl ;
+    skos:prefLabel  "Processing of personal data"@en ;
+    skos:altLabel   "J11" ;
+    skos:definition "Regels en verplichtingen met betrekking tot de verwerking van persoonsgegevens"@nl ;
+    skos:definition "Rules and obligations regarding the processing of personal data"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Bedrijf> .
+
+
+##################
+### Werknemers ###
+##################
+
+<dvc:Werknemers>
+    a                 skos:Concept ;
+    skos:prefLabel    "Werknemers"@nl ;
+    skos:prefLabel    "Employees"@en ;
+    skos:altLabel     "K" ;
+    skos:definition   "Informatiegebieden in verband met bedrijven: Werknemers"@nl ;
+    skos:definition   "Areas of information related to businesses: Employees"@en ;
+    skos:inScheme     <dvcs:YourEuropeCategorie> ;
+    skos:topConceptOf <dvcs:YourEuropeCategorie> ;
+    skos:narrower     <dvc:WerknemersArbeidsvoorwaarden> ;
+    skos:narrower     <dvc:WerknemersSocialezekerheid> ;
+    skos:narrower     <dvc:WerknemersTewerkstelling> ;
+    skos:narrower     <dvc:WerknemersGelijkeBehandeling> ;
+    skos:narrower     <dvc:WerknemersPersoneelsvertegenwoordiging> .
+
+<dvc:WerknemersArbeidsvoorwaarden>
+    a              skos:Concept ;
+    skos:prefLabel "Arbeidsvoorwaarden"@nl ;
+    skos:prefLabel "Terms of employment"@en ;
+    skos:altLabel  "K1" ;
+    skos:definition
+                   "Bij wet of wettelijk instrument vastgestelde arbeidsvoorwaarden (met inbegrip van werktijden, betaald verlof, vakantierechten, rechten en verplichtingen in verband met overuren, medisch onderzoek, beëindiging van contracten en ontslag)"@nl ;
+    skos:definition
+                   "Terms of employment stipulated by law or statutory instrument (including working hours, paid leave, holiday entitlements, rights and obligations regarding overtime work, health checks, termination of contracts, dismissals and redundancies)"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Werknemers> .
+
+<dvc:WerknemersSocialezekerheid>
+    a              skos:Concept ;
+    skos:prefLabel "Socialezekerheidsrechten en -verplichtingen"@nl ;
+    skos:prefLabel "Social security rights and obligations"@en ;
+    skos:altLabel  "K2" ;
+    skos:definition
+                   "Socialezekerheidsrechten en -verplichtingen in de Unie (aanmelding als werkgever, aanmelding van werknemers, kennisgeving van beëindiging van een arbeidsovereenkomst, betaling van sociale bijdragen, rechten en verplichtingen in verband met pensioenen)"@nl ;
+    skos:definition
+                   "Social security rights and obligations in the Union (registering as employer, registering employees, notifying the end of contract of an employee, paying social contributions, rights and obligations related to pensions"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Werknemers> .
+
+<dvc:WerknemersTewerkstelling>
+    a              skos:Concept ;
+    skos:prefLabel "Tewerkstelling van werknemers"@nl ;
+    skos:prefLabel "Employment of workers"@en ;
+    skos:altLabel  "K3" ;
+    skos:definition
+                   "Tewerkstelling van werknemers in andere lidstaten (detachering, regels betreffende het vrij verrichten van diensten, woonplaatsvereisten voor werknemers)"@nl ;
+    skos:definition
+                   "Employment of workers in other Member States (posting of workers, rules on freedom to provide services, residency requirements for workers)"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Werknemers> .
+
+<dvc:WerknemersGelijkeBehandeling>
+    a              skos:Concept ;
+    skos:prefLabel "Gelijke behandeling"@nl ;
+    skos:prefLabel "Equal treatment"@en ;
+    skos:altLabel  "K4" ;
+    skos:definition
+                   "Gelijke behandeling (regels die discriminatie op het werk verbieden, regels inzake gelijke betaling van mannen en vrouwen en inzake gelijke betaling van werknemers met contracten voor bepaalde of onbepaalde tijd)"@nl ;
+    skos:definition
+                   "Equal treatment (rules prohibiting discrimination in the workplace, rules on equal pay for men and women and equal pay for employees on fixed-term or under permanent employment contracts)"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Werknemers> .
+
+<dvc:WerknemersPersoneelsvertegenwoordiging>
+    a               skos:Concept ;
+    skos:prefLabel  "Personeelsvertegenwoordiging"@nl ;
+    skos:prefLabel  "Staff representation"@en ;
+    skos:altLabel   "K5" ;
+    skos:definition "Regels voor personeelsvertegenwoordiging"@nl ;
+    skos:definition "Rules on staff representation"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Werknemers> .
+
+
+###################
+### Belastingen ###
+###################
+
+<dvc:Belastingen>
+    a                 skos:Concept ;
+    skos:prefLabel    "Belastingen"@nl ;
+    skos:prefLabel    "Taxes"@en ;
+    skos:altLabel     "L" ;
+    skos:definition   "Informatiegebieden in verband met bedrijven: Belastingen"@nl ;
+    skos:definition   "Areas of information related to businesses: Taxes"@en ;
+    skos:inScheme     <dvcs:YourEuropeCategorie> ;
+    skos:topConceptOf <dvcs:YourEuropeCategorie> ;
+    skos:narrower     <dvc:BelastingenBTW> ;
+    skos:narrower     <dvc:BelastingenAccijnzen> ;
+    skos:narrower     <dvc:BelastingenDouanerechten> ;
+    skos:narrower     <dvc:BelastingenDouaneprocedures> ;
+    skos:narrower     <dvc:BelastingenOverigeBelastingen> .
+
+<dvc:BelastingenBTW>
+    a              skos:Concept ;
+    skos:prefLabel "BTW"@nl ;
+    skos:prefLabel "VAT"@en ;
+    skos:altLabel  "L1" ;
+    skos:definition
+                   "BTW: informatie over de algemene regels, tarieven en vrijstellingen, registratie voor en betaling van btw, verkrijging van teruggave"@nl ;
+    skos:definition
+                   "VAT: information on the general rules, rates and exemptions, registering for and paying VAT, obtaining a refund"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Belastingen> .
+
+<dvc:BelastingenAccijnzen>
+    a              skos:Concept ;
+    skos:prefLabel "Accijnzen"@nl ;
+    skos:prefLabel "Excise duties"@en ;
+    skos:altLabel  "L2" ;
+    skos:definition
+                   "Accijnzen: informatie over de algemene regels, tarieven en vrijstellingen, registratie voor en betaling van accijnzen, verkrijging van teruggave"@nl ;
+    skos:definition
+                   "Excise duties: information on the general rules, rates and exemptions, registration for excise tax purposes and payment of excise tax, obtaining a refund"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Belastingen> .
+
+<dvc:BelastingenDouanerechten>
+    a               skos:Concept ;
+    skos:prefLabel  "Douanerechten"@nl ;
+    skos:prefLabel  "Customs duties"@en ;
+    skos:altLabel   "L3" ;
+    skos:definition "Douanerechten en andere belastingen en rechten op ingevoerde producten"@nl ;
+    skos:definition "Customs duties and other taxes and duties collected on imports"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Belastingen> .
+
+<dvc:BelastingenDouaneprocedures>
+    a               skos:Concept ;
+    skos:prefLabel  "Douaneprocedures"@nl ;
+    skos:prefLabel  "Customs procedures"@en ;
+    skos:altLabel   "L4" ;
+    skos:definition "Douaneprocedures voor invoer en uitvoer in het kader van het douanewetboek van de Unie"@nl ;
+    skos:definition "Customs procedures for imports and exports under the Union Customs Code"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Belastingen> .
+
+<dvc:BelastingenOverigeBelastingen>
+    a               skos:Concept ;
+    skos:prefLabel  "Overige belastingen"@nl ;
+    skos:prefLabel  "Other taxes"@en ;
+    skos:altLabel   "L5" ;
+    skos:definition "Overige belastingen: betaling, tarieven, belastingaangiften"@nl ;
+    skos:definition "Other taxes: payment, rates, tax returns"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Belastingen> .
+
+
+################
+### Goederen ###
+################
+
+<dvc:Goederen>
+    a                 skos:Concept ;
+    skos:prefLabel    "Goederen"@nl ;
+    skos:prefLabel    "Goods"@en ;
+    skos:altLabel     "M" ;
+    skos:definition   "Informatiegebieden in verband met bedrijven: Goederen"@nl ;
+    skos:definition   "Areas of information related to businesses: Goods"@en ;
+    skos:inScheme     <dvcs:YourEuropeCategorie> ;
+    skos:topConceptOf <dvcs:YourEuropeCategorie> ;
+    skos:narrower     <dvc:GoederenCEMarkering> ;
+    skos:narrower     <dvc:GoederenVoorschriftenVereisten> ;
+    skos:narrower     <dvc:GoederenNormenSpecificatiesCertificering> ;
+    skos:narrower     <dvc:GoederenErkenningZonderSpecificaties> ;
+    skos:narrower     <dvc:GoederenGevaarlijkeStoffen> ;
+    skos:narrower     <dvc:GoederenVerkoopOpAfstand> ;
+    skos:narrower     <dvc:GoederenProuctenMetGebreken> ;
+    skos:narrower     <dvc:GoederenKeurmerken> ;
+    skos:narrower     <dvc:GoederenRecyclage> .
+
+<dvc:GoederenCEMarkering>
+    a               skos:Concept ;
+    skos:prefLabel  "CE-markering"@nl ;
+    skos:prefLabel  "CE marking"@en ;
+    skos:altLabel   "M1" ;
+    skos:definition "Verkrijging van CE-markering"@nl ;
+    skos:definition "Obtaining CE marking"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Goederen> .
+
+<dvc:GoederenVoorschriftenVereisten>
+    a               skos:Concept ;
+    skos:prefLabel  "Productvoorschriften en vereisten"@nl ;
+    skos:prefLabel  "Product rules and requirements"@en ;
+    skos:altLabel   "M2" ;
+    skos:definition "Voorschriften en vereisten voor producten"@nl ;
+    skos:definition "Product rules and requirements"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Goederen> .
+
+<dvc:GoederenNormenSpecificatiesCertificering>
+    a               skos:Concept ;
+    skos:prefLabel  "Normen, specificaties en certificering"@nl ;
+    skos:prefLabel  "Standards, specifications and certification"@en ;
+    skos:altLabel   "M3" ;
+    skos:definition "Vaststelling van toepasselijke normen, technische specificaties en productcertificering"@nl ;
+    skos:definition "Identifying applicable standards, technical specifications and getting products certified"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Goederen> .
+
+<dvc:GoederenErkenningZonderSpecificaties>
+    a               skos:Concept ;
+    skos:prefLabel  "Erkenning producten zonder EU-specificaties"@nl ;
+    skos:prefLabel  "Recognition products without Union specifications"@en ;
+    skos:altLabel   "M4" ;
+    skos:definition "Wederzijdse erkenning van producten waarvoor geen EU-specificaties gelden"@nl ;
+    skos:definition "Mutual recognition of products not subject to Union specifications"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Goederen> .
+
+<dvc:GoederenGevaarlijkeStoffen>
+    a               skos:Concept ;
+    skos:prefLabel  "Verpakking van gevaarlijke stoffen"@nl ;
+    skos:prefLabel  "Packaging of hazardous chemicals"@en ;
+    skos:altLabel   "M5" ;
+    skos:definition "Voorschriften voor de indeling, etikettering en verpakking van gevaarlijke stoffen"@nl ;
+    skos:definition "Requirements regarding classification, labelling and packaging for hazardous chemicals"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Goederen> .
+
+<dvc:GoederenVerkoopOpAfstand>
+    a              skos:Concept ;
+    skos:prefLabel "Verkoop op afstand en buiten verkoopruimten"@nl ;
+    skos:prefLabel "Distance/off-premises selling"@en ;
+    skos:altLabel  "M6" ;
+    skos:definition
+                   "Verkoop op afstand en buiten verkoopruimten: informatie die vooraf aan klanten moet worden gegeven, schriftelijke bevestiging van overeenkomsten, herroeping van overeenkomsten, aflevering van goederen, andere specifieke verplichtingen"@nl ;
+    skos:definition
+                   "Distance/off-premises selling: information to be given to customers in advance, confirmation of the contract in writing, withdrawal from a contract, delivering of the goods, other specific obligations"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Goederen> .
+
+<dvc:GoederenProuctenMetGebreken>
+    a              skos:Concept ;
+    skos:prefLabel "Producten met gebreken"@nl ;
+    skos:prefLabel "Defective products"@en ;
+    skos:altLabel  "M7" ;
+    skos:definition
+                   "Producten met gebreken: consumentenrechten en garantie, verantwoordelijkheid na verkoop, rechtsmiddelen voor benadeelde partij"@nl ;
+    skos:definition
+                   "Defective products: consumer rights and guarantees, after-sale responsibilities, means of redress for an injured party"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Goederen> .
+
+<dvc:GoederenKeurmerken>
+    a               skos:Concept ;
+    skos:prefLabel  "Certificering, keurmerken"@nl ;
+    skos:prefLabel  "Certification, labels"@en ;
+    skos:altLabel   "M8" ;
+    skos:definition "Certificering, keurmerken (EMAS, energielabels, ecodesign, EU-milieukeur)"@nl ;
+    skos:definition "Certification, labels (EMAS, energy labels, Eco-design, EU eco-label)"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Goederen> .
+
+<dvc:GoederenRecyclage>
+    a               skos:Concept ;
+    skos:prefLabel  "Recyclage en afvalbeheer"@nl ;
+    skos:prefLabel  "Recycling and waste management"@en ;
+    skos:altLabel   "M9" ;
+    skos:definition "Recyclage en afvalbeheer"@nl ;
+    skos:definition "Recycling and waste management"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Goederen> .
+
+
+################
+### Diensten ###
+################
+
+<dvc:Diensten>
+    a                 skos:Concept ;
+    skos:prefLabel    "Diensten"@nl ;
+    skos:prefLabel    "Services"@en ;
+    skos:altLabel     "N" ;
+    skos:definition   "Informatiegebieden in verband met bedrijven: Diensten"@nl ;
+    skos:definition   "Areas of information related to businesses: Services"@en ;
+    skos:inScheme     <dvcs:YourEuropeCategorie> ;
+    skos:topConceptOf <dvcs:YourEuropeCategorie> ;
+    skos:narrower     <dvc:DienstenLicentiesVergunningen> ;
+    skos:narrower     <dvc:DienstenKennisgevingGrensoverschrijdendeActiviteiten> ;
+    skos:narrower     <dvc:DienstenErkenningBeroepskwalificaties> .
+
+<dvc:DienstenLicentiesVergunningen>
+    a               skos:Concept ;
+    skos:prefLabel  "Licenties en vergunningen"@nl ;
+    skos:prefLabel  "Authorisations and permits"@en ;
+    skos:altLabel   "N1" ;
+    skos:definition "Verkrijging van licenties, vergunningen en toestemming om een bedrijf te starten"@nl ;
+    skos:definition "Acquiring licences, authorisations or permits with a view to starting and operating a business"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Diensten> .
+
+<dvc:DienstenKennisgevingGrensoverschrijdendeActiviteiten>
+    a               skos:Concept ;
+    skos:prefLabel  "Kennisgeving van grensoverschrijdende activiteiten"@nl ;
+    skos:prefLabel  "Notification of cross-border activities"@en ;
+    skos:altLabel   "N2" ;
+    skos:definition "Kennisgeving van grensoverschrijdende activiteiten aan de autoriteiten"@nl ;
+    skos:definition "Notifying the authorities of cross-border activities"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Diensten> .
+
+<dvc:DienstenErkenningBeroepskwalificaties>
+    a               skos:Concept ;
+    skos:prefLabel  "Erkenning van beroepskwalificaties"@nl ;
+    skos:prefLabel  "Recognition of professional qualifications"@en ;
+    skos:altLabel   "N3" ;
+    skos:definition "Erkenning van beroepskwalificaties, met inbegrip van beroepsonderwijs en -opleiding"@nl ;
+    skos:definition "Recognition of professional qualifications, including vocational education and training"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Diensten> .
+
+
+############################
+### Bedrijfsfinanciering ###
+############################
+
+<dvc:Bedrijfsfinanciering>
+    a                 skos:Concept ;
+    skos:prefLabel    "Bedrijfsfinanciering"@nl ;
+    skos:prefLabel    "Funding a business"@en ;
+    skos:altLabel     "O" ;
+    skos:definition   "Informatiegebieden in verband met bedrijven: Bedrijfsfinanciering"@nl ;
+    skos:definition   "Areas of information related to businesses: Funding a business"@en ;
+    skos:inScheme     <dvcs:YourEuropeCategorie> ;
+    skos:topConceptOf <dvcs:YourEuropeCategorie> ;
+    skos:narrower     <dvc:BedrijfsfinancieringFinancieringUnie> ;
+    skos:narrower     <dvc:BedrijfsfinancieringFinancieringNationaal> ;
+    skos:narrower     <dvc:BedrijfsfinancieringOndernemersInitiatieve> .
+
+<dvc:BedrijfsfinancieringFinancieringUnie>
+    a              skos:Concept ;
+    skos:prefLabel "Financiering op Unieniveau"@nl ;
+    skos:prefLabel "Finance at the Union level"@en ;
+    skos:altLabel  "O1" ;
+    skos:definition
+                   "Verkrijging van toegang tot financiering op Unieniveau, met inbegrip van financieringsprogramma’s en bedrijfssubsidies van de Unie"@nl ;
+    skos:definition
+                   "Obtaining access to finance at the Union level, including Union funding programmes and business grants"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Bedrijfsfinanciering> .
+
+<dvc:BedrijfsfinancieringFinancieringNationaal>
+    a               skos:Concept ;
+    skos:prefLabel  "Financiering op nationaal niveau"@nl ;
+    skos:prefLabel  "Finance at national level"@en ;
+    skos:altLabel   "O2" ;
+    skos:definition "Verkrijging van toegang tot financiering op nationaal niveau"@nl ;
+    skos:definition "Obtaining access to finance at national level"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Bedrijfsfinanciering> .
+
+<dvc:BedrijfsfinancieringOndernemersInitiatieve>
+    a              skos:Concept ;
+    skos:prefLabel "Op ondernemers gerichte initiatieven"@nl ;
+    skos:prefLabel "Initiatives to entrepreneurs"@en ;
+    skos:altLabel  "O3" ;
+    skos:definition
+                   "Op ondernemers gerichte initiatieven (uitwisselingen voor nieuwe ondernemers, mentorprogramma’s enz.)"@nl ;
+    skos:definition
+                   "Initiatives addressed to entrepreneurs (exchanges organised for new entrepreneurs, mentoring programmes, etc.)"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:Bedrijfsfinanciering> .
+
+
+###########################
+### Overheidsopdrachten ###
+###########################
+
+<dvc:Overheidsopdrachten>
+    a                 skos:Concept ;
+    skos:prefLabel    "Overheidsopdrachten"@nl ;
+    skos:prefLabel    "Public contracts"@en ;
+    skos:altLabel     "P" ;
+    skos:definition   "Informatiegebieden in verband met bedrijven: Overheidsopdrachten"@nl ;
+    skos:definition   "Areas of information related to businesses: Public contracts"@en ;
+    skos:inScheme     <dvcs:YourEuropeCategorie> ;
+    skos:topConceptOf <dvcs:YourEuropeCategorie> ;
+    skos:narrower     <dvc:OverheidsopdrachtenDeelname> ;
+    skos:narrower     <dvc:OverheidsopdrachtenOnlineInschrijving> ;
+    skos:narrower     <dvc:OverheidsopdrachtenMeldingOnregelmatigheden> .
+
+<dvc:OverheidsopdrachtenDeelname>
+    a               skos:Concept ;
+    skos:prefLabel  "Deelname aan openbare aanbestedingen"@nl ;
+    skos:prefLabel  "Participating in public tenders"@en ;
+    skos:altLabel   "P1" ;
+    skos:definition "Deelname aan openbare aanbestedingen: regels en procedures"@nl ;
+    skos:definition "Participating in public tenders: rules and procedures"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Overheidsopdrachten> .
+
+<dvc:OverheidsopdrachtenOnlineInschrijving>
+    a               skos:Concept ;
+    skos:prefLabel  "Online-inschrijving"@nl ;
+    skos:prefLabel  "Submitting a bid online"@en ;
+    skos:altLabel   "P2" ;
+    skos:definition "Online-inschrijving op openbare aanbestedingen"@nl ;
+    skos:definition "Submitting a bid online in response to a public call for tender"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Overheidsopdrachten> .
+
+<dvc:OverheidsopdrachtenMeldingOnregelmatigheden>
+    a               skos:Concept ;
+    skos:prefLabel  "Melding van onregelmatigheden"@nl ;
+    skos:prefLabel  "Reporting irregularities"@en ;
+    skos:altLabel   "P3" ;
+    skos:definition "Melding van onregelmatigheden in verband met aanbestedingsprocedures"@nl ;
+    skos:definition "Reporting irregularities in relation to the tender process"@en ;
+    skos:inScheme   <dvcs:YourEuropeCategorie> ;
+    skos:broader    <dvc:Overheidsopdrachten> .
+
+
+################################
+### GezondheidVeiligheidWerk ###
+################################
+
+<dvc:GezondheidVeiligheidWerk>
+    a                 skos:Concept ;
+    skos:prefLabel    "Gezondheid en veiligheid op het werk"@nl ;
+    skos:prefLabel    "Health and safety at work"@en ;
+    skos:altLabel     "Q" ;
+    skos:definition   "Informatiegebieden in verband met bedrijven: Gezondheid en veiligheid op het werk"@nl ;
+    skos:definition   "Areas of information related to businesses: Health and safety at work"@en ;
+    skos:inScheme     <dvcs:YourEuropeCategorie> ;
+    skos:topConceptOf <dvcs:YourEuropeCategorie> ;
+    skos:narrower     <dvc:GezondheidVeiligheidWerkVerplichtingen> .
+
+<dvc:GezondheidVeiligheidWerkVerplichtingen>
+    a              skos:Concept ;
+    skos:prefLabel "Verplichtingen in verband met gezondheid en veiligheid"@nl ;
+    skos:prefLabel "Health and safety obligations"@en ;
+    skos:altLabel  "Q1" ;
+    skos:definition
+                   "Verplichtingen in verband met gezondheid en veiligheid voor verschillende soorten activiteiten, waaronder risicopreventie, voorlichting en opleiding"@nl ;
+    skos:definition
+                   "Health and safety obligations in relation to different types of activity, including risk prevention, information and training"@en ;
+    skos:inScheme  <dvcs:YourEuropeCategorie> ;
+    skos:broader   <dvc:GezondheidVeiligheidWerk> .

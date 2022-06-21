@@ -1,0 +1,73 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dvcs:      <https://data.vlaanderen.be/id/conceptscheme/> .
+@prefix dvc:       <https://data.vlaanderen.be/id/concept/> .
+
+<dvcs:Thema>
+    a                  skos:ConceptScheme ;
+    skos:prefLabel     "Thema"@en ;
+    skos:prefLabel     "Thema"@nl ;
+    skos:definition    "Thema van een publieke dienst"@nl ;
+    skos:hasTopConcept <dvc:BurgerEnOverheid> ;
+    skos:hasTopConcept <dvc:CultuurSportVrijeTijd> ;
+    skos:hasTopConcept <dvc:EconomieEnWerk> ;
+    skos:hasTopConcept <dvc:MileuEnEnergie> ;
+    skos:hasTopConcept <dvc:MobiliteitOpenbareWerken> ;
+    skos:hasTopConcept <dvc:OnderwijsEnWetenschap> ;
+    skos:hasTopConcept <dvc:WelzijnGezondheid> ;
+    skos:hasTopConcept <dvc:BouwenEnWonen> .
+
+<dvc:BurgerEnOverheid>
+    a                 skos:Concept ;
+    skos:prefLabel    "Burger en Overheid"@nl ;
+    skos:definition   "Thema: Burger en Overheid"@nl ;
+    skos:inScheme     <dvcs:Thema> ;
+    skos:topConceptOf <dvcs:Thema> .
+
+<dvc:CultuurSportVrijeTijd>
+    a                 skos:Concept ;
+    skos:prefLabel    "Cultuur, Sport en Vrije Tijd"@nl ;
+    skos:definition   "Thema: Cultuur, Sport en Vrije Tijd"@nl ;
+    skos:inScheme     <dvcs:Thema> ;
+    skos:topConceptOf <dvcs:Thema> .
+
+<dvc:EconomieEnWerk>
+    a                 skos:Concept ;
+    skos:prefLabel    "Economie en Werk"@nl ;
+    skos:definition   "Thema: Economie en Werk"@nl ;
+    skos:inScheme     <dvcs:Thema> ;
+    skos:topConceptOf <dvcs:Thema> .
+
+<dvc:MileuEnEnergie>
+    a                 skos:Concept ;
+    skos:prefLabel    "Milieu en Energie"@nl ;
+    skos:definition   "Thema: Milieu en Energie"@nl ;
+    skos:inScheme     <dvcs:Thema> ;
+    skos:topConceptOf <dvcs:Thema> .
+
+<dvc:MobiliteitOpenbareWerken>
+    a                 skos:Concept ;
+    skos:prefLabel    "Mobiliteit en Openbare Werken"@nl ;
+    skos:definition   "Thema: Mobiliteit en Openbare Werken"@nl ;
+    skos:inScheme     <dvcs:Thema> ;
+    skos:topConceptOf <dvcs:Thema> .
+
+<dvc:OnderwijsEnWetenschap>
+    a                 skos:Concept ;
+    skos:prefLabel    "Onderwijs en Wetenschap"@nl ;
+    skos:definition   "Thema: Onderwijs en Wetenschap"@nl ;
+    skos:inScheme     <dvcs:Thema> ;
+    skos:topConceptOf <dvcs:Thema> .
+
+<dvc:WelzijnGezondheid>
+    a                 skos:Concept ;
+    skos:prefLabel    "Welzijn en Gezondheid"@nl ;
+    skos:definition   "Thema: Welzijn en Gezondheid"@nl ;
+    skos:inScheme     <dvcs:Thema> ;
+    skos:topConceptOf <dvcs:Thema> .
+
+<dvc:BouwenEnWonen>
+    a                 skos:Concept ;
+    skos:prefLabel    "Bouwen en Wonen"@nl ;
+    skos:definition   "Thema: Bouwen en Wonen"@nl ;
+    skos:inScheme     <dvcs:Thema> ;
+    skos:topConceptOf <dvcs:Thema> .
