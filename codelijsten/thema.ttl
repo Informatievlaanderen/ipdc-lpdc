@@ -10,7 +10,7 @@
     skos:hasTopConcept <dvc:BurgerEnOverheid> ;
     skos:hasTopConcept <dvc:CultuurSportVrijeTijd> ;
     skos:hasTopConcept <dvc:EconomieEnWerk> ;
-    skos:hasTopConcept <dvc:MileuEnEnergie> ;
+    skos:hasTopConcept <dvc:MilieuEnEnergie> ;
     skos:hasTopConcept <dvc:MobiliteitOpenbareWerken> ;
     skos:hasTopConcept <dvc:OnderwijsEnWetenschap> ;
     skos:hasTopConcept <dvc:WelzijnGezondheid> ;
@@ -37,7 +37,7 @@
     skos:inScheme     <dvcs:Thema> ;
     skos:topConceptOf <dvcs:Thema> .
 
-<dvc:MileuEnEnergie>
+<dvc:MilieuEnEnergie>
     a                 skos:Concept ;
     skos:prefLabel    "Milieu en Energie"@nl ;
     skos:definition   "Thema: Milieu en Energie"@nl ;
