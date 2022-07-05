@@ -1043,7 +1043,7 @@
     skos:narrower     <dvc:GoederenErkenningZonderSpecificaties> ;
     skos:narrower     <dvc:GoederenGevaarlijkeStoffen> ;
     skos:narrower     <dvc:GoederenVerkoopOpAfstand> ;
-    skos:narrower     <dvc:GoederenProuctenMetGebreken> ;
+    skos:narrower     <dvc:GoederenProductenMetGebreken> ;
     skos:narrower     <dvc:GoederenKeurmerken> ;
     skos:narrower     <dvc:GoederenRecyclage> .
 
@@ -1109,7 +1109,7 @@
     skos:inScheme  <dvcs:YourEuropeCategorie> ;
     skos:broader   <dvc:Goederen> .
 
-<dvc:GoederenProuctenMetGebreken>
+<dvc:GoederenProductenMetGebreken>
     a              skos:Concept ;
     skos:prefLabel "Producten met gebreken"@nl ;
     skos:prefLabel "Defective products"@en ;
@@ -1205,7 +1205,7 @@
     skos:topConceptOf <dvcs:YourEuropeCategorie> ;
     skos:narrower     <dvc:BedrijfsfinancieringFinancieringUnie> ;
     skos:narrower     <dvc:BedrijfsfinancieringFinancieringNationaal> ;
-    skos:narrower     <dvc:BedrijfsfinancieringOndernemersInitiatieve> .
+    skos:narrower     <dvc:BedrijfsfinancieringOndernemersInitiatieven> .
 
 <dvc:BedrijfsfinancieringFinancieringUnie>
     a              skos:Concept ;
@@ -1229,7 +1229,7 @@
     skos:inScheme   <dvcs:YourEuropeCategorie> ;
     skos:broader    <dvc:Bedrijfsfinanciering> .
 
-<dvc:BedrijfsfinancieringOndernemersInitiatieve>
+<dvc:BedrijfsfinancieringOndernemersInitiatieven>
     a              skos:Concept ;
     skos:prefLabel "Op ondernemers gerichte initiatieven"@nl ;
     skos:prefLabel "Initiatives to entrepreneurs"@en ;
