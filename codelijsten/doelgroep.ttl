@@ -31,7 +31,7 @@
     skos:narrower     <dvc:OndernemingElektriciteitGas> ;
     skos:narrower     <dvc:OndernemingWater> ;
     skos:narrower     <dvc:OndernemingBouwnijverheid> ;
-    skos:narrower     <dvc:OndernemingHandelEnVoertuigen> ;
+    skos:narrower     <dvc:OndernemingHandelVoertuigen> ;
     skos:narrower     <dvc:OndernemingVervoerOpslag> ;
     skos:narrower     <dvc:OndernemingAccommodatieMaaltijden> ;
     skos:narrower     <dvc:OndernemingInformatieCommunicatie> ;
@@ -95,7 +95,7 @@
     skos:inScheme   <dvcs:Doelgroep> ;
     skos:broader    <dvc:Onderneming> .
 
-<dvc:OndernemingHandelEnVoertuigen>
+<dvc:OndernemingHandelVoertuigen>
     a               skos:Concept ;
     skos:prefLabel  "Groot- en detailhandel; reparatie van auto's en motorfietsen"@nl ;
     skos:altLabel   "G" ;
