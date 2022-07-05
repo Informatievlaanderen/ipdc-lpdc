@@ -38,11 +38,11 @@
     skos:narrower     <dvc:OndernemingFinancienVerzekeringen> ;
     skos:narrower     <dvc:OndernemingOnroerendGoed> ;
     skos:narrower     <dvc:OndernemingVrijeBeroepenWetenschappelijk> ;
-    skos:narrower     <dvc:OndernemingAdministatie> ;
+    skos:narrower     <dvc:OndernemingAdministratie> ;
     skos:narrower     <dvc:OndernemingOpenbaarBestuurDefensie> ;
     skos:narrower     <dvc:OndernemingOnderwijs> ;
     skos:narrower     <dvc:OndernemingGezondheidszorg> ;
-    skos:narrower     <dvc:OndernemingKunstAmusementRecreactie> ;
+    skos:narrower     <dvc:OndernemingKunstAmusementRecreatie> ;
     skos:narrower     <dvc:OndernemingOverige> ;
     skos:narrower     <dvc:OndernemingHuishoudens> ;
     skos:narrower     <dvc:OndernemingExtraterritoriaal> .
@@ -151,7 +151,7 @@
     skos:inScheme   <dvcs:Doelgroep> ;
     skos:broader    <dvc:Onderneming> .
 
-<dvc:OndernemingAdministatie>
+<dvc:OndernemingAdministratie>
     a               skos:Concept ;
     skos:prefLabel  "Administratieve en ondersteunende diensten"@nl ;
     skos:altLabel   "N" ;
@@ -183,7 +183,7 @@
     skos:inScheme   <dvcs:Doelgroep> ;
     skos:broader    <dvc:Onderneming> .
 
-<dvc:OndernemingKunstAmusementRecreactie>
+<dvc:OndernemingKunstAmusementRecreatie>
     a               skos:Concept ;
     skos:prefLabel  "Kunst, amusement en recreatie"@nl ;
     skos:altLabel   "R" ;
