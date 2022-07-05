@@ -7,16 +7,16 @@
     skos:prefLabel     "Thema"@en ;
     skos:prefLabel     "Thema"@nl ;
     skos:definition    "Thema van een publieke dienst"@nl ;
-    skos:hasTopConcept <dvc:BurgerEnOverheid> ;
+    skos:hasTopConcept <dvc:BurgerOverheid> ;
     skos:hasTopConcept <dvc:CultuurSportVrijeTijd> ;
-    skos:hasTopConcept <dvc:EconomieEnWerk> ;
-    skos:hasTopConcept <dvc:MilieuEnEnergie> ;
+    skos:hasTopConcept <dvc:EconomieWerk> ;
+    skos:hasTopConcept <dvc:MilieuEnergie> ;
     skos:hasTopConcept <dvc:MobiliteitOpenbareWerken> ;
-    skos:hasTopConcept <dvc:OnderwijsEnWetenschap> ;
+    skos:hasTopConcept <dvc:OnderwijsWetenschap> ;
     skos:hasTopConcept <dvc:WelzijnGezondheid> ;
-    skos:hasTopConcept <dvc:BouwenEnWonen> .
+    skos:hasTopConcept <dvc:BouwenWonen> .
 
-<dvc:BurgerEnOverheid>
+<dvc:BurgerOverheid>
     a                 skos:Concept ;
     skos:prefLabel    "Burger en Overheid"@nl ;
     skos:definition   "Thema: Burger en Overheid"@nl ;
@@ -30,14 +30,14 @@
     skos:inScheme     <dvcs:Thema> ;
     skos:topConceptOf <dvcs:Thema> .
 
-<dvc:EconomieEnWerk>
+<dvc:EconomieWerk>
     a                 skos:Concept ;
     skos:prefLabel    "Economie en Werk"@nl ;
     skos:definition   "Thema: Economie en Werk"@nl ;
     skos:inScheme     <dvcs:Thema> ;
     skos:topConceptOf <dvcs:Thema> .
 
-<dvc:MilieuEnEnergie>
+<dvc:MilieuEnergie>
     a                 skos:Concept ;
     skos:prefLabel    "Milieu en Energie"@nl ;
     skos:definition   "Thema: Milieu en Energie"@nl ;
@@ -51,7 +51,7 @@
     skos:inScheme     <dvcs:Thema> ;
     skos:topConceptOf <dvcs:Thema> .
 
-<dvc:OnderwijsEnWetenschap>
+<dvc:OnderwijsWetenschap>
     a                 skos:Concept ;
     skos:prefLabel    "Onderwijs en Wetenschap"@nl ;
     skos:definition   "Thema: Onderwijs en Wetenschap"@nl ;
@@ -65,7 +65,7 @@
     skos:inScheme     <dvcs:Thema> ;
     skos:topConceptOf <dvcs:Thema> .
 
-<dvc:BouwenEnWonen>
+<dvc:BouwenWonen>
     a                 skos:Concept ;
     skos:prefLabel    "Bouwen en Wonen"@nl ;
     skos:definition   "Thema: Bouwen en Wonen"@nl ;
