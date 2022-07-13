@@ -31,18 +31,18 @@
     skos:narrower     <dvc:OndernemingElektriciteitGas> ;
     skos:narrower     <dvc:OndernemingWater> ;
     skos:narrower     <dvc:OndernemingBouwnijverheid> ;
-    skos:narrower     <dvc:OndernemingHandelEnVoertuigen> ;
+    skos:narrower     <dvc:OndernemingHandelVoertuigen> ;
     skos:narrower     <dvc:OndernemingVervoerOpslag> ;
     skos:narrower     <dvc:OndernemingAccommodatieMaaltijden> ;
     skos:narrower     <dvc:OndernemingInformatieCommunicatie> ;
     skos:narrower     <dvc:OndernemingFinancienVerzekeringen> ;
     skos:narrower     <dvc:OndernemingOnroerendGoed> ;
     skos:narrower     <dvc:OndernemingVrijeBeroepenWetenschappelijk> ;
-    skos:narrower     <dvc:OndernemingAdministatie> ;
+    skos:narrower     <dvc:OndernemingAdministratie> ;
     skos:narrower     <dvc:OndernemingOpenbaarBestuurDefensie> ;
     skos:narrower     <dvc:OndernemingOnderwijs> ;
     skos:narrower     <dvc:OndernemingGezondheidszorg> ;
-    skos:narrower     <dvc:OndernemingKunstAmusementRecreactie> ;
+    skos:narrower     <dvc:OndernemingKunstAmusementRecreatie> ;
     skos:narrower     <dvc:OndernemingOverige> ;
     skos:narrower     <dvc:OndernemingHuishoudens> ;
     skos:narrower     <dvc:OndernemingExtraterritoriaal> .
@@ -95,7 +95,7 @@
     skos:inScheme   <dvcs:Doelgroep> ;
     skos:broader    <dvc:Onderneming> .
 
-<dvc:OndernemingHandelEnVoertuigen>
+<dvc:OndernemingHandelVoertuigen>
     a               skos:Concept ;
     skos:prefLabel  "Groot- en detailhandel; reparatie van auto's en motorfietsen"@nl ;
     skos:altLabel   "G" ;
@@ -151,7 +151,7 @@
     skos:inScheme   <dvcs:Doelgroep> ;
     skos:broader    <dvc:Onderneming> .
 
-<dvc:OndernemingAdministatie>
+<dvc:OndernemingAdministratie>
     a               skos:Concept ;
     skos:prefLabel  "Administratieve en ondersteunende diensten"@nl ;
     skos:altLabel   "N" ;
@@ -183,7 +183,7 @@
     skos:inScheme   <dvcs:Doelgroep> ;
     skos:broader    <dvc:Onderneming> .
 
-<dvc:OndernemingKunstAmusementRecreactie>
+<dvc:OndernemingKunstAmusementRecreatie>
     a               skos:Concept ;
     skos:prefLabel  "Kunst, amusement en recreatie"@nl ;
     skos:altLabel   "R" ;
