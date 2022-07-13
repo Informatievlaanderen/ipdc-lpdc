@@ -1,0 +1,33 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dvcs:      <https://data.vlaanderen.be/id/conceptscheme/> .
+@prefix dvc:       <https://data.vlaanderen.be/id/concept/Type/> .
+
+<dvcs:SnapshotType>
+    a                  skos:ConceptScheme ;
+    skos:prefLabel     "Snapshot Type"@en ;
+    skos:prefLabel     "Snapshot Type"@nl ;
+    skos:definition    "Type van een snapshot"@nl ;
+    skos:hasTopConcept <dvc:Create> ;
+    skos:hasTopConcept <dvc:Update> ;
+    skos:hasTopConcept <dvc:Delete> .
+
+<dvc:Create>
+    a                 skos:Concept ;
+    skos:prefLabel    "Create"@nl ;
+    skos:definition   "Snapshot type: Create"@nl ;
+    skos:inScheme     <dvcs:SnapshotType> ;
+    skos:topConceptOf <dvcs:SnapshotType> .
+
+<dvc:Update>
+    a                 skos:Concept ;
+    skos:prefLabel    "Update"@nl ;
+    skos:definition   "Snapshot type: update"@nl ;
+    skos:inScheme     <dvcs:SnapshotType> ;
+    skos:topConceptOf <dvcs:SnapshotType> .
+
+<dvc:Delete>
+    a                 skos:Concept ;
+    skos:prefLabel    "Delete"@nl ;
+    skos:definition   "Snapshot type: Delete"@nl ;
+    skos:inScheme     <dvcs:SnapshotType> ;
+    skos:topConceptOf <dvcs:SnapshotType> .
