@@ -2,24 +2,24 @@
 @prefix dvcs:      <https://productencatalogus.data.vlaanderen.be/id/conceptscheme/> .
 @prefix dvc:       <https://productencatalogus.data.vlaanderen.be/id/concept/Status/> .
 
-<dvcs:Status>
+dvcs:Status
     a                  skos:ConceptScheme ;
     skos:prefLabel     "Status"@en ;
     skos:prefLabel     "Status"@nl ;
     skos:definition    "Status van een publieke dienst"@nl ;
-    skos:hasTopConcept <dvc:Actief> ;
-    skos:hasTopConcept <dvc:Stopgezet> .
+    skos:hasTopConcept dvc:Actief ;
+    skos:hasTopConcept dvc:Stopgezet .
 
-<dvc:Actief>
+dvc:Actief
     a                 skos:Concept ;
     skos:prefLabel    "Actief"@nl ;
     skos:definition   "Status actief geeft aan dat de publieke dienst van toepassing is"@nl ;
-    skos:inScheme     <dvcs:Status> ;
-    skos:topConceptOf <dvcs:Status> .
+    skos:inScheme     dvcs:Status ;
+    skos:topConceptOf dvcs:Status .
 
-<dvc:Stopgezet>
+dvc:Stopgezet
     a                 skos:Concept ;
     skos:prefLabel    "Stopgezet"@nl ;
     skos:definition   "Status stopgezet geeft aan dat de publieke dienst niet meer van toepassing is"@nl ;
-    skos:inScheme     <dvcs:Status> ;
-    skos:topConceptOf <dvcs:Status> .
+    skos:inScheme     dvcs:Status ;
+    skos:topConceptOf dvcs:Status .

@@ -2,44 +2,44 @@
 @prefix dvcs:      <https://productencatalogus.data.vlaanderen.be/id/conceptscheme/> .
 @prefix dvc:       <https://productencatalogus.data.vlaanderen.be/id/concept/Taal/> .
 
-<dvcs:Taal>
+dvcs:Taal
     a                  skos:ConceptScheme ;
     skos:prefLabel     "Language"@en ;
     skos:prefLabel     "Taal"@nl ;
     skos:definition    "Taal"@nl ;
-    skos:hasTopConcept <dvc:Nederlands> ;
-    skos:hasTopConcept <dvc:Frans> ;
-    skos:hasTopConcept <dvc:Duits> ;
-    skos:hasTopConcept <dvc:Engels> .
+    skos:hasTopConcept dvc:Nederlands ;
+    skos:hasTopConcept dvc:Frans ;
+    skos:hasTopConcept dvc:Duits ;
+    skos:hasTopConcept dvc:Engels .
 
-<dvc:Nederlands>
+dvc:Nederlands
     a                 skos:Concept ;
     skos:prefLabel    "Nederlands"@nl ;
     skos:notation     "nl"@nl ;
     skos:definition   "Nederlandse taal"@nl ;
-    skos:inScheme     <dvcs:Taal> ;
-    skos:topConceptOf <dvcs:Taal> .
+    skos:inScheme     dvcs:Taal ;
+    skos:topConceptOf dvcs:Taal .
 
-<dvc:Frans>
+dvc:Frans
     a                 skos:Concept ;
     skos:prefLabel    "Frans"@nl ;
     skos:notation     "fr"@nl ;
     skos:definition   "Franse taal"@nl ;
-    skos:inScheme     <dvcs:Taal> ;
-    skos:topConceptOf <dvcs:Taal> .
+    skos:inScheme     dvcs:Taal ;
+    skos:topConceptOf dvcs:Taal .
 
-<dvc:Duits>
+dvc:Duits
     a                 skos:Concept ;
     skos:prefLabel    "Duits"@nl ;
     skos:notation     "de"@nl ;
     skos:definition   "Duitse taal"@nl ;
-    skos:inScheme     <dvcs:Taal> ;
-    skos:topConceptOf <dvcs:Taal> .
+    skos:inScheme     dvcs:Taal ;
+    skos:topConceptOf dvcs:Taal .
 
-<dvc:Engels>
+dvc:Engels
     a                 skos:Concept ;
     skos:prefLabel    "Engels"@nl ;
     skos:notation     "en"@nl ;
     skos:definition   "Engelse taal"@nl ;
-    skos:inScheme     <dvcs:Taal> ;
-    skos:topConceptOf <dvcs:Taal> .
+    skos:inScheme     dvcs:Taal ;
+    skos:topConceptOf dvcs:Taal .

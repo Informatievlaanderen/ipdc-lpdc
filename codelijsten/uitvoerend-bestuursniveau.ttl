@@ -2,56 +2,56 @@
 @prefix dvcs:      <https://productencatalogus.data.vlaanderen.be/id/conceptscheme/> .
 @prefix dvc:       <https://productencatalogus.data.vlaanderen.be/id/concept/UitvoerendBestuursniveau/> .
 
-<dvcs:UitvoerendBestuursniveau>
+dvcs:UitvoerendBestuursniveau
     a                  skos:ConceptScheme ;
     skos:prefLabel     "Executing authority level"@en ;
     skos:prefLabel     "Uitvoerend bestuursniveau"@nl ;
     skos:definition    "Uitvoerend bestuursniveau van een publieke dienst"@nl ;
-    skos:hasTopConcept <dvc:Europees> ;
-    skos:hasTopConcept <dvc:Federaal> ;
-    skos:hasTopConcept <dvc:Vlaams> ;
-    skos:hasTopConcept <dvc:Provinciaal> ;
-    skos:hasTopConcept <dvc:Lokaal> ;
-    skos:hasTopConcept <dvc:Derden> .
+    skos:hasTopConcept dvc:Europees ;
+    skos:hasTopConcept dvc:Federaal ;
+    skos:hasTopConcept dvc:Vlaams ;
+    skos:hasTopConcept dvc:Provinciaal ;
+    skos:hasTopConcept dvc:Lokaal ;
+    skos:hasTopConcept dvc:Derden .
 
-<dvc:Europees>
+dvc:Europees
     a                 skos:Concept ;
     skos:prefLabel    "Europese overheid"@nl ;
     skos:definition   "Uitvoerend bestuursniveau: Europese overheid"@nl ;
-    skos:inScheme     <dvcs:UitvoerendBestuursniveau> ;
-    skos:topConceptOf <dvcs:UitvoerendBestuursniveau> .
+    skos:inScheme     dvcs:UitvoerendBestuursniveau ;
+    skos:topConceptOf dvcs:UitvoerendBestuursniveau .
 
-<dvc:Federaal>
+dvc:Federaal
     a                 skos:Concept ;
     skos:prefLabel    "Federale overheid"@nl ;
     skos:definition   "Uitvoerend bestuursniveau: Federale overheid"@nl ;
-    skos:inScheme     <dvcs:UitvoerendBestuursniveau> ;
-    skos:topConceptOf <dvcs:UitvoerendBestuursniveau> .
+    skos:inScheme     dvcs:UitvoerendBestuursniveau ;
+    skos:topConceptOf dvcs:UitvoerendBestuursniveau .
 
-<dvc:Vlaams>
+dvc:Vlaams
     a                 skos:Concept ;
     skos:prefLabel    "Vlaamse overheid"@nl ;
     skos:definition   "Uitvoerend bestuursniveau: Vlaamse overheid"@nl ;
-    skos:inScheme     <dvcs:UitvoerendBestuursniveau> ;
-    skos:topConceptOf <dvcs:UitvoerendBestuursniveau> .
+    skos:inScheme     dvcs:UitvoerendBestuursniveau ;
+    skos:topConceptOf dvcs:UitvoerendBestuursniveau .
 
-<dvc:Provinciaal>
+dvc:Provinciaal
     a                 skos:Concept ;
     skos:prefLabel    "Provinciale overheid"@nl ;
     skos:definition   "Uitvoerend bestuursniveau: Provinciale overheid"@nl ;
-    skos:inScheme     <dvcs:UitvoerendBestuursniveau> ;
-    skos:topConceptOf <dvcs:UitvoerendBestuursniveau> .
+    skos:inScheme     dvcs:UitvoerendBestuursniveau ;
+    skos:topConceptOf dvcs:UitvoerendBestuursniveau .
 
-<dvc:Lokaal>
+dvc:Lokaal
     a                 skos:Concept ;
     skos:prefLabel    "Lokale overheid"@nl ;
     skos:definition   "Uitvoerend bestuursniveau: Lokale overheid"@nl ;
-    skos:inScheme     <dvcs:UitvoerendBestuursniveau> ;
-    skos:topConceptOf <dvcs:UitvoerendBestuursniveau> .
+    skos:inScheme     dvcs:UitvoerendBestuursniveau ;
+    skos:topConceptOf dvcs:UitvoerendBestuursniveau .
 
-<dvc:Derden>
+dvc:Derden
     a                 skos:Concept ;
     skos:prefLabel    "Derden"@nl ;
     skos:definition   "Uitvoerend bestuursniveau: Derden"@nl ;
-    skos:inScheme     <dvcs:UitvoerendBestuursniveau> ;
-    skos:topConceptOf <dvcs:UitvoerendBestuursniveau> .
+    skos:inScheme     dvcs:UitvoerendBestuursniveau ;
+    skos:topConceptOf dvcs:UitvoerendBestuursniveau .

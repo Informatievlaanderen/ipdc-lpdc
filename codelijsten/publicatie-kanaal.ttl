@@ -2,32 +2,32 @@
 @prefix dvcs:      <https://productencatalogus.data.vlaanderen.be/id/conceptscheme/> .
 @prefix dvc:       <https://productencatalogus.data.vlaanderen.be/id/concept/PublicatieKanaal/> .
 
-<dvcs:PublicatieKanaal>
+dvcs:PublicatieKanaal
     a                  skos:ConceptScheme ;
     skos:prefLabel     "Publication medium"@en ;
     skos:prefLabel     "Publicatiekanaal"@nl ;
     skos:definition    "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn"@nl ;
-    skos:hasTopConcept <dvc:YourEurope> ;
-    skos:hasTopConcept <dvc:Rechtenverkenner> ;
-    skos:hasTopConcept <dvc:VLoket> .
+    skos:hasTopConcept dvc:YourEurope ;
+    skos:hasTopConcept dvc:Rechtenverkenner ;
+    skos:hasTopConcept dvc:VLoket .
 
-<dvc:YourEurope>
+dvc:YourEurope
     a                 skos:Concept ;
     skos:prefLabel    "Your Europe"@nl ;
     skos:definition   "Publicatiekanaal: Your Europe"@nl ;
-    skos:inScheme     <dvcs:PublicatieKanaal> ;
-    skos:topConceptOf <dvcs:PublicatieKanaal> .
+    skos:inScheme     dvcs:PublicatieKanaal ;
+    skos:topConceptOf dvcs:PublicatieKanaal .
 
-<dvc:Rechtenverkenner>
+dvc:Rechtenverkenner
     a                 skos:Concept ;
     skos:prefLabel    "Rechtenverkenner"@nl ;
     skos:definition   "Publicatiekanaal: Rechtenverkenner"@nl ;
-    skos:inScheme     <dvcs:PublicatieKanaal> ;
-    skos:topConceptOf <dvcs:PublicatieKanaal> .
+    skos:inScheme     dvcs:PublicatieKanaal ;
+    skos:topConceptOf dvcs:PublicatieKanaal .
 
-<dvc:VLoket>
+dvc:VLoket
     a                 skos:Concept ;
     skos:prefLabel    "V-loket"@nl ;
     skos:definition   "Publicatiekanaal: V-loket"@nl ;
-    skos:inScheme     <dvcs:PublicatieKanaal> ;
-    skos:topConceptOf <dvcs:PublicatieKanaal> .
+    skos:inScheme     dvcs:PublicatieKanaal ;
+    skos:topConceptOf dvcs:PublicatieKanaal .

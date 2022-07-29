@@ -2,48 +2,48 @@
 @prefix dvcs:      <https://productencatalogus.data.vlaanderen.be/id/conceptscheme/> .
 @prefix dvc:       <https://productencatalogus.data.vlaanderen.be/id/concept/BevoegdBestuursniveau/> .
 
-<dvcs:BevoegdBestuursniveau>
+dvcs:BevoegdBestuursniveau
     a                  skos:ConceptScheme ;
     skos:prefLabel     "Competent authority level"@en ;
     skos:prefLabel     "Bevoegd bestuursniveau"@nl ;
     skos:definition    "Bevoegd bestuursniveau van een publieke dienst"@nl ;
-    skos:hasTopConcept <dvc:Europees> ;
-    skos:hasTopConcept <dvc:Federaal> ;
-    skos:hasTopConcept <dvc:Vlaams> ;
-    skos:hasTopConcept <dvc:Provinciaal> ;
-    skos:hasTopConcept <dvc:Lokaal> .
+    skos:hasTopConcept dvc:Europees ;
+    skos:hasTopConcept dvc:Federaal ;
+    skos:hasTopConcept dvc:Vlaams ;
+    skos:hasTopConcept dvc:Provinciaal ;
+    skos:hasTopConcept dvc:Lokaal .
 
-<dvc:Europees>
+dvc:Europees
     a                 skos:Concept ;
     skos:prefLabel    "Europese overheid"@nl ;
     skos:definition   "Bevoegd bestuursniveau: Europese overheid"@nl ;
-    skos:inScheme     <dvcs:BevoegdBestuursniveau> ;
-    skos:topConceptOf <dvcs:BevoegdBestuursniveau> .
+    skos:inScheme     dvcs:BevoegdBestuursniveau ;
+    skos:topConceptOf dvcs:BevoegdBestuursniveau .
 
-<dvc:Federaal>
+dvc:Federaal
     a                 skos:Concept ;
     skos:prefLabel    "Federale overheid"@nl ;
     skos:definition   "Bevoegd bestuursniveau: Federale overheid"@nl ;
-    skos:inScheme     <dvcs:BevoegdBestuursniveau> ;
-    skos:topConceptOf <dvcs:BevoegdBestuursniveau> .
+    skos:inScheme     dvcs:BevoegdBestuursniveau ;
+    skos:topConceptOf dvcs:BevoegdBestuursniveau .
 
-<dvc:Vlaams>
+dvc:Vlaams
     a                 skos:Concept ;
     skos:prefLabel    "Vlaamse overheid"@nl ;
     skos:definition   "Bevoegd bestuursniveau: Vlaamse overheid"@nl ;
-    skos:inScheme     <dvcs:BevoegdBestuursniveau> ;
-    skos:topConceptOf <dvcs:BevoegdBestuursniveau> .
+    skos:inScheme     dvcs:BevoegdBestuursniveau ;
+    skos:topConceptOf dvcs:BevoegdBestuursniveau .
 
-<dvc:Provinciaal>
+dvc:Provinciaal
     a                 skos:Concept ;
     skos:prefLabel    "Provinciale overheid"@nl ;
     skos:definition   "Bevoegd bestuursniveau: Provinciale overheid"@nl ;
-    skos:inScheme     <dvcs:BevoegdBestuursniveau> ;
-    skos:topConceptOf <dvcs:BevoegdBestuursniveau> .
+    skos:inScheme     dvcs:BevoegdBestuursniveau ;
+    skos:topConceptOf dvcs:BevoegdBestuursniveau .
 
-<dvc:Lokaal>
+dvc:Lokaal
     a                 skos:Concept ;
     skos:prefLabel    "Lokale overheid"@nl ;
     skos:definition   "Bevoegd bestuursniveau: Lokale overheid"@nl ;
-    skos:inScheme     <dvcs:BevoegdBestuursniveau> ;
-    skos:topConceptOf <dvcs:BevoegdBestuursniveau> .
+    skos:inScheme     dvcs:BevoegdBestuursniveau ;
+    skos:topConceptOf dvcs:BevoegdBestuursniveau .

@@ -2,24 +2,24 @@
 @prefix dvcs:      <https://productencatalogus.data.vlaanderen.be/id/conceptscheme/> .
 @prefix dvc:       <https://productencatalogus.data.vlaanderen.be/id/concept/ConceptTag/> .
 
-<dvcs:ConceptTag>
+dvcs:ConceptTag
     a                  skos:ConceptScheme ;
     skos:prefLabel     "Concept tag"@en ;
     skos:prefLabel     "Concept tag"@nl ;
     skos:definition    "Concept tag voor een publieke dienst"@nl ;
-    skos:hasTopConcept <dvc:YourEuropeVerplicht> ;
-    skos:hasTopConcept <dvc:YourEuropeAanbevolen> .
+    skos:hasTopConcept dvc:YourEuropeVerplicht ;
+    skos:hasTopConcept dvc:YourEuropeAanbevolen .
 
-<dvc:YourEuropeVerplicht>
+dvc:YourEuropeVerplicht
     a                 skos:Concept ;
     skos:prefLabel    "Your Europe verplicht"@nl ;
     skos:definition   "Concept tag: Your Europe verplicht"@nl ;
-    skos:inScheme     <dvcs:ConceptTag> ;
-    skos:topConceptOf <dvcs:ConceptTag> .
+    skos:inScheme     dvcs:ConceptTag ;
+    skos:topConceptOf dvcs:ConceptTag .
 
-<dvc:YourEuropeAanbevolen>
+dvc:YourEuropeAanbevolen
     a                 skos:Concept ;
     skos:prefLabel    "Your Europe aanbevolen"@nl ;
     skos:definition   "Concept tag: Your Europe aanbevolen"@nl ;
-    skos:inScheme     <dvcs:ConceptTag> ;
-    skos:topConceptOf <dvcs:ConceptTag> .
+    skos:inScheme     dvcs:ConceptTag ;
+    skos:topConceptOf dvcs:ConceptTag .
