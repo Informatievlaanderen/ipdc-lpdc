@@ -4,9 +4,10 @@
 
 dvcs:Thema
     a                  skos:ConceptScheme ;
-    skos:prefLabel     "Thema"@en ;
     skos:prefLabel     "Thema"@nl ;
+    skos:prefLabel     "Theme"@en ;
     skos:definition    "Thema van een publieke dienst"@nl ;
+    skos:definition    "Theme of a public service"@en ;
     skos:hasTopConcept dvc:BurgerOverheid ;
     skos:hasTopConcept dvc:CultuurSportVrijeTijd ;
     skos:hasTopConcept dvc:EconomieWerk ;
@@ -19,55 +20,71 @@ dvcs:Thema
 dvc:BurgerOverheid
     a                 skos:Concept ;
     skos:prefLabel    "Burger en Overheid"@nl ;
+    skos:prefLabel    "Citizen and Government"@en ;
     skos:definition   "Thema: Burger en Overheid"@nl ;
+    skos:definition   "Theme: Citizen and Government"@en ;
     skos:inScheme     dvcs:Thema ;
     skos:topConceptOf dvcs:Thema .
 
 dvc:CultuurSportVrijeTijd
     a                 skos:Concept ;
     skos:prefLabel    "Cultuur, Sport en Vrije Tijd"@nl ;
+    skos:prefLabel    "Culture, Sport and Leisure"@en ;
     skos:definition   "Thema: Cultuur, Sport en Vrije Tijd"@nl ;
+    skos:definition   "Theme: Cultuur, Culture, Sport and Leisure"@en ;
     skos:inScheme     dvcs:Thema ;
     skos:topConceptOf dvcs:Thema .
 
 dvc:EconomieWerk
     a                 skos:Concept ;
     skos:prefLabel    "Economie en Werk"@nl ;
+    skos:prefLabel    "Economy and Work"@en ;
     skos:definition   "Thema: Economie en Werk"@nl ;
+    skos:definition   "TEconomy and Work"@en ;
     skos:inScheme     dvcs:Thema ;
     skos:topConceptOf dvcs:Thema .
 
 dvc:MilieuEnergie
     a                 skos:Concept ;
     skos:prefLabel    "Milieu en Energie"@nl ;
+    skos:prefLabel    "Environment and Energy"@en ;
     skos:definition   "Thema: Milieu en Energie"@nl ;
+    skos:definition   "Theme: Environment and Energy"@en ;
     skos:inScheme     dvcs:Thema ;
     skos:topConceptOf dvcs:Thema .
 
 dvc:MobiliteitOpenbareWerken
     a                 skos:Concept ;
     skos:prefLabel    "Mobiliteit en Openbare Werken"@nl ;
+    skos:prefLabel    "Mobility and Public Works"@en ;
     skos:definition   "Thema: Mobiliteit en Openbare Werken"@nl ;
+    skos:definition   "Theme: Mobility and Public Works"@en ;
     skos:inScheme     dvcs:Thema ;
     skos:topConceptOf dvcs:Thema .
 
 dvc:OnderwijsWetenschap
     a                 skos:Concept ;
     skos:prefLabel    "Onderwijs en Wetenschap"@nl ;
+    skos:prefLabel    "Education and Science"@en ;
     skos:definition   "Thema: Onderwijs en Wetenschap"@nl ;
+    skos:definition   "Theme: Education and Science"@en ;
     skos:inScheme     dvcs:Thema ;
     skos:topConceptOf dvcs:Thema .
 
 dvc:WelzijnGezondheid
     a                 skos:Concept ;
     skos:prefLabel    "Welzijn en Gezondheid"@nl ;
+    skos:prefLabel    "Well-being and Health"@en ;
     skos:definition   "Thema: Welzijn en Gezondheid"@nl ;
+    skos:definition   "Theme: -being and Health"@en ;
     skos:inScheme     dvcs:Thema ;
     skos:topConceptOf dvcs:Thema .
 
 dvc:BouwenWonen
     a                 skos:Concept ;
     skos:prefLabel    "Bouwen en Wonen"@nl ;
+    skos:prefLabel    "Building and Living"@en ;
     skos:definition   "Thema: Bouwen en Wonen"@nl ;
+    skos:definition   "Theme: Building and Living"@en ;
     skos:inScheme     dvcs:Thema ;
     skos:topConceptOf dvcs:Thema .

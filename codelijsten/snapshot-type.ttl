@@ -4,9 +4,10 @@
 
 dvcs:SnapshotType
     a                  skos:ConceptScheme ;
-    skos:prefLabel     "Snapshot Type"@en ;
     skos:prefLabel     "Snapshot Type"@nl ;
+    skos:prefLabel     "Snapshot Type"@en ;
     skos:definition    "Type van een snapshot"@nl ;
+    skos:definition    "Type of a snapshot"@en ;
     skos:hasTopConcept dvc:Create ;
     skos:hasTopConcept dvc:Update ;
     skos:hasTopConcept dvc:Delete .
@@ -14,20 +15,26 @@ dvcs:SnapshotType
 dvc:Create
     a                 skos:Concept ;
     skos:prefLabel    "Create"@nl ;
+    skos:prefLabel    "Create"@en ;
     skos:definition   "Snapshot type: Create"@nl ;
+    skos:definition   "Snapshot type: Create"@en ;
     skos:inScheme     dvcs:SnapshotType ;
     skos:topConceptOf dvcs:SnapshotType .
 
 dvc:Update
     a                 skos:Concept ;
     skos:prefLabel    "Update"@nl ;
+    skos:prefLabel    "Update"@en ;
     skos:definition   "Snapshot type: update"@nl ;
+    skos:definition   "Snapshot type: update"@en ;
     skos:inScheme     dvcs:SnapshotType ;
     skos:topConceptOf dvcs:SnapshotType .
 
 dvc:Delete
     a                 skos:Concept ;
     skos:prefLabel    "Delete"@nl ;
+    skos:prefLabel    "Delete"@en ;
     skos:definition   "Snapshot type: Delete"@nl ;
+    skos:definition   "Snapshot type: Delete"@en ;
     skos:inScheme     dvcs:SnapshotType ;
     skos:topConceptOf dvcs:SnapshotType .

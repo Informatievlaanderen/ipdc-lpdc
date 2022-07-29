@@ -4,9 +4,10 @@
 
 dvcs:Type
     a                  skos:ConceptScheme ;
-    skos:prefLabel     "Type"@en ;
     skos:prefLabel     "Type"@nl ;
+    skos:prefLabel     "Type"@en ;
     skos:definition    "Type van een publieke dienst"@nl ;
+    skos:definition    "Type of a public service"@en ;
     skos:hasTopConcept dvc:FinancieleVerplichting ;
     skos:hasTopConcept dvc:Toelating ;
     skos:hasTopConcept dvc:Bewijs ;
@@ -18,48 +19,62 @@ dvcs:Type
 dvc:FinancieleVerplichting
     a                 skos:Concept ;
     skos:prefLabel    "Financiële verplichting"@nl ;
+    skos:prefLabel    "Financial Obligation"@en ;
     skos:definition   "Type: Financiële verplichting"@nl ;
+    skos:definition   "Type: Financial Obligation"@en ;
     skos:inScheme     dvcs:Type ;
     skos:topConceptOf dvcs:Type .
 
 dvc:Toelating
     a                 skos:Concept ;
     skos:prefLabel    "Toelating"@nl ;
+    skos:prefLabel    "Admission"@en ;
     skos:definition   "Type: Toelating"@nl ;
+    skos:definition   "Type: Admission"@en ;
     skos:inScheme     dvcs:Type ;
     skos:topConceptOf dvcs:Type .
 
 dvc:Bewijs
     a                 skos:Concept ;
     skos:prefLabel    "Bewijs"@nl ;
+    skos:prefLabel    "Evidence"@en ;
     skos:definition   "Type: Bewijs"@nl ;
+    skos:definition   "Type: Evidence"@en ;
     skos:inScheme     dvcs:Type ;
     skos:topConceptOf dvcs:Type .
 
 dvc:Voorwerp
     a                 skos:Concept ;
     skos:prefLabel    "Voorwerp"@nl ;
+    skos:prefLabel    "Object"@en ;
     skos:definition   "Type: Voorwerp"@nl ;
+    skos:definition   "Type: Object"@en ;
     skos:inScheme     dvcs:Type ;
     skos:topConceptOf dvcs:Type .
 
 dvc:AdviesBegeleiding
     a                 skos:Concept ;
     skos:prefLabel    "Advies en begeleiding"@nl ;
+    skos:prefLabel    "Advice and Guidance"@en ;
     skos:definition   "Type: Advies en begeleiding"@nl ;
+    skos:definition   "Type: Advice and Guidance"@en ;
     skos:inScheme     dvcs:Type ;
     skos:topConceptOf dvcs:Type .
 
 dvc:InfrastructuurMateriaal
     a                 skos:Concept ;
     skos:prefLabel    "Infrastructuur en materiaal"@nl ;
+    skos:prefLabel    "Infrastructure and Material"@en ;
     skos:definition   "Type: Beschikbaar stellen van infrastructuur en materiaal"@nl ;
+    skos:definition   "Type: Infrastructure and Material"@en ;
     skos:inScheme     dvcs:Type ;
     skos:topConceptOf dvcs:Type .
 
 dvc:FinancieelVoordeel
     a                 skos:Concept ;
     skos:prefLabel    "Financieel voordeel"@nl ;
+    skos:prefLabel    "Financial Advantage"@en ;
     skos:definition   "Type: Financieel voordeel"@nl ;
+    skos:definition   "Type: Financial Advantage"@en ;
     skos:inScheme     dvcs:Type ;
     skos:topConceptOf dvcs:Type .

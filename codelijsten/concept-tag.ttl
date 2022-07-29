@@ -4,22 +4,27 @@
 
 dvcs:ConceptTag
     a                  skos:ConceptScheme ;
-    skos:prefLabel     "Concept tag"@en ;
     skos:prefLabel     "Concept tag"@nl ;
-    skos:definition    "Concept tag voor een publieke dienst"@nl ;
+    skos:prefLabel     "Concept tag"@en ;
+    skos:definition    "Concept tag voor een publieke dienst concept"@nl ;
+    skos:definition    "Concept tag for a public conceptual service"@en ;
     skos:hasTopConcept dvc:YourEuropeVerplicht ;
     skos:hasTopConcept dvc:YourEuropeAanbevolen .
 
 dvc:YourEuropeVerplicht
     a                 skos:Concept ;
     skos:prefLabel    "Your Europe verplicht"@nl ;
+    skos:prefLabel    "Your Europe required"@en ;
     skos:definition   "Concept tag: Your Europe verplicht"@nl ;
+    skos:definition   "Concept tag: Your Europe required"@en ;
     skos:inScheme     dvcs:ConceptTag ;
     skos:topConceptOf dvcs:ConceptTag .
 
 dvc:YourEuropeAanbevolen
     a                 skos:Concept ;
     skos:prefLabel    "Your Europe aanbevolen"@nl ;
+    skos:prefLabel    "Your Europe recommended"@en ;
     skos:definition   "Concept tag: Your Europe aanbevolen"@nl ;
+    skos:definition   "Concept tag: Your Europe recommended"@en ;
     skos:inScheme     dvcs:ConceptTag ;
     skos:topConceptOf dvcs:ConceptTag .

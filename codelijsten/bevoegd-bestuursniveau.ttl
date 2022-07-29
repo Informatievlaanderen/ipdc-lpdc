@@ -4,9 +4,10 @@
 
 dvcs:BevoegdBestuursniveau
     a                  skos:ConceptScheme ;
-    skos:prefLabel     "Competent authority level"@en ;
     skos:prefLabel     "Bevoegd bestuursniveau"@nl ;
+    skos:prefLabel     "Competent authority level"@en ;
     skos:definition    "Bevoegd bestuursniveau van een publieke dienst"@nl ;
+    skos:definition    "Competent authority level of a public service"@en ;
     skos:hasTopConcept dvc:Europees ;
     skos:hasTopConcept dvc:Federaal ;
     skos:hasTopConcept dvc:Vlaams ;
@@ -16,34 +17,44 @@ dvcs:BevoegdBestuursniveau
 dvc:Europees
     a                 skos:Concept ;
     skos:prefLabel    "Europese overheid"@nl ;
+    skos:prefLabel    "European government"@en ;
     skos:definition   "Bevoegd bestuursniveau: Europese overheid"@nl ;
+    skos:definition   "Competent authority level: European government"@en ;
     skos:inScheme     dvcs:BevoegdBestuursniveau ;
     skos:topConceptOf dvcs:BevoegdBestuursniveau .
 
 dvc:Federaal
     a                 skos:Concept ;
     skos:prefLabel    "Federale overheid"@nl ;
+    skos:prefLabel    "Federal government"@en ;
     skos:definition   "Bevoegd bestuursniveau: Federale overheid"@nl ;
+    skos:definition   "Competent authority level: Federal government"@en ;
     skos:inScheme     dvcs:BevoegdBestuursniveau ;
     skos:topConceptOf dvcs:BevoegdBestuursniveau .
 
 dvc:Vlaams
     a                 skos:Concept ;
     skos:prefLabel    "Vlaamse overheid"@nl ;
+    skos:prefLabel    "Flemish government"@en ;
     skos:definition   "Bevoegd bestuursniveau: Vlaamse overheid"@nl ;
+    skos:definition   "Competent authority level: Flemish government"@en ;
     skos:inScheme     dvcs:BevoegdBestuursniveau ;
     skos:topConceptOf dvcs:BevoegdBestuursniveau .
 
 dvc:Provinciaal
     a                 skos:Concept ;
     skos:prefLabel    "Provinciale overheid"@nl ;
+    skos:prefLabel    "Provincial government"@en ;
     skos:definition   "Bevoegd bestuursniveau: Provinciale overheid"@nl ;
+    skos:definition   "Competent authority level: Provincial government"@en ;
     skos:inScheme     dvcs:BevoegdBestuursniveau ;
     skos:topConceptOf dvcs:BevoegdBestuursniveau .
 
 dvc:Lokaal
     a                 skos:Concept ;
     skos:prefLabel    "Lokale overheid"@nl ;
+    skos:prefLabel    "Local government"@en ;
     skos:definition   "Bevoegd bestuursniveau: Lokale overheid"@nl ;
+    skos:definition   "Competent authority level: Local government"@en ;
     skos:inScheme     dvcs:BevoegdBestuursniveau ;
     skos:topConceptOf dvcs:BevoegdBestuursniveau .

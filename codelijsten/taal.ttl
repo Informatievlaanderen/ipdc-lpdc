@@ -4,9 +4,10 @@
 
 dvcs:Taal
     a                  skos:ConceptScheme ;
-    skos:prefLabel     "Language"@en ;
     skos:prefLabel     "Taal"@nl ;
+    skos:prefLabel     "Language"@en ;
     skos:definition    "Taal"@nl ;
+    skos:definition    "Language"@en ;
     skos:hasTopConcept dvc:Nederlands ;
     skos:hasTopConcept dvc:Frans ;
     skos:hasTopConcept dvc:Duits ;
@@ -15,31 +16,39 @@ dvcs:Taal
 dvc:Nederlands
     a                 skos:Concept ;
     skos:prefLabel    "Nederlands"@nl ;
+    skos:prefLabel    "Dutch"@en ;
     skos:notation     "nl"@nl ;
     skos:definition   "Nederlandse taal"@nl ;
+    skos:definition   "Dutch language"@en ;
     skos:inScheme     dvcs:Taal ;
     skos:topConceptOf dvcs:Taal .
 
 dvc:Frans
     a                 skos:Concept ;
     skos:prefLabel    "Frans"@nl ;
+    skos:prefLabel    "French"@en ;
     skos:notation     "fr"@nl ;
     skos:definition   "Franse taal"@nl ;
+    skos:definition   "French language"@en ;
     skos:inScheme     dvcs:Taal ;
     skos:topConceptOf dvcs:Taal .
 
 dvc:Duits
     a                 skos:Concept ;
     skos:prefLabel    "Duits"@nl ;
+    skos:prefLabel    "German"@en ;
     skos:notation     "de"@nl ;
     skos:definition   "Duitse taal"@nl ;
+    skos:definition   "German language"@en ;
     skos:inScheme     dvcs:Taal ;
     skos:topConceptOf dvcs:Taal .
 
 dvc:Engels
     a                 skos:Concept ;
     skos:prefLabel    "Engels"@nl ;
+    skos:prefLabel    "English"@en ;
     skos:notation     "en"@nl ;
     skos:definition   "Engelse taal"@nl ;
+    skos:definition   "English language"@en ;
     skos:inScheme     dvcs:Taal ;
     skos:topConceptOf dvcs:Taal .

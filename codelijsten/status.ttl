@@ -4,22 +4,27 @@
 
 dvcs:Status
     a                  skos:ConceptScheme ;
-    skos:prefLabel     "Status"@en ;
     skos:prefLabel     "Status"@nl ;
+    skos:prefLabel     "Status"@en ;
     skos:definition    "Status van een publieke dienst"@nl ;
+    skos:definition    "Status of a public service"@en ;
     skos:hasTopConcept dvc:Actief ;
     skos:hasTopConcept dvc:Stopgezet .
 
 dvc:Actief
     a                 skos:Concept ;
     skos:prefLabel    "Actief"@nl ;
+    skos:prefLabel    "Active"@en ;
     skos:definition   "Status actief geeft aan dat de publieke dienst van toepassing is"@nl ;
+    skos:definition   "Status active indicates that a public service is available"@en ;
     skos:inScheme     dvcs:Status ;
     skos:topConceptOf dvcs:Status .
 
 dvc:Stopgezet
     a                 skos:Concept ;
     skos:prefLabel    "Stopgezet"@nl ;
+    skos:prefLabel    "Stopped"@en ;
     skos:definition   "Status stopgezet geeft aan dat de publieke dienst niet meer van toepassing is"@nl ;
+    skos:definition   "Status stopped indicates that a public service is not available anymore"@en ;
     skos:inScheme     dvcs:Status ;
     skos:topConceptOf dvcs:Status .

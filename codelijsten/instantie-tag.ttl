@@ -4,6 +4,7 @@
 
 dvcs:InstantieTag
     a               skos:ConceptScheme ;
-    skos:prefLabel  "Instance tag"@en ;
     skos:prefLabel  "Instantie tag"@nl ;
-    skos:definition "Instantie tag voor een publieke dienst"@nl .
+    skos:prefLabel  "Instance tag"@en ;
+    skos:definition "Instantie tag voor een publieke dienst"@nl ;
+    skos:definition "Instance tag of a public service"@en .
