@@ -1,6 +1,6 @@
 @prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
-@prefix dvcs:      <https://data.vlaanderen.be/id/conceptscheme/> .
-@prefix dvc:       <https://data.vlaanderen.be/id/concept/Doelgroep/> .
+@prefix dvcs:      <https://productencatalogus.data.vlaanderen.be/id/conceptscheme/> .
+@prefix dvc:       <https://productencatalogus.data.vlaanderen.be/id/concept/Doelgroep/> .
 
 <dvcs:Doelgroep>
     a                  skos:ConceptScheme ;
