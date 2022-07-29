@@ -15,7 +15,7 @@
 <dvc:Nederlands>
     a                 skos:Concept ;
     skos:prefLabel    "Nederlands"@nl ;
-    skos:altLabel     "NL"@nl ;
+    skos:notation     "nl"@nl ;
     skos:definition   "Nederlandse taal"@nl ;
     skos:inScheme     <dvcs:Taal> ;
     skos:topConceptOf <dvcs:Taal> .
@@ -23,7 +23,7 @@
 <dvc:Frans>
     a                 skos:Concept ;
     skos:prefLabel    "Frans"@nl ;
-    skos:altLabel     "FR"@nl ;
+    skos:notation     "fr"@nl ;
     skos:definition   "Franse taal"@nl ;
     skos:inScheme     <dvcs:Taal> ;
     skos:topConceptOf <dvcs:Taal> .
@@ -31,7 +31,7 @@
 <dvc:Duits>
     a                 skos:Concept ;
     skos:prefLabel    "Duits"@nl ;
-    skos:altLabel     "DE"@nl ;
+    skos:notation     "de"@nl ;
     skos:definition   "Duitse taal"@nl ;
     skos:inScheme     <dvcs:Taal> ;
     skos:topConceptOf <dvcs:Taal> .
@@ -39,7 +39,7 @@
 <dvc:Engels>
     a                 skos:Concept ;
     skos:prefLabel    "Engels"@nl ;
-    skos:altLabel     "EN"@nl ;
+    skos:notation     "en"@nl ;
     skos:definition   "Engelse taal"@nl ;
     skos:inScheme     <dvcs:Taal> ;
     skos:topConceptOf <dvcs:Taal> .
