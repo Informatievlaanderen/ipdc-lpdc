@@ -1,6 +1,6 @@
 [
 {
-  "name": "ipdc-lpdc-voc",
+  "name": "ipdc-lpdc",
   "type": "voc",
   "eap": "IPDC-LPDC-AP.eap",
   "diagram": "ipdc-lpdc-ap",
