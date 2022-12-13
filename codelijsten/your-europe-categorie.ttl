@@ -24,7 +24,14 @@ dvcs:YourEuropeCategorie
     skos:hasTopConcept dvc:Diensten ;
     skos:hasTopConcept dvc:Bedrijfsfinanciering ;
     skos:hasTopConcept dvc:Overheidsopdrachten ;
-    skos:hasTopConcept dvc:GezondheidVeiligheidWerk .
+    skos:hasTopConcept dvc:GezondheidVeiligheidWerk ;
+    skos:hasTopConcept dvc:ProcedureGeboorte ;
+    skos:hasTopConcept dvc:ProcedureVerblijf ;
+    skos:hasTopConcept dvc:ProcedureStudie ;
+    skos:hasTopConcept dvc:ProcedureWerk ;
+    skos:hasTopConcept dvc:ProcedureVerhuizing ;
+    skos:hasTopConcept dvc:ProcedurePensionering ;
+    skos:hasTopConcept dvc:ProcedureStartenExploiterenSluitenBedrijf .
 
 
 ##############
@@ -1316,3 +1323,335 @@ dvc:GezondheidVeiligheidWerkVerplichtingen
                    "Health and safety obligations in relation to different types of activity, including risk prevention, information and training"@en ;
     skos:inScheme  dvcs:YourEuropeCategorie ;
     skos:broader   dvc:GezondheidVeiligheidWerk .
+
+
+#########################
+### ProcedureGeboorte ###
+#########################
+
+dvc:ProcedureGeboorte
+    a                 skos:Concept ;
+    skos:prefLabel    "Geboorte"@nl ;
+    skos:prefLabel    "Birth"@en ;
+    skos:notation     "R" ;
+    skos:definition   "Procedures over: Geboorte"@nl ;
+    skos:definition   "Procedures concerning: Birth"@en ;
+    skos:inScheme     dvcs:YourEuropeCategorie ;
+    skos:topConceptOf dvcs:YourEuropeCategorie ;
+    skos:narrower     dvc:ProcedureGeboorteBewijs .
+
+dvc:ProcedureGeboorteBewijs
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "R1" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureGeboorte .
+
+
+#########################
+### ProcedureVerblijf ###
+#########################
+
+dvc:ProcedureVerblijf
+    a                 skos:Concept ;
+    skos:prefLabel    "Verblijf"@nl ;
+    skos:prefLabel    "Residence"@en ;
+    skos:notation     "S" ;
+    skos:definition   "Procedures over: Verblijf"@nl ;
+    skos:definition   "Procedures concerning: Residence"@en ;
+    skos:inScheme     dvcs:YourEuropeCategorie ;
+    skos:topConceptOf dvcs:YourEuropeCategorie ;
+    skos:narrower     dvc:ProcedureVerblijfBewijs .
+
+dvc:ProcedureVerblijfBewijs
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "S1" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureVerblijf .
+
+#######################
+### ProcedureStudie ###
+#######################
+
+dvc:ProcedureStudie
+    a                 skos:Concept ;
+    skos:prefLabel    "Studie"@nl ;
+    skos:prefLabel    "Studying"@en ;
+    skos:notation     "T" ;
+    skos:definition   "Procedures over: Studie"@nl ;
+    skos:definition   "Procedures concerning: Studying"@en ;
+    skos:inScheme     dvcs:YourEuropeCategorie ;
+    skos:topConceptOf dvcs:YourEuropeCategorie ;
+    skos:narrower     dvc:ProcedureStudieAanvraagTertiairOnderwijs ;
+    skos:narrower     dvc:ProcedureStudieVerzoekToelatingTertiairOnderwijs ;
+    skos:narrower     dvc:ProcedureStudieVerzoekErkenningDiploma .
+
+dvc:ProcedureStudieAanvraagTertiairOnderwijs
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "T1" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureStudie .
+
+dvc:ProcedureStudieVerzoekToelatingTertiairOnderwijs
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "T2" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureStudie .
+
+dvc:ProcedureStudieVerzoekErkenningDiploma
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "T3" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureStudie .
+
+#####################
+### ProcedureWerk ###
+#####################
+
+dvc:ProcedureWerk
+    a                 skos:Concept ;
+    skos:prefLabel    "Werk"@nl ;
+    skos:prefLabel    "Working"@en ;
+    skos:notation     "U" ;
+    skos:definition   "Procedures over: Werk"@nl ;
+    skos:definition   "Procedures concerning: Working"@en ;
+    skos:inScheme     dvcs:YourEuropeCategorie ;
+    skos:topConceptOf dvcs:YourEuropeCategorie ;
+    skos:narrower     dvc:ProcedureWerkVerzoek ;
+    skos:narrower     dvc:ProcedureWerkWijzigingBeroepssituatie ;
+    skos:narrower     dvc:ProcedureWerkAanvraagZiekteverzekeringskaart ;
+    skos:narrower     dvc:ProcedureWerkAangifteInkomstenbelasting .
+
+dvc:ProcedureWerkVerzoek
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "U1" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureWerk .
+
+dvc:ProcedureWerkWijzigingBeroepssituatie
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "U2" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureWerk .
+
+dvc:ProcedureWerkAanvraagZiekteverzekeringskaart
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "U3" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureWerk .
+
+dvc:ProcedureWerkAangifteInkomstenbelasting
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "U4" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureWerk .
+
+###########################
+### ProcedureVerhuizing ###
+###########################
+
+dvc:ProcedureVerhuizing
+    a                 skos:Concept ;
+    skos:prefLabel    "Verhuizing"@nl ;
+    skos:prefLabel    "Moving"@en ;
+    skos:notation     "V" ;
+    skos:definition   "Procedures over: Verhuizing"@nl ;
+    skos:definition   "Procedures concerning: Moving"@en ;
+    skos:inScheme     dvcs:YourEuropeCategorie ;
+    skos:topConceptOf dvcs:YourEuropeCategorie ;
+    skos:narrower     dvc:ProcedureVerhuizingAdreswijziging ;
+    skos:narrower     dvc:ProcedureVerhuizingInschrijvingMotorvoertuig ;
+    skos:narrower     dvc:ProcedureVerhuizingStickersWegeninfrastructuur ;
+    skos:narrower     dvc:ProcedureVerhuizingEmissiestickers .
+
+dvc:ProcedureVerhuizingAdreswijziging
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "V1" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureVerhuizing .
+
+dvc:ProcedureVerhuizingInschrijvingMotorvoertuig
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "V2" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureVerhuizing .
+
+dvc:ProcedureVerhuizingStickersWegeninfrastructuur
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "V3" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureVerhuizing .
+
+dvc:ProcedureVerhuizingEmissiestickers
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "V4" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureVerhuizing .
+
+#############################
+### ProcedurePensionering ###
+#############################
+
+dvc:ProcedurePensionering
+    a                 skos:Concept ;
+    skos:prefLabel    "Pensionering"@nl ;
+    skos:prefLabel    "Retiring"@en ;
+    skos:notation     "W" ;
+    skos:definition   "Procedures over: Pensionering"@nl ;
+    skos:definition   "Procedures concerning: Retiring"@en ;
+    skos:inScheme     dvcs:YourEuropeCategorie ;
+    skos:topConceptOf dvcs:YourEuropeCategorie ;
+    skos:narrower     dvc:ProcedurePensioneringAanvraagUitkering ;
+    skos:narrower     dvc:ProcedurePensioneringVerzoekOmInformatie .
+
+dvc:ProcedurePensioneringAanvraagUitkering
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "W1" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedurePensionering .
+
+dvc:ProcedurePensioneringVerzoekOmInformatie
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "W2" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedurePensionering .
+
+
+#################################################
+### ProcedureStartenExploiterenSluitenBedrijf ###
+#################################################
+
+dvc:ProcedureStartenExploiterenSluitenBedrijf
+    a                 skos:Concept ;
+    skos:prefLabel    "Starten, exploiteren en sluiten van een bedrijf"@nl ;
+    skos:prefLabel    "Health and safety at work"@en ;
+    skos:notation     "X" ;
+    skos:definition   "Procedures over: Starten, exploiteren en sluiten van een bedrijf"@nl ;
+    skos:definition   "Procedures concerning: Health and safety at work"@en ;
+    skos:inScheme     dvcs:YourEuropeCategorie ;
+    skos:topConceptOf dvcs:YourEuropeCategorie ;
+    skos:narrower     dvc:ProcedureStartenExploiterenSluitenBedrijfKennisgeving ;
+    skos:narrower     dvc:ProcedureStartenExploiterenSluitenBedrijfPensioenEnVerzekeringsregelingenWerkgever ;
+    skos:narrower     dvc:ProcedureStartenExploiterenSluitenBedrijfPensioenEnVerzekeringsregelingenWerknemer ;
+    skos:narrower     dvc:ProcedureStartenExploiterenSluitenBedrijfAangifteVennootschapsbelasting ;
+    skos:narrower     dvc:ProcedureStartenExploiterenSluitenBedrijfBeeindigingArbeidsovereenkomst ;
+    skos:narrower     dvc:ProcedureStartenExploiterenSluitenBedrijfBetalingSocialeBijdragen .
+
+dvc:ProcedureStartenExploiterenSluitenBedrijfKennisgeving
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "X1" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureStartenExploiterenSluitenBedrijf .
+
+dvc:ProcedureStartenExploiterenSluitenBedrijfPensioenEnVerzekeringsregelingenWerkgever
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "X2" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureStartenExploiterenSluitenBedrijf .
+
+dvc:ProcedureStartenExploiterenSluitenBedrijfPensioenEnVerzekeringsregelingenWerknemer
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "X3" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureStartenExploiterenSluitenBedrijf .
+
+dvc:ProcedureStartenExploiterenSluitenBedrijfAangifteVennootschapsbelasting
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "X4" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureStartenExploiterenSluitenBedrijf .
+
+dvc:ProcedureStartenExploiterenSluitenBedrijfBeeindigingArbeidsovereenkomst
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "X5" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureStartenExploiterenSluitenBedrijf .
+
+dvc:ProcedureStartenExploiterenSluitenBedrijfBetalingSocialeBijdragen
+    a               skos:Concept ;
+    skos:prefLabel  "..."@nl ;
+    skos:prefLabel  "..."@en ;
+    skos:notation   "X6" ;
+    skos:definition "..."@nl ;
+    skos:definition "..."@en ;
+    skos:inScheme   dvcs:YourEuropeCategorie ;
+    skos:broader    dvc:ProcedureStartenExploiterenSluitenBedrijf .
