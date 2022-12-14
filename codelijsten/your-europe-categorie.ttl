@@ -1342,11 +1342,11 @@ dvc:ProcedureGeboorte
 
 dvc:ProcedureGeboorteBewijs
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Aanvraag geboortebewijs"@nl ;
+    skos:prefLabel  "Requesting proof of birth"@en ;
     skos:notation   "R1" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Aanvraag van bewijs van registratie van een geboorte"@nl ;
+    skos:definition "Requesting proof of registration of birth"@en ;
     skos:inScheme   dvcs:YourEuropeCategorie ;
     skos:broader    dvc:ProcedureGeboorte .
 
@@ -1368,11 +1368,11 @@ dvc:ProcedureVerblijf
 
 dvc:ProcedureVerblijfBewijs
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Aanvraag verblijfsbewijs"@nl ;
+    skos:prefLabel  "Requesting proof of residence"@en ;
     skos:notation   "S1" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Aanvraag van bewijs van verblijf"@nl ;
+    skos:definition "Requesting proof of residence"@en ;
     skos:inScheme   dvcs:YourEuropeCategorie ;
     skos:broader    dvc:ProcedureVerblijf .
 
@@ -1394,32 +1394,34 @@ dvc:ProcedureStudie
     skos:narrower     dvc:ProcedureStudieVerzoekErkenningDiploma .
 
 dvc:ProcedureStudieAanvraagTertiairOnderwijs
-    a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
-    skos:notation   "T1" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
-    skos:inScheme   dvcs:YourEuropeCategorie ;
-    skos:broader    dvc:ProcedureStudie .
+    a              skos:Concept ;
+    skos:prefLabel "Aanvraag financiering tertiar onderwijs"@nl ;
+    skos:prefLabel "Applying for financing for tertiary education"@en ;
+    skos:notation  "T1" ;
+    skos:definition
+                   "Aanvraag bij een overheidsorgaan of -instantie van studiefinanciering, zoals studiebeurzen en studieleningen, voor tertiair onderwijs"@nl ;
+    skos:definition
+                   "Applying for a tertiary education study financing, such as study grants and loans from a public body or institution"@en ;
+    skos:inScheme  dvcs:YourEuropeCategorie ;
+    skos:broader   dvc:ProcedureStudie .
 
 dvc:ProcedureStudieVerzoekToelatingTertiairOnderwijs
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Verzoek toelating tot openbaar tertiair onderwijs"@nl ;
+    skos:prefLabel  "Requesting admission to public tertiary eduction"@en ;
     skos:notation   "T2" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Indiening van een initieel verzoek om toelating tot een openbare instelling voor tertiair onderwijs"@nl ;
+    skos:definition "Submitting an initial application for admission to public tertiary education institution"@en ;
     skos:inScheme   dvcs:YourEuropeCategorie ;
     skos:broader    dvc:ProcedureStudie .
 
 dvc:ProcedureStudieVerzoekErkenningDiploma
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Verzoek om academische erkenning van diploma’s"@nl ;
+    skos:prefLabel  "Requesting academic recognition of diplomas"@en ;
     skos:notation   "T3" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Verzoek om academische erkenning van diploma’s, getuigschriften of andere bewijzen van studies of opleidingen"@nl ;
+    skos:definition "Requesting academic recognition of diplomas, certificates or other proof of studies or courses"@en ;
     skos:inScheme   dvcs:YourEuropeCategorie ;
     skos:broader    dvc:ProcedureStudie .
 
@@ -1442,42 +1444,46 @@ dvc:ProcedureWerk
     skos:narrower     dvc:ProcedureWerkAangifteInkomstenbelasting .
 
 dvc:ProcedureWerkVerzoek
-    a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
-    skos:notation   "U1" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
-    skos:inScheme   dvcs:YourEuropeCategorie ;
-    skos:broader    dvc:ProcedureWerk .
+    a              skos:Concept ;
+    skos:prefLabel "Verzoek tot bepaling van de toepasselijke wetgeving (883/2004 - titel 2)"@nl ;
+    skos:prefLabel "Request for determination of applicable legislation (883/2004 - title 2)"@en ;
+    skos:notation  "U1" ;
+    skos:definition
+                   "Verzoek tot bepaling van de toepasselijke wetgeving overeenkomstig titel II van Verordening (EU) nr. 883/2004"@nl ;
+    skos:definition
+                   "Request for determination of applicable legislation in accordance with Title II of Regulation (EC) No 883/2004"@en ;
+    skos:inScheme  dvcs:YourEuropeCategorie ;
+    skos:broader   dvc:ProcedureWerk .
 
 dvc:ProcedureWerkWijzigingBeroepssituatie
-    a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
-    skos:notation   "U2" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
-    skos:inScheme   dvcs:YourEuropeCategorie ;
-    skos:broader    dvc:ProcedureWerk .
+    a              skos:Concept ;
+    skos:prefLabel "Kennisgeving wijziging situatie i.k.v. socialezekerheidsuitkeringen"@nl ;
+    skos:prefLabel "Notifying changes in circumstances w.r.t. social security benefits"@en ;
+    skos:notation  "U2" ;
+    skos:definition
+                   "Kennisgeving van wijzigingen in de persoonlijke of beroepssituatie van de persoon die socialezekerheidsuitkeringen ontvangt, voor zover die wijzigingen voor die uitkeringen van belang zijn"@nl ;
+    skos:definition
+                   "Notifying changes in the personal or professional circumstances of the person receiving social security benefits, relevant for such benefits"@en ;
+    skos:inScheme  dvcs:YourEuropeCategorie ;
+    skos:broader   dvc:ProcedureWerk .
 
 dvc:ProcedureWerkAanvraagZiekteverzekeringskaart
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Aanvraag van een Europese ziekteverzekeringskaart"@nl ;
+    skos:prefLabel  "Application for a European Health Insurance Card"@en ;
     skos:notation   "U3" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Aanvraag van een Europese ziekteverzekeringskaart (EHIC)"@nl ;
+    skos:definition "Application for a European Health Insurance Card (EHIC)"@en ;
     skos:inScheme   dvcs:YourEuropeCategorie ;
     skos:broader    dvc:ProcedureWerk .
 
 dvc:ProcedureWerkAangifteInkomstenbelasting
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Indiening van een aangifte voor de inkomstenbelasting"@nl ;
+    skos:prefLabel  "Submitting an income tax declaration"@en ;
     skos:notation   "U4" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Indiening van een aangifte voor de inkomstenbelasting"@nl ;
+    skos:definition "Submitting an income tax declaration"@en ;
     skos:inScheme   dvcs:YourEuropeCategorie ;
     skos:broader    dvc:ProcedureWerk .
 
@@ -1501,41 +1507,45 @@ dvc:ProcedureVerhuizing
 
 dvc:ProcedureVerhuizingAdreswijziging
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Registratie van adreswijziging"@nl ;
+    skos:prefLabel  "Registering a change of address"@en ;
     skos:notation   "V1" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Registratie van adreswijziging"@nl ;
+    skos:definition "Registering a change of address"@en ;
     skos:inScheme   dvcs:YourEuropeCategorie ;
     skos:broader    dvc:ProcedureVerhuizing .
 
 dvc:ProcedureVerhuizingInschrijvingMotorvoertuig
-    a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
-    skos:notation   "V2" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
-    skos:inScheme   dvcs:YourEuropeCategorie ;
-    skos:broader    dvc:ProcedureVerhuizing .
+    a              skos:Concept ;
+    skos:prefLabel "Inschrijving van een motorvoertuig"@nl ;
+    skos:prefLabel "Registering a motor vehicle"@en ;
+    skos:notation  "V2" ;
+    skos:definition
+                   "Inschrijving van een motorvoertuig dat van oorsprong is uit een lidstaat of daar al is ingeschreven, volgens de standaardprocedures"@nl ;
+    skos:definition
+                   "Registering a motor vehicle originating from or already registered in a Member State, in standard procedures"@en ;
+    skos:inScheme  dvcs:YourEuropeCategorie ;
+    skos:broader   dvc:ProcedureVerhuizing .
 
 dvc:ProcedureVerhuizingStickersWegeninfrastructuur
-    a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
-    skos:notation   "V3" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
-    skos:inScheme   dvcs:YourEuropeCategorie ;
-    skos:broader    dvc:ProcedureVerhuizing .
+    a              skos:Concept ;
+    skos:prefLabel "Verkrijging van stickers voor de wegeninfrastructuur"@nl ;
+    skos:prefLabel "Obtaining stickers for the road infrastructure"@en ;
+    skos:notation  "V3" ;
+    skos:definition
+                   "Verkrijging van stickers voor het gebruik van de nationale wegeninfrastructuur: door een overheidsinstantie of -orgaan opgelegde tijdsgebonden heffingen (vignet) of afstandsgebonden heffingen (tol)"@nl ;
+    skos:definition
+                   "Obtaining stickers for the use of the national road infrastructure: time-based charges (vignette), distance-based charges (toll), issued by a public body or institution"@en ;
+    skos:inScheme  dvcs:YourEuropeCategorie ;
+    skos:broader   dvc:ProcedureVerhuizing .
 
 dvc:ProcedureVerhuizingEmissiestickers
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Verkrijging emissiestickers"@nl ;
+    skos:prefLabel  "Obtaining emission stickers"@en ;
     skos:notation   "V4" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Verkrijging van door een overheidsinstantie of -orgaan afgegeven emissiestickers"@nl ;
+    skos:definition "Obtaining emission stickers issued by a public body or institution"@en ;
     skos:inScheme   dvcs:YourEuropeCategorie ;
     skos:broader    dvc:ProcedureVerhuizing .
 
@@ -1557,21 +1567,21 @@ dvc:ProcedurePensionering
 
 dvc:ProcedurePensioneringAanvraagUitkering
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Aanvraag (pre)pensioenuitkering"@nl ;
+    skos:prefLabel  "Claiming pension and pre-retirement benefits"@en ;
     skos:notation   "W1" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Aanvraag (pre)pensioenuitkering van verplichte regelingen"@nl ;
+    skos:definition "Claiming pension and pre-retirement benefits from compulsory schemes"@en ;
     skos:inScheme   dvcs:YourEuropeCategorie ;
     skos:broader    dvc:ProcedurePensionering .
 
 dvc:ProcedurePensioneringVerzoekOmInformatie
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Verzoek om informatie over pensioengegevens"@nl ;
+    skos:prefLabel  "Requesting information on the data related to pension"@en ;
     skos:notation   "W2" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Verzoek om informatie over pensioengegevens van verplichte regelingen"@nl ;
+    skos:definition "Requesting information on the data related to pension from compulsory schemes"@en ;
     skos:inScheme   dvcs:YourEuropeCategorie ;
     skos:broader    dvc:ProcedurePensionering .
 
@@ -1597,61 +1607,65 @@ dvc:ProcedureStartenExploiterenSluitenBedrijf
     skos:narrower     dvc:ProcedureStartenExploiterenSluitenBedrijfBetalingSocialeBijdragen .
 
 dvc:ProcedureStartenExploiterenSluitenBedrijfKennisgeving
-    a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
-    skos:notation   "X1" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
-    skos:inScheme   dvcs:YourEuropeCategorie ;
-    skos:broader    dvc:ProcedureStartenExploiterenSluitenBedrijf .
+    a              skos:Concept ;
+    skos:prefLabel "Kennisgeving van wijziging en beëindiging bedrijfsactiviteit"@nl ;
+    skos:prefLabel "Notification of changes and termination of business activity"@en ;
+    skos:notation  "X1" ;
+    skos:definition
+                   "Kennisgeving van bedrijfsactiviteit, vergunningen voor de uitoefening van een bedrijfsactiviteit, wijzigingen van bedrijfsactiviteit en beëindiging van een bedrijfsactiviteit zonder insolventie- of liquidatieprocedures, met uitzondering van de initiële inschrijving van een bedrijfsactiviteit in het bedrijfsregister en met uitzondering van procedures voor de oprichting van vennootschappen in de zin van artikel 54, tweede alinea, VWEU of bestanden die deze vennootschappen later indienen"@nl ;
+    skos:definition
+                   "Notification of business activity, permission for exercising a business activity, changes of business activity and the termination of a business activity not involving insolvency or liquidation procedures, excluding the initial registration of a business activity with the business register and excluding procedures concerning the constitution of or any subsequent filing by companies or firms within the meaning of the second paragraph of Article 54 TFEU"@en ;
+    skos:inScheme  dvcs:YourEuropeCategorie ;
+    skos:broader   dvc:ProcedureStartenExploiterenSluitenBedrijf .
 
 dvc:ProcedureStartenExploiterenSluitenBedrijfPensioenEnVerzekeringsregelingenWerkgever
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Aanmelding van een werkgever bij pensioen- en verzekeringsregelingen"@nl ;
+    skos:prefLabel  "Registration of an employer with pension and insurance schemes"@en ;
     skos:notation   "X2" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Aanmelding van een werkgever (een natuurlijke persoon) bij verplichte pensioen- en verzekeringsregelingen"@nl ;
+    skos:definition "Registration of an employer (a natural person) with compulsory pension and insurance schemes"@en ;
     skos:inScheme   dvcs:YourEuropeCategorie ;
     skos:broader    dvc:ProcedureStartenExploiterenSluitenBedrijf .
 
 dvc:ProcedureStartenExploiterenSluitenBedrijfPensioenEnVerzekeringsregelingenWerknemer
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Aanmelding van een werknemers bij pensioen- en verzekeringsregelingen"@nl ;
+    skos:prefLabel  "Registration of an employees with pension and insurance schemes"@en ;
     skos:notation   "X3" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Aanmelding van werknemers bij verplichte pensioen- en verzekeringsregelingen"@nl ;
+    skos:definition "Registration of employees with compulsory pension and insurance schemes"@en ;
     skos:inScheme   dvcs:YourEuropeCategorie ;
     skos:broader    dvc:ProcedureStartenExploiterenSluitenBedrijf .
 
 dvc:ProcedureStartenExploiterenSluitenBedrijfAangifteVennootschapsbelasting
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Indiening van een aangifte voor de vennootschapsbelasting"@nl ;
+    skos:prefLabel  "Submitting a corporate tax declaration"@en ;
     skos:notation   "X4" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Indiening van een aangifte voor de vennootschapsbelasting"@nl ;
+    skos:definition "Submitting a corporate tax declaration"@en ;
     skos:inScheme   dvcs:YourEuropeCategorie ;
     skos:broader    dvc:ProcedureStartenExploiterenSluitenBedrijf .
 
 dvc:ProcedureStartenExploiterenSluitenBedrijfBeeindigingArbeidsovereenkomst
-    a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
-    skos:notation   "X5" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
-    skos:inScheme   dvcs:YourEuropeCategorie ;
-    skos:broader    dvc:ProcedureStartenExploiterenSluitenBedrijf .
+    a              skos:Concept ;
+    skos:prefLabel "Kennisgeving van beëindiging van een arbeidsovereenkomst aan socialezekerheidsregelingen"@nl ;
+    skos:prefLabel "Notification to the social security schemes of the end of contract with an employee"@en ;
+    skos:notation  "X5" ;
+    skos:definition
+                   "Kennisgeving van beëindiging van een arbeidsovereenkomst met een werknemer aan socialezekerheidsregelingen, met uitzondering van procedures voor de collectieve beëindiging van arbeidsovereenkomsten"@nl ;
+    skos:definition
+                   "Notification to the social security schemes of the end of contract with an employee, excluding procedures for the collective termination of employee contracts"@en ;
+    skos:inScheme  dvcs:YourEuropeCategorie ;
+    skos:broader   dvc:ProcedureStartenExploiterenSluitenBedrijf .
 
 dvc:ProcedureStartenExploiterenSluitenBedrijfBetalingSocialeBijdragen
     a               skos:Concept ;
-    skos:prefLabel  "..."@nl ;
-    skos:prefLabel  "..."@en ;
+    skos:prefLabel  "Betaling van sociale bijdragen voor werknemers"@nl ;
+    skos:prefLabel  "Payment of social contributions for employees"@en ;
     skos:notation   "X6" ;
-    skos:definition "..."@nl ;
-    skos:definition "..."@en ;
+    skos:definition "Betaling van sociale bijdragen voor werknemers"@nl ;
+    skos:definition "Payment of social contributions for employees"@en ;
     skos:inScheme   dvcs:YourEuropeCategorie ;
     skos:broader    dvc:ProcedureStartenExploiterenSluitenBedrijf .
