@@ -1343,10 +1343,10 @@ dvc:ProcedureGeboorte
 dvc:ProcedureGeboorteBewijs
     a               skos:Concept ;
     skos:prefLabel  "Aanvraag geboortebewijs"@nl ;
-    skos:prefLabel  "Requesting proof of birth"@en ;
+    skos:prefLabel  "Requesting a birth certificate"@en ;
     skos:notation   "R1" ;
     skos:definition "Aanvraag van bewijs van registratie van een geboorte"@nl ;
-    skos:definition "Requesting proof of registration of birth"@en ;
+    skos:definition "Requesting a birth certificate"@en ;
     skos:inScheme   dvcs:YourEuropeCategorie ;
     skos:broader    dvc:ProcedureGeboorte .
 
@@ -1593,10 +1593,10 @@ dvc:ProcedurePensioneringVerzoekOmInformatie
 dvc:ProcedureStartenExploiterenSluitenBedrijf
     a                 skos:Concept ;
     skos:prefLabel    "Starten, exploiteren en sluiten van een bedrijf"@nl ;
-    skos:prefLabel    "Health and safety at work"@en ;
+    skos:prefLabel    "Starting, running and closing a business"@en ;
     skos:notation     "X" ;
     skos:definition   "Procedures over: Starten, exploiteren en sluiten van een bedrijf"@nl ;
-    skos:definition   "Procedures concerning: Health and safety at work"@en ;
+    skos:definition   "Procedures concerning: Starting, running and closing a business"@en ;
     skos:inScheme     dvcs:YourEuropeCategorie ;
     skos:topConceptOf dvcs:YourEuropeCategorie ;
     skos:narrower     dvc:ProcedureStartenExploiterenSluitenBedrijfKennisgeving ;
@@ -1608,8 +1608,8 @@ dvc:ProcedureStartenExploiterenSluitenBedrijf
 
 dvc:ProcedureStartenExploiterenSluitenBedrijfKennisgeving
     a              skos:Concept ;
-    skos:prefLabel "Kennisgeving van wijziging en beëindiging bedrijfsactiviteit"@nl ;
-    skos:prefLabel "Notification of changes and termination of business activity"@en ;
+    skos:prefLabel "Kennisgeving van bedrijfsactiviteit"@nl ;
+    skos:prefLabel "Notification of business activity"@en ;
     skos:notation  "X1" ;
     skos:definition
                    "Kennisgeving van bedrijfsactiviteit, vergunningen voor de uitoefening van een bedrijfsactiviteit, wijzigingen van bedrijfsactiviteit en beëindiging van een bedrijfsactiviteit zonder insolventie- of liquidatieprocedures, met uitzondering van de initiële inschrijving van een bedrijfsactiviteit in het bedrijfsregister en met uitzondering van procedures voor de oprichting van vennootschappen in de zin van artikel 54, tweede alinea, VWEU of bestanden die deze vennootschappen later indienen"@nl ;
@@ -1630,8 +1630,8 @@ dvc:ProcedureStartenExploiterenSluitenBedrijfPensioenEnVerzekeringsregelingenWer
 
 dvc:ProcedureStartenExploiterenSluitenBedrijfPensioenEnVerzekeringsregelingenWerknemer
     a               skos:Concept ;
-    skos:prefLabel  "Aanmelding van een werknemers bij pensioen- en verzekeringsregelingen"@nl ;
-    skos:prefLabel  "Registration of an employees with pension and insurance schemes"@en ;
+    skos:prefLabel  "Aanmelding van werknemers bij pensioen- en verzekeringsregelingen"@nl ;
+    skos:prefLabel  "Registration of employees with pension and insurance schemes"@en ;
     skos:notation   "X3" ;
     skos:definition "Aanmelding van werknemers bij verplichte pensioen- en verzekeringsregelingen"@nl ;
     skos:definition "Registration of employees with compulsory pension and insurance schemes"@en ;
