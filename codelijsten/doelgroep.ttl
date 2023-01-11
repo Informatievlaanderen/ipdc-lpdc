@@ -33,10 +33,28 @@ dvc:Onderneming
 
 dvc:Organisatie
     a                 skos:Concept ;
-    skos:prefLabel    "Organisatie"@nl ;
-    skos:prefLabel    "Organisation"@en ;
-    skos:definition   "Doelgroep organisaties"@nl ;
-    skos:definition   "Target audience organisation"@en ;
+    skos:prefLabel    "Andere organisatie"@nl ;
+    skos:prefLabel    "Other organisation"@en ;
+    skos:definition   "Doelgroep andere organisaties"@nl ;
+    skos:definition   "Target audience other organisation"@en ;
+    skos:inScheme     dvcs:Doelgroep ;
+    skos:topConceptOf dvcs:Doelgroep .
+
+dvc:VlaamseOverheid
+    a                 skos:Concept ;
+    skos:prefLabel    "Vlaamse overheid"@nl ;
+    skos:prefLabel    "Government of Flanders"@en ;
+    skos:definition   "Doelgroep Vlaamse overheid"@nl ;
+    skos:definition   "Target audience government of Flanders"@en ;
+    skos:inScheme     dvcs:Doelgroep ;
+    skos:topConceptOf dvcs:Doelgroep .
+
+dvc:LokaalBestuur
+    a                 skos:Concept ;
+    skos:prefLabel    "Lokaal bestuur"@nl ;
+    skos:prefLabel    "Local administration"@en ;
+    skos:definition   "Doelgroep lokaal bestuur"@nl ;
+    skos:definition   "Target audience local administration"@en ;
     skos:inScheme     dvcs:Doelgroep ;
     skos:topConceptOf dvcs:Doelgroep .
 
