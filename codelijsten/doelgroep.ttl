@@ -11,6 +11,8 @@ dvcs:Doelgroep
     skos:hasTopConcept dvc:Burger ;
     skos:hasTopConcept dvc:Onderneming ;
     skos:hasTopConcept dvc:Organisatie ;
+    skos:hasTopConcept dvc:VlaamseOverheid ;
+    skos:hasTopConcept dvc:LokaalBestuur ;
     skos:hasTopConcept dvc:Vereniging .
 
 dvc:Burger
@@ -43,7 +45,7 @@ dvc:Organisatie
 dvc:VlaamseOverheid
     a                 skos:Concept ;
     skos:prefLabel    "Vlaamse overheid"@nl ;
-    skos:prefLabel    "Government of Flanders"@en ;
+    skos:prefLabel    "Flemish government"@en ;
     skos:definition   "Doelgroep Vlaamse overheid"@nl ;
     skos:definition   "Target audience government of Flanders"@en ;
     skos:inScheme     dvcs:Doelgroep ;
