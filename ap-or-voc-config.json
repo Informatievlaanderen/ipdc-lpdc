@@ -1,20 +1,29 @@
 {
-    "naam": "",
-    "rapport" : "",
-    "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
-    "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
-    "publicatiedatum": "",
-    "type_toepassing": "",
-    "categorie": "",
-    "beschrijving" : "",
-    "specificatiedocument": [],
-    "documentatie": [],
-    "charter": [],
-    "verslagen": [],
-    "presentaties": [],
-    "functioneel_toepassingsgebied": "",
-    "organisatorisch_werkingsgebied": "",
-    "datum_van_aanmelding": "",
-    "erkenning_werkgroep_datastandaarden": "",
-    "erkenning_stuurgroep": ""
-  }
+  "naam": "Vocabularium en implementatiemodel IPDC - LPDC",
+  "rapport": "",
+  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
+  "publicatiedatum": "",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
+  "categorie": "Vocabularium en implementatiemodel",
+  "beschrijving": "",
+  "specificatiedocument": [
+    {
+      "naam": "Implementatiemodel IPDC - LPDC",
+      "waarde": "https://data.vlaanderen.be/doc/implementatiemodel/ipdc-lpdc"
+    },
+    {
+      "naam": "Vocabularium IPDC - LPDC",
+      "waarde": "https://data.vlaanderen.be/ns/ipdc-lpdc"
+    }
+  ],
+  "documentatie": [],
+  "charter": [],
+  "verslagen": [],
+  "presentaties": [],
+  "functioneel_toepassingsgebied": "",
+  "organisatorisch_werkingsgebied": "",
+  "datum_van_aanmelding": "",
+  "erkenning_werkgroep_datastandaarden": "",
+  "erkenning_stuurgroep": ""
+}
