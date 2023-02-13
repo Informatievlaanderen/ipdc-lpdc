@@ -10,11 +10,12 @@
   "specificatiedocument": [
     {
       "naam": "Implementatiemodel IPDC - LPDC",
-      "waarde": "https://data.vlaanderen.be/doc/implementatiemodel/ipdc-lpdc"
+      "waarde": "https://productencatalogus.data.vlaanderen.be/doc/implementatiemodel/ipdc-lpdc"
+      
     },
     {
       "naam": "Vocabularium IPDC - LPDC",
-      "waarde": "https://data.vlaanderen.be/ns/ipdc-lpdc"
+      "waarde": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"
     }
   ],
   "documentatie": [],
