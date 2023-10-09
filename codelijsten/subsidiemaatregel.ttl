@@ -1,0 +1,1950 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dvcs: <https://productencatalogus.data.vlaanderen.be/id/conceptscheme/> .
+@prefix dvc:  <https://productencatalogus.data.vlaanderen.be/id/concept/Subsidiemaatregel/> .
+
+dvcs:Subsidiemaatregel
+    a                  skos:ConceptScheme ;
+    skos:prefLabel     "Subsidiemaatregel"@nl ;
+    skos:prefLabel     "Grant"@en ;
+    skos:definition    "Subsidiemaatregel van een publieke dienst"@nl ;
+    skos:definition    "Grant of a public service"@en ;
+    skos:hasTopConcept dvc:HD_07 ;
+    skos:hasTopConcept dvc:SG_02 ;
+    skos:hasTopConcept dvc:GT_01 ;
+    skos:hasTopConcept dvc:ST ;
+    skos:hasTopConcept dvc:FB ;
+    skos:hasTopConcept dvc:SM ;
+    skos:hasTopConcept dvc:HE_04 ;
+    skos:hasTopConcept dvc:GR_01 ;
+    skos:hasTopConcept dvc:MQ ;
+    skos:hasTopConcept dvc:KA ;
+    skos:hasTopConcept dvc:HL ;
+    skos:hasTopConcept dvc:FF ;
+    skos:hasTopConcept dvc:ME ;
+    skos:hasTopConcept dvc:HI_04 ;
+    skos:hasTopConcept dvc:GT_09 ;
+    skos:hasTopConcept dvc:QD ;
+    skos:hasTopConcept dvc:MT ;
+    skos:hasTopConcept dvc:EM ;
+    skos:hasTopConcept dvc:SW ;
+    skos:hasTopConcept dvc:MM ;
+    skos:hasTopConcept dvc:GU_01 ;
+    skos:hasTopConcept dvc:GS_06 ;
+    skos:hasTopConcept dvc:GI ;
+    skos:hasTopConcept dvc:SJ_04 ;
+    skos:hasTopConcept dvc:HI_03 ;
+    skos:hasTopConcept dvc:HC_07 ;
+    skos:hasTopConcept dvc:GT_08 ;
+    skos:hasTopConcept dvc:EI ;
+    skos:hasTopConcept dvc:HK ;
+    skos:hasTopConcept dvc:QJ ;
+    skos:hasTopConcept dvc:MK ;
+    skos:hasTopConcept dvc:QC ;
+    skos:hasTopConcept dvc:MP ;
+    skos:hasTopConcept dvc:GR_03 ;
+    skos:hasTopConcept dvc:HS ;
+    skos:hasTopConcept dvc:GE_01 ;
+    skos:hasTopConcept dvc:EH ;
+    skos:hasTopConcept dvc:GT_03 ;
+    skos:hasTopConcept dvc:GT_11 ;
+    skos:hasTopConcept dvc:JG ;
+    skos:hasTopConcept dvc:GJ ;
+    skos:hasTopConcept dvc:SG_01 ;
+    skos:hasTopConcept dvc:HD_04 ;
+    skos:hasTopConcept dvc:QH ;
+    skos:hasTopConcept dvc:GS_02 ;
+    skos:hasTopConcept dvc:GE_02 ;
+    skos:hasTopConcept dvc:FA ;
+    skos:hasTopConcept dvc:HI_02 ;
+    skos:hasTopConcept dvc:HB ;
+    skos:hasTopConcept dvc:GR_04 ;
+    skos:hasTopConcept dvc:GT_02 ;
+    skos:hasTopConcept dvc:CB ;
+    skos:hasTopConcept dvc:CD ;
+    skos:hasTopConcept dvc:JA ;
+    skos:hasTopConcept dvc:HF_03 ;
+    skos:hasTopConcept dvc:EN ;
+    skos:hasTopConcept dvc:VB ;
+    skos:hasTopConcept dvc:SZ ;
+    skos:hasTopConcept dvc:QQ ;
+    skos:hasTopConcept dvc:QM ;
+    skos:hasTopConcept dvc:HF_01 ;
+    skos:hasTopConcept dvc:SA ;
+    skos:hasTopConcept dvc:EB ;
+    skos:hasTopConcept dvc:QK ;
+    skos:hasTopConcept dvc:MS ;
+    skos:hasTopConcept dvc:HD_01 ;
+    skos:hasTopConcept dvc:GS_08 ;
+    skos:hasTopConcept dvc:EG ;
+    skos:hasTopConcept dvc:JC ;
+    skos:hasTopConcept dvc:GT_06 ;
+    skos:hasTopConcept dvc:HE_02 ;
+    skos:hasTopConcept dvc:EA ;
+    skos:hasTopConcept dvc:JH ;
+    skos:hasTopConcept dvc:GS_04 ;
+    skos:hasTopConcept dvc:HN ;
+    skos:hasTopConcept dvc:GF ;
+    skos:hasTopConcept dvc:HD_03 ;
+    skos:hasTopConcept dvc:GB ;
+    skos:hasTopConcept dvc:GH ;
+    skos:hasTopConcept dvc:QN ;
+    skos:hasTopConcept dvc:QG ;
+    skos:hasTopConcept dvc:GK ;
+    skos:hasTopConcept dvc:HD_05 ;
+    skos:hasTopConcept dvc:EF ;
+    skos:hasTopConcept dvc:GS_07 ;
+    skos:hasTopConcept dvc:SS ;
+    skos:hasTopConcept dvc:MC ;
+    skos:hasTopConcept dvc:SU ;
+    skos:hasTopConcept dvc:KD ;
+    skos:hasTopConcept dvc:HC_05 ;
+    skos:hasTopConcept dvc:HC_02 ;
+    skos:hasTopConcept dvc:SE ;
+    skos:hasTopConcept dvc:MV ;
+    skos:hasTopConcept dvc:QT ;
+    skos:hasTopConcept dvc:ED ;
+    skos:hasTopConcept dvc:HG_02 ;
+    skos:hasTopConcept dvc:HC_01 ;
+    skos:hasTopConcept dvc:SR ;
+    skos:hasTopConcept dvc:MB ;
+    skos:hasTopConcept dvc:HP ;
+    skos:hasTopConcept dvc:EJ ;
+    skos:hasTopConcept dvc:HO ;
+    skos:hasTopConcept dvc:HD_02 ;
+    skos:hasTopConcept dvc:GC ;
+    skos:hasTopConcept dvc:GS_05 ;
+    skos:hasTopConcept dvc:SJ_01 ;
+    skos:hasTopConcept dvc:SI ;
+    skos:hasTopConcept dvc:HF_02 ;
+    skos:hasTopConcept dvc:SQ ;
+    skos:hasTopConcept dvc:HC_08 ;
+    skos:hasTopConcept dvc:HF_05 ;
+    skos:hasTopConcept dvc:GT_05 ;
+    skos:hasTopConcept dvc:MO ;
+    skos:hasTopConcept dvc:QA ;
+    skos:hasTopConcept dvc:FE ;
+    skos:hasTopConcept dvc:KB_01 ;
+    skos:hasTopConcept dvc:SN ;
+    skos:hasTopConcept dvc:GQ ;
+    skos:hasTopConcept dvc:MW ;
+    skos:hasTopConcept dvc:QP ;
+    skos:hasTopConcept dvc:QO ;
+    skos:hasTopConcept dvc:QI ;
+    skos:hasTopConcept dvc:HC_06 ;
+    skos:hasTopConcept dvc:CE ;
+    skos:hasTopConcept dvc:GT_04 ;
+    skos:hasTopConcept dvc:GT_10 ;
+    skos:hasTopConcept dvc:HC_04 ;
+    skos:hasTopConcept dvc:SH_02 ;
+    skos:hasTopConcept dvc:SB ;
+    skos:hasTopConcept dvc:KE ;
+    skos:hasTopConcept dvc:HC_09 ;
+    skos:hasTopConcept dvc:EL ;
+    skos:hasTopConcept dvc:HG_01 ;
+    skos:hasTopConcept dvc:KB_02 ;
+    skos:hasTopConcept dvc:SO ;
+    skos:hasTopConcept dvc:HH ;
+    skos:hasTopConcept dvc:KF ;
+    skos:hasTopConcept dvc:SD ;
+    skos:hasTopConcept dvc:HD_06 ;
+    skos:hasTopConcept dvc:HQ ;
+    skos:hasTopConcept dvc:MR ;
+    skos:hasTopConcept dvc:HC_10 ;
+    skos:hasTopConcept dvc:FG ;
+    skos:hasTopConcept dvc:GM ;
+    skos:hasTopConcept dvc:SH_01 ;
+    skos:hasTopConcept dvc:QR ;
+    skos:hasTopConcept dvc:HR ;
+    skos:hasTopConcept dvc:HM ;
+    skos:hasTopConcept dvc:HE_01 ;
+    skos:hasTopConcept dvc:FD ;
+    skos:hasTopConcept dvc:HJ ;
+    skos:hasTopConcept dvc:ML ;
+    skos:hasTopConcept dvc:HC_03 ;
+    skos:hasTopConcept dvc:FI ;
+    skos:hasTopConcept dvc:GE_04 ;
+    skos:hasTopConcept dvc:SJ_02 ;
+    skos:hasTopConcept dvc:GS_03 ;
+    skos:hasTopConcept dvc:GL ;
+    skos:hasTopConcept dvc:SL ;
+    skos:hasTopConcept dvc:HI_01 ;
+    skos:hasTopConcept dvc:HA_03 ;
+    skos:hasTopConcept dvc:GS_01 ;
+    skos:hasTopConcept dvc:GU_02 ;
+    skos:hasTopConcept dvc:HD_08 ;
+    skos:hasTopConcept dvc:JF ;
+    skos:hasTopConcept dvc:SC ;
+    skos:hasTopConcept dvc:CA ;
+    skos:hasTopConcept dvc:EC ;
+    skos:hasTopConcept dvc:JI ;
+    skos:hasTopConcept dvc:HF_04 ;
+    skos:hasTopConcept dvc:HE_03 ;
+    skos:hasTopConcept dvc:GT_07 ;
+    skos:hasTopConcept dvc:MN ;
+    skos:hasTopConcept dvc:QB ;
+    skos:hasTopConcept dvc:GE_03 ;
+    skos:hasTopConcept dvc:KB_03 ;
+    skos:hasTopConcept dvc:SP ;
+    skos:hasTopConcept dvc:QE ;
+    skos:hasTopConcept dvc:GU_03 ;
+    skos:hasTopConcept dvc:GR_02 ;
+    skos:hasTopConcept dvc:MU ;
+    skos:hasTopConcept dvc:MD ;
+    skos:hasTopConcept dvc:HA_01 ;
+    skos:hasTopConcept dvc:FH ;
+    skos:hasTopConcept dvc:HC_11 ;
+    skos:hasTopConcept dvc:SJ_03 ;
+    skos:hasTopConcept dvc:SF ;
+    skos:hasTopConcept dvc:EO ;
+    skos:hasTopConcept dvc:EK ;
+    skos:hasTopConcept dvc:HA_02 ;
+    skos:hasTopConcept dvc:GU_04 ;
+    skos:hasTopConcept dvc:FC ;
+    skos:hasTopConcept dvc:QF ;
+    skos:hasTopConcept dvc:JE .
+
+dvc:HD_07
+    a                 skos:Concept ;
+    skos:prefLabel    "Culturele Projecten (Participatie)"@nl ;
+    skos:prefLabel    "Cultural Projects (Participation)"@en ;
+    skos:definition   "Subsidiemaatregel: Culturele Projecten (Participatie)"@nl ;
+    skos:definition   "Grant: Cultural Projects (Participation)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SG_02
+    a                 skos:Concept ;
+    skos:prefLabel    "Binnenlands bestuur (excl. fondsen lokale financiering)"@nl ;
+    skos:prefLabel    "Domestic governance (excluding local funding funds)"@en ;
+    skos:definition   "Subsidiemaatregel: Binnenlands bestuur (excl. fondsen lokale financiering)"@nl ;
+    skos:definition   "Grant: Domestic governance (excluding local funding funds)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GT_01
+    a                 skos:Concept ;
+    skos:prefLabel    "Algemeen beleid"@nl ;
+    skos:prefLabel    "General policy"@en ;
+    skos:definition   "Subsidiemaatregel: Algemeen beleid"@nl ;
+    skos:definition   "Grant: General policy"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:ST
+    a                 skos:Concept ;
+    skos:prefLabel    "HR"@nl ;
+    skos:prefLabel    "HR"@en ;
+    skos:definition   "Subsidiemaatregel: HR"@nl ;
+    skos:definition   "Grant: HR"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:FB
+    a                 skos:Concept ;
+    skos:prefLabel    "Onderwijsinfrastructuur"@nl ;
+    skos:prefLabel    "Educational Infrastructure"@en ;
+    skos:definition   "Subsidiemaatregel: Onderwijsinfrastructuur"@nl ;
+    skos:definition   "Grant: Educational Infrastructure"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SM
+    a                 skos:Concept ;
+    skos:prefLabel    "Rampenschade"@nl ;
+    skos:prefLabel    "Disaster damage"@en ;
+    skos:definition   "Subsidiemaatregel: Rampenschade"@nl ;
+    skos:definition   "Grant: Disaster damage"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HE_04
+    a                 skos:Concept ;
+    skos:prefLabel    "Internationaal en Interregionaal Cultuurbeleid (Andere)"@nl ;
+    skos:prefLabel    "International and Interregional Cultural Policy (Other)"@en ;
+    skos:definition   "Subsidiemaatregel: Internationaal en Interregionaal Cultuurbeleid (Andere)"@nl ;
+    skos:definition   "Grant: International and Interregional Cultural Policy (Other)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GR_01
+    a                 skos:Concept ;
+    skos:prefLabel    "Toeleiding"@nl ;
+    skos:prefLabel    "Admission"@en ;
+    skos:definition   "Subsidiemaatregel: Toeleiding"@nl ;
+    skos:definition   "Grant: Admission"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:MQ
+    a                 skos:Concept ;
+    skos:prefLabel    "Onderhoud Weginfrastructuur"@nl ;
+    skos:prefLabel    "Maintenance Road infrastructure"@en ;
+    skos:definition   "Subsidiemaatregel: Onderhoud Weginfrastructuur"@nl ;
+    skos:definition   "Grant: Maintenance Road infrastructure"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:KA
+    a                 skos:Concept ;
+    skos:prefLabel    "Thema overschrijdend (Landbouw en Visserij)"@nl ;
+    skos:prefLabel    "Cross-theme (Agriculture and Fisheries)"@en ;
+    skos:definition   "Subsidiemaatregel: Thema overschrijdend (Landbouw en Visserij)"@nl ;
+    skos:definition   "Grant: Cross-theme (Agriculture and Fisheries)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HL
+    a                 skos:Concept ;
+    skos:prefLabel    "Onafhankelijk toezichthouder"@nl ;
+    skos:prefLabel    "Independent supervisor"@en ;
+    skos:definition   "Subsidiemaatregel: Onafhankelijk toezichthouder"@nl ;
+    skos:definition   "Grant: Independent supervisor"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:FF
+    a                 skos:Concept ;
+    skos:prefLabel    "Volwassenenonderwijs"@nl ;
+    skos:prefLabel    "Adult education"@en ;
+    skos:definition   "Subsidiemaatregel: Volwassenenonderwijs"@nl ;
+    skos:definition   "Grant: Adult education"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:ME
+    a                 skos:Concept ;
+    skos:prefLabel    "Basisbereikbaarheid"@nl ;
+    skos:prefLabel    "Basic accessibility"@en ;
+    skos:definition   "Subsidiemaatregel: Basisbereikbaarheid"@nl ;
+    skos:definition   "Grant: Basic accessibility"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HI_04
+    a                 skos:Concept ;
+    skos:prefLabel    "Mediaorganisaties (Andere)"@nl ;
+    skos:prefLabel    "Media Organizations (Other)"@en ;
+    skos:definition   "Subsidiemaatregel: Mediaorganisaties (Andere)"@nl ;
+    skos:definition   "Grant: Media Organizations (Other)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GT_09
+    a                 skos:Concept ;
+    skos:prefLabel    "Thuis- en ouderenzorgbeleid"@nl ;
+    skos:prefLabel    "Home and elderly care policy"@en ;
+    skos:definition   "Subsidiemaatregel: Thuis- en ouderenzorgbeleid"@nl ;
+    skos:definition   "Grant: Home and elderly care policy"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:QD
+    a                 skos:Concept ;
+    skos:prefLabel    "Water"@nl ;
+    skos:prefLabel    "Water"@en ;
+    skos:definition   "Subsidiemaatregel: Water"@nl ;
+    skos:definition   "Grant: Water"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:MT
+    a                 skos:Concept ;
+    skos:prefLabel    "Waterinfrastructuur Algemeen"@nl ;
+    skos:prefLabel    "Water infrastructure General"@en ;
+    skos:definition   "Subsidiemaatregel: Waterinfrastructuur Algemeen"@nl ;
+    skos:definition   "Grant: Water infrastructure General"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:EM
+    a                 skos:Concept ;
+    skos:prefLabel    "Valorisatie onderzoeksresultaten"@nl ;
+    skos:prefLabel    "Valorization research results"@en ;
+    skos:definition   "Subsidiemaatregel: Valorisatie onderzoeksresultaten"@nl ;
+    skos:definition   "Grant: Valorization research results"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SW
+    a                 skos:Concept ;
+    skos:prefLabel    "Toerisme"@nl ;
+    skos:prefLabel    "Tourism"@en ;
+    skos:definition   "Subsidiemaatregel: Toerisme"@nl ;
+    skos:definition   "Grant: Tourism"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:MM
+    a                 skos:Concept ;
+    skos:prefLabel    "Combimobiliteit"@nl ;
+    skos:prefLabel    "Combimobility"@en ;
+    skos:definition   "Subsidiemaatregel: Combimobiliteit"@nl ;
+    skos:definition   "Grant: Combimobility"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GU_01
+    a                 skos:Concept ;
+    skos:prefLabel    "Voorschoolse opvang"@nl ;
+    skos:prefLabel    "Voorschoolse opvang"@en ;
+    skos:definition   "Subsidiemaatregel: Voorschoolse opvang"@nl ;
+    skos:definition   "Grant: Voorschoolse opvang"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GS_06
+    a                 skos:Concept ;
+    skos:prefLabel    "Klassieke financiering"@nl ;
+    skos:prefLabel    "Classic financing"@en ;
+    skos:definition   "Subsidiemaatregel: Klassieke financiering"@nl ;
+    skos:definition   "Grant: Classic financing"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GI
+    a                 skos:Concept ;
+    skos:prefLabel    "Algemeen gezondheidsbeleid"@nl ;
+    skos:prefLabel    "General health policy"@en ;
+    skos:definition   "Subsidiemaatregel: Algemeen gezondheidsbeleid"@nl ;
+    skos:definition   "Grant: General health policy"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SJ_04
+    a                 skos:Concept ;
+    skos:prefLabel    "Gendergerelateerd geweld"@nl ;
+    skos:prefLabel    "Gender-based violence"@en ;
+    skos:definition   "Subsidiemaatregel: Gendergerelateerd geweld"@nl ;
+    skos:definition   "Grant: Gender-based violence"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HI_03
+    a                 skos:Concept ;
+    skos:prefLabel    "Mediafonds"@nl ;
+    skos:prefLabel    "Media fund"@en ;
+    skos:definition   "Subsidiemaatregel: Mediafonds"@nl ;
+    skos:definition   "Grant: Media fund"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HC_07
+    a                 skos:Concept ;
+    skos:prefLabel    "Culturele Organisaties (Kunsten)"@nl ;
+    skos:prefLabel    "Cultural Organizations (Arts)"@en ;
+    skos:definition   "Subsidiemaatregel: Culturele Organisaties (Kunsten)"@nl ;
+    skos:definition   "Grant: Cultural Organizations (Arts)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GT_08
+    a                 skos:Concept ;
+    skos:prefLabel    "Revalidatieziekenhuizen"@nl ;
+    skos:prefLabel    "Rehabilitation Hospitals"@en ;
+    skos:definition   "Subsidiemaatregel: Revalidatieziekenhuizen"@nl ;
+    skos:definition   "Grant: Rehabilitation Hospitals"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:EI
+    a                 skos:Concept ;
+    skos:prefLabel    "Strategisch basisonderzoek"@nl ;
+    skos:prefLabel    "Strategic basic research"@en ;
+    skos:definition   "Subsidiemaatregel: Strategisch basisonderzoek"@nl ;
+    skos:definition   "Grant: Strategic basic research"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HK
+    a                 skos:Concept ;
+    skos:prefLabel    "Internationaal en Interregionaal Mediabeleid"@nl ;
+    skos:prefLabel    "International and Interregional Media Policy"@en ;
+    skos:definition   "Subsidiemaatregel: Internationaal en Interregionaal Mediabeleid"@nl ;
+    skos:definition   "Grant: International and Interregional Media Policy"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:QJ
+    a                 skos:Concept ;
+    skos:prefLabel    "Afval en materialen"@nl ;
+    skos:prefLabel    "Waste and materials"@en ;
+    skos:definition   "Subsidiemaatregel: Afval en materialen"@nl ;
+    skos:definition   "Grant: Waste and materials"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:MK
+    a                 skos:Concept ;
+    skos:prefLabel    "Algemene Beleidsondersteuning"@nl ;
+    skos:prefLabel    "General Policy Support"@en ;
+    skos:definition   "Subsidiemaatregel: Algemene Beleidsondersteuning"@nl ;
+    skos:definition   "Grant: General Policy Support"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:QC
+    a                 skos:Concept ;
+    skos:prefLabel    "Kwaliteit onroerenderfgoedzorg"@nl ;
+    skos:prefLabel    "Quality real estate care"@en ;
+    skos:definition   "Subsidiemaatregel: Kwaliteit onroerenderfgoedzorg"@nl ;
+    skos:definition   "Grant: Quality real estate care"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:MP
+    a                 skos:Concept ;
+    skos:prefLabel    "Weginfrastructuur Algemeen"@nl ;
+    skos:prefLabel    "Road infrastructure General"@en ;
+    skos:definition   "Subsidiemaatregel: Weginfrastructuur Algemeen"@nl ;
+    skos:definition   "Grant: Road infrastructure General"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GR_03
+    a                 skos:Concept ;
+    skos:prefLabel    "Subsidies aan ondersteunende en intermediaire organisaties"@nl ;
+    skos:prefLabel    "Subsidies to support and intermediary organizations"@en ;
+    skos:definition   "Subsidiemaatregel: Subsidies aan ondersteunende en intermediaire organisaties"@nl ;
+    skos:definition   "Grant: Subsidies to support and intermediary organizations"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HS
+    a                 skos:Concept ;
+    skos:prefLabel    "Anti-doping"@nl ;
+    skos:prefLabel    "Anti-doping"@en ;
+    skos:definition   "Subsidiemaatregel: Anti-doping"@nl ;
+    skos:definition   "Grant: Anti-doping"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GE_01
+    a                 skos:Concept ;
+    skos:prefLabel    "Welzijnswerk"@nl ;
+    skos:prefLabel    "Welfare work"@en ;
+    skos:definition   "Subsidiemaatregel: Welzijnswerk"@nl ;
+    skos:definition   "Grant: Welfare work"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:EH
+    a                 skos:Concept ;
+    skos:prefLabel    "Domeinspecifiek fundamenteel wetenschappelijk onderzoek"@nl ;
+    skos:prefLabel    "Domain-specific fundamental scientific research"@en ;
+    skos:definition   "Subsidiemaatregel: Domeinspecifiek fundamenteel wetenschappelijk onderzoek"@nl ;
+    skos:definition   "Grant: Domain-specific fundamental scientific research"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GT_03
+    a                 skos:Concept ;
+    skos:prefLabel    "Zorgverzekering"@nl ;
+    skos:prefLabel    "Health insurance"@en ;
+    skos:definition   "Subsidiemaatregel: Zorgverzekering"@nl ;
+    skos:definition   "Grant: Health insurance"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GT_11
+    a                 skos:Concept ;
+    skos:prefLabel    "Geestelijke gezondheidszorg"@nl ;
+    skos:prefLabel    "Mental healthcare"@en ;
+    skos:definition   "Subsidiemaatregel: Geestelijke gezondheidszorg"@nl ;
+    skos:definition   "Grant: Mental healthcare"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:JG
+    a                 skos:Concept ;
+    skos:prefLabel    "Duurzame arbeidsmarkt (sociale economie)"@nl ;
+    skos:prefLabel    "Sustainable labor market (social economy)"@en ;
+    skos:definition   "Subsidiemaatregel: Duurzame arbeidsmarkt (sociale economie)"@nl ;
+    skos:definition   "Grant: Sustainable labor market (social economy)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GJ
+    a                 skos:Concept ;
+    skos:prefLabel    "Preventie"@nl ;
+    skos:prefLabel    "Prevention"@en ;
+    skos:definition   "Subsidiemaatregel: Preventie"@nl ;
+    skos:definition   "Grant: Prevention"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SG_01
+    a                 skos:Concept ;
+    skos:prefLabel    "Fondsen lokale financiering"@nl ;
+    skos:prefLabel    "Local financing funds"@en ;
+    skos:definition   "Subsidiemaatregel: Fondsen lokale financiering"@nl ;
+    skos:definition   "Grant: Local financing funds"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HD_04
+    a                 skos:Concept ;
+    skos:prefLabel    "Culturele Projecten (Bovenlokale cultuurwerking)"@nl ;
+    skos:prefLabel    "Cultural Projects (Supra-local cultural activities)"@en ;
+    skos:definition   "Subsidiemaatregel: Culturele Projecten (Bovenlokale cultuurwerking)"@nl ;
+    skos:definition   "Grant: Cultural Projects (Supra-local cultural activities)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:QH
+    a                 skos:Concept ;
+    skos:prefLabel    "Lucht"@nl ;
+    skos:prefLabel    "Air"@en ;
+    skos:definition   "Subsidiemaatregel: Lucht"@nl ;
+    skos:definition   "Grant: Air"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GS_02
+    a                 skos:Concept ;
+    skos:prefLabel    "Strategisch forfait"@nl ;
+    skos:prefLabel    "Strategic forfait"@en ;
+    skos:definition   "Subsidiemaatregel: Strategisch forfait"@nl ;
+    skos:definition   "Grant: Strategic forfait"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GE_02
+    a                 skos:Concept ;
+    skos:prefLabel    "Vrijwilligerswerk"@nl ;
+    skos:prefLabel    "Volunteer work"@en ;
+    skos:definition   "Subsidiemaatregel: Vrijwilligerswerk"@nl ;
+    skos:definition   "Grant: Volunteer work"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:FA
+    a                 skos:Concept ;
+    skos:prefLabel    "Thema-overschrijdend (Onderwijs en Vorming)"@nl ;
+    skos:prefLabel    "Cross-theme (Education and Training)"@en ;
+    skos:definition   "Subsidiemaatregel: Thema-overschrijdend (Onderwijs en Vorming)"@nl ;
+    skos:definition   "Grant: Cross-theme (Education and Training)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HI_02
+    a                 skos:Concept ;
+    skos:prefLabel    "Gamefonds"@nl ;
+    skos:prefLabel    "Game fund"@en ;
+    skos:definition   "Subsidiemaatregel: Gamefonds"@nl ;
+    skos:definition   "Grant: Game fund"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HB
+    a                 skos:Concept ;
+    skos:prefLabel    "Investeren in infrastructuur"@nl ;
+    skos:prefLabel    "Investing in infrastructure"@en ;
+    skos:definition   "Subsidiemaatregel: Investeren in infrastructuur"@nl ;
+    skos:definition   "Grant: Investing in infrastructure"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GR_04
+    a                 skos:Concept ;
+    skos:prefLabel    "Subsidies aan ondersteunende en intermediaire organisaties"@nl ;
+    skos:prefLabel    "Subsidies to support and intermediary organizations"@en ;
+    skos:definition   "Subsidiemaatregel: Subsidies aan ondersteunende en intermediaire organisaties"@nl ;
+    skos:definition   "Grant: Subsidies to support and intermediary organizations"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GT_02
+    a                 skos:Concept ;
+    skos:prefLabel    "Tegemoetkoming en hulp aan bejaarden"@nl ;
+    skos:prefLabel    "Assistance and assistance to the elderly"@en ;
+    skos:definition   "Subsidiemaatregel: Tegemoetkoming en hulp aan bejaarden"@nl ;
+    skos:definition   "Grant: Assistance and assistance to the elderly"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:CB
+    a                 skos:Concept ;
+    skos:prefLabel    "Financiële operaties"@nl ;
+    skos:prefLabel    "Financial Operations"@en ;
+    skos:definition   "Subsidiemaatregel: Financiële operaties"@nl ;
+    skos:definition   "Grant: Financial Operations"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:CD
+    a                 skos:Concept ;
+    skos:prefLabel    "Fiscaliteit"@nl ;
+    skos:prefLabel    "Taxation"@en ;
+    skos:definition   "Subsidiemaatregel: Fiscaliteit"@nl ;
+    skos:definition   "Grant: Taxation"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:JA
+    a                 skos:Concept ;
+    skos:prefLabel    "Thema-overschrijdend (Werk en Sociale economie)"@nl ;
+    skos:prefLabel    "Cross-theme (Work and Social Economy)"@en ;
+    skos:definition   "Subsidiemaatregel: Thema-overschrijdend (Werk en Sociale economie)"@nl ;
+    skos:definition   "Grant: Cross-theme (Work and Social Economy)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HF_03
+    a                 skos:Concept ;
+    skos:prefLabel    "Jeugdorganisaties (Bovenlokaal jeugdwerk)"@nl ;
+    skos:prefLabel    "Youth organizations (Supra-local youth work)"@en ;
+    skos:definition   "Subsidiemaatregel: Jeugdorganisaties (Bovenlokaal jeugdwerk)"@nl ;
+    skos:definition   "Grant: Youth organizations (Supra-local youth work)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:EN
+    a                 skos:Concept ;
+    skos:prefLabel    "Innovatiekracht ondernemingen"@nl ;
+    skos:prefLabel    "Innovative power of companies"@en ;
+    skos:definition   "Subsidiemaatregel: Innovatiekracht ondernemingen"@nl ;
+    skos:definition   "Grant: Innovative power of companies"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:VB
+    a                 skos:Concept ;
+    skos:prefLabel    "Vlaams Parlement"@nl ;
+    skos:prefLabel    "Flemish parliament"@en ;
+    skos:definition   "Subsidiemaatregel: Vlaams Parlement"@nl ;
+    skos:definition   "Grant: Flemish parliament"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SZ
+    a                 skos:Concept ;
+    skos:prefLabel    "(Kanselarij, Bestuur, Buitenlandse Zaken en Justitie)"@nl ;
+    skos:prefLabel    "(Chancellery, Administration, Foreign Affairs and Justice)"@en ;
+    skos:definition   "Subsidiemaatregel: (Kanselarij, Bestuur, Buitenlandse Zaken en Justitie)"@nl ;
+    skos:definition   "Grant: (Chancellery, Administration, Foreign Affairs and Justice)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:QQ
+    a                 skos:Concept ;
+    skos:prefLabel    "Aanbodzijde woningmarkt"@nl ;
+    skos:prefLabel    "Supply side housing market"@en ;
+    skos:definition   "Subsidiemaatregel: Aanbodzijde woningmarkt"@nl ;
+    skos:definition   "Grant: Supply side housing market"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:QM
+    a                 skos:Concept ;
+    skos:prefLabel    "Dierenwelzijn"@nl ;
+    skos:prefLabel    "Animal welfare"@en ;
+    skos:definition   "Subsidiemaatregel: Dierenwelzijn"@nl ;
+    skos:definition   "Grant: Animal welfare"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HF_01
+    a                 skos:Concept ;
+    skos:prefLabel    "Jeugdorganisaties (Jeugd- en kinderrechtenbeleid)"@nl ;
+    skos:prefLabel    "Youth organizations (Youth and children's rights policy)"@en ;
+    skos:definition   "Subsidiemaatregel: Jeugdorganisaties (Jeugd- en kinderrechtenbeleid)"@nl ;
+    skos:definition   "Grant: Youth organizations (Youth and children's rights policy)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SA
+    a                 skos:Concept ;
+    skos:prefLabel    "Thema-overschrijdend (Kanselarij, Bestuur, Buitenlandse Zaken en Justitie)"@nl ;
+    skos:prefLabel    "Cross-theme (Chancellery, Administration, Foreign Affairs and Justice)"@en ;
+    skos:definition   "Subsidiemaatregel: Thema-overschrijdend (Kanselarij, Bestuur, Buitenlandse Zaken en Justitie)"@nl ;
+    skos:definition   "Grant: Cross-theme (Chancellery, Administration, Foreign Affairs and Justice)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:EB
+    a                 skos:Concept ;
+    skos:prefLabel    "Financiering ondernemingen"@nl ;
+    skos:prefLabel    "Financing companies"@en ;
+    skos:definition   "Subsidiemaatregel: Financiering ondernemingen"@nl ;
+    skos:definition   "Grant: Financing companies"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:QK
+    a                 skos:Concept ;
+    skos:prefLabel    "Energie"@nl ;
+    skos:prefLabel    "Energy"@en ;
+    skos:definition   "Subsidiemaatregel: Energie"@nl ;
+    skos:definition   "Grant: Energy"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:MS
+    a                 skos:Concept ;
+    skos:prefLabel    "Haven- En Waterbeleid"@nl ;
+    skos:prefLabel    "Port And Water Policy"@en ;
+    skos:definition   "Subsidiemaatregel: Haven- En Waterbeleid"@nl ;
+    skos:definition   "Grant: Port And Water Policy"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HD_01
+    a                 skos:Concept ;
+    skos:prefLabel    "Culturele Projecten (Amateurskunsten)"@nl ;
+    skos:prefLabel    "Cultural Projects (Amateur Arts)"@en ;
+    skos:definition   "Subsidiemaatregel: Culturele Projecten (Amateurskunsten)"@nl ;
+    skos:definition   "Grant: Cultural Projects (Amateur Arts)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GS_08
+    a                 skos:Concept ;
+    skos:prefLabel    "Klassieke financiering"@nl ;
+    skos:prefLabel    "Classic financing"@en ;
+    skos:definition   "Subsidiemaatregel: Klassieke financiering"@nl ;
+    skos:definition   "Grant: Classic financing"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:EG
+    a                 skos:Concept ;
+    skos:prefLabel    "Algemeen fundamenteel wetenschappelijk onderzoek"@nl ;
+    skos:prefLabel    "General basic scientific research"@en ;
+    skos:definition   "Subsidiemaatregel: Algemeen fundamenteel wetenschappelijk onderzoek"@nl ;
+    skos:definition   "Grant: General basic scientific research"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:JC
+    a                 skos:Concept ;
+    skos:prefLabel    "Activering (werk)"@nl ;
+    skos:prefLabel    "Activation (work)"@en ;
+    skos:definition   "Subsidiemaatregel: Activering (werk)"@nl ;
+    skos:definition   "Grant: Activation (work)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GT_06
+    a                 skos:Concept ;
+    skos:prefLabel    "Residentiële ouderenzorg"@nl ;
+    skos:prefLabel    "Residential elderly care"@en ;
+    skos:definition   "Subsidiemaatregel: Residentiële ouderenzorg"@nl ;
+    skos:definition   "Grant: Residential elderly care"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HE_02
+    a                 skos:Concept ;
+    skos:prefLabel    "Internationaal en Interregionaal Cultuurbeleid (Cultureel erfgoed)"@nl ;
+    skos:prefLabel    "International and Interregional Cultural Policy (Cultural Heritage)"@en ;
+    skos:definition   "Subsidiemaatregel: Internationaal en Interregionaal Cultuurbeleid (Cultureel erfgoed)"@nl ;
+    skos:definition   "Grant: International and Interregional Cultural Policy (Cultural Heritage)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:EA
+    a                 skos:Concept ;
+    skos:prefLabel    "Thema-overschrijdend (Economie, Wetenschap en Innovatie)"@nl ;
+    skos:prefLabel    "Cross-theme (Economy, Science and Innovation)"@en ;
+    skos:definition   "Subsidiemaatregel: Thema-overschrijdend (Economie, Wetenschap en Innovatie)"@nl ;
+    skos:definition   "Grant: Cross-theme (Economy, Science and Innovation)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:JH
+    a                 skos:Concept ;
+    skos:prefLabel    "Activering (sociale economie)"@nl ;
+    skos:prefLabel    "Activation (social economy)"@en ;
+    skos:definition   "Subsidiemaatregel: Activering (sociale economie)"@nl ;
+    skos:definition   "Grant: Activation (social economy)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GS_04
+    a                 skos:Concept ;
+    skos:prefLabel    "A1/A3"@nl ;
+    skos:prefLabel    "A1/A3"@en ;
+    skos:definition   "Subsidiemaatregel: A1/A3"@nl ;
+    skos:definition   "Grant: A1/A3"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HN
+    a                 skos:Concept ;
+    skos:prefLabel    "Sport voor allen"@nl ;
+    skos:prefLabel    "Sports for all"@en ;
+    skos:definition   "Subsidiemaatregel: Sport voor allen"@nl ;
+    skos:definition   "Grant: Sports for all"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GF
+    a                 skos:Concept ;
+    skos:prefLabel    "Vlaams intersectoraal akkoord"@nl ;
+    skos:prefLabel    "Flemish intersectoral agreement"@en ;
+    skos:definition   "Subsidiemaatregel: Vlaams intersectoraal akkoord"@nl ;
+    skos:definition   "Grant: Flemish intersectoral agreement"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HD_03
+    a                 skos:Concept ;
+    skos:prefLabel    "Culturele Projecten (Cultureel erfgoed)"@nl ;
+    skos:prefLabel    "Cultural Projects (Cultural Heritage)"@en ;
+    skos:definition   "Subsidiemaatregel: Culturele Projecten (Cultureel erfgoed)"@nl ;
+    skos:definition   "Grant: Cultural Projects (Cultural Heritage)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GB
+    a                 skos:Concept ;
+    skos:prefLabel    "Beleidsondersteuning"@nl ;
+    skos:prefLabel    "Policy support"@en ;
+    skos:definition   "Subsidiemaatregel: Beleidsondersteuning"@nl ;
+    skos:definition   "Grant: Policy support"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GH
+    a                 skos:Concept ;
+    skos:prefLabel    "Justitiehuizen en elektronisch toezicht"@nl ;
+    skos:prefLabel    "Houses of justice and electronic surveillance"@en ;
+    skos:definition   "Subsidiemaatregel: Justitiehuizen en elektronisch toezicht"@nl ;
+    skos:definition   "Grant: Houses of justice and electronic surveillance"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:QN
+    a                 skos:Concept ;
+    skos:prefLabel    "Omgevingsbeleid ruimte en milieu"@nl ;
+    skos:prefLabel    "Environmental policy for space and the environment"@en ;
+    skos:definition   "Subsidiemaatregel: Omgevingsbeleid ruimte en milieu"@nl ;
+    skos:definition   "Grant: Environmental policy for space and the environment"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:QG
+    a                 skos:Concept ;
+    skos:prefLabel    "Plattelandsbeleid"@nl ;
+    skos:prefLabel    "Rural policy"@en ;
+    skos:definition   "Subsidiemaatregel: Plattelandsbeleid"@nl ;
+    skos:definition   "Grant: Rural policy"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GK
+    a                 skos:Concept ;
+    skos:prefLabel    "Woonzorg en eerste lijn"@nl ;
+    skos:prefLabel    "Residential care and primary care"@en ;
+    skos:definition   "Subsidiemaatregel: Woonzorg en eerste lijn"@nl ;
+    skos:definition   "Grant: Residential care and primary care"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HD_05
+    a                 skos:Concept ;
+    skos:prefLabel    "Culturele Projecten (Sociaal-cultureel volwassenenwerk)"@nl ;
+    skos:prefLabel    "Cultural Projects (Social-Cultural Adult Work)"@en ;
+    skos:definition   "Subsidiemaatregel: Culturele Projecten (Sociaal-cultureel volwassenenwerk)"@nl ;
+    skos:definition   "Grant: Cultural Projects (Social-Cultural Adult Work)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:EF
+    a                 skos:Concept ;
+    skos:prefLabel    "Ruimtelijke economie"@nl ;
+    skos:prefLabel    "Spatial economics"@en ;
+    skos:definition   "Subsidiemaatregel: Ruimtelijke economie"@nl ;
+    skos:definition   "Grant: Spatial economics"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GS_07
+    a                 skos:Concept ;
+    skos:prefLabel    "Vlabzorginvest"@nl ;
+    skos:prefLabel    "Vlabzorginvest"@en ;
+    skos:definition   "Subsidiemaatregel: Vlabzorginvest"@nl ;
+    skos:definition   "Grant: Vlabzorginvest"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SS
+    a                 skos:Concept ;
+    skos:prefLabel    "Overheidsopdrachten"@nl ;
+    skos:prefLabel    "Government contracts"@en ;
+    skos:definition   "Subsidiemaatregel: Overheidsopdrachten"@nl ;
+    skos:definition   "Grant: Government contracts"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:MC
+    a                 skos:Concept ;
+    skos:prefLabel    "Uitbating Regionale Luchthavens"@nl ;
+    skos:prefLabel    "Operation Regional Airports"@en ;
+    skos:definition   "Subsidiemaatregel: Uitbating Regionale Luchthavens"@nl ;
+    skos:definition   "Grant: Operation Regional Airports"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SU
+    a                 skos:Concept ;
+    skos:prefLabel    "Financiële hefbomen internationalisering Vlaamse economie"@nl ;
+    skos:prefLabel    "Financial levers internationalization of the Flemish economy"@en ;
+    skos:definition   "Subsidiemaatregel: Financiële hefbomen internationalisering Vlaamse economie"@nl ;
+    skos:definition   "Grant: Financial levers internationalization of the Flemish economy"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:KD
+    a                 skos:Concept ;
+    skos:prefLabel    "Visserij en aquacultuur"@nl ;
+    skos:prefLabel    "Fisheries and aquaculture"@en ;
+    skos:definition   "Subsidiemaatregel: Visserij en aquacultuur"@nl ;
+    skos:definition   "Grant: Fisheries and aquaculture"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HC_05
+    a                 skos:Concept ;
+    skos:prefLabel    "Culturele Organisaties (Lokaal cultuurbeleid)"@nl ;
+    skos:prefLabel    "Cultural Organizations (Local Cultural Policy)"@en ;
+    skos:definition   "Subsidiemaatregel: Culturele Organisaties (Lokaal cultuurbeleid)"@nl ;
+    skos:definition   "Grant: Cultural Organizations (Local Cultural Policy)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HC_02
+    a                 skos:Concept ;
+    skos:prefLabel    "Culturele Organisaties (Circus)"@nl ;
+    skos:prefLabel    "Cultural Organizations (Circus)"@en ;
+    skos:definition   "Subsidiemaatregel: Culturele Organisaties (Circus)"@nl ;
+    skos:definition   "Grant: Cultural Organizations (Circus)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SE
+    a                 skos:Concept ;
+    skos:prefLabel    "Brussel"@nl ;
+    skos:prefLabel    "Brussels"@en ;
+    skos:definition   "Subsidiemaatregel: Brussel"@nl ;
+    skos:definition   "Grant: Brussels"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:MV
+    a                 skos:Concept ;
+    skos:prefLabel    "Investeringen Waterinfrastructuur"@nl ;
+    skos:prefLabel    "Investments Water infrastructure"@en ;
+    skos:definition   "Subsidiemaatregel: Investeringen Waterinfrastructuur"@nl ;
+    skos:definition   "Grant: Investments Water infrastructure"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:QT
+    a                 skos:Concept ;
+    skos:prefLabel    "Thema-overschrijdend instrumentarium wonen"@nl ;
+    skos:prefLabel    "Living with cross-theme instruments"@en ;
+    skos:definition   "Subsidiemaatregel: Thema-overschrijdend instrumentarium wonen"@nl ;
+    skos:definition   "Grant: Living with cross-theme instruments"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:ED
+    a                 skos:Concept ;
+    skos:prefLabel    "Groei-ondersteuning KMO’s en groeibedrijven"@nl ;
+    skos:prefLabel    "Growth support SMEs and growth companies"@en ;
+    skos:definition   "Subsidiemaatregel: Groei-ondersteuning KMO’s en groeibedrijven"@nl ;
+    skos:definition   "Grant: Growth support SMEs and growth companies"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HG_02
+    a                 skos:Concept ;
+    skos:prefLabel    "Jeugdprojecten (Andere)"@nl ;
+    skos:prefLabel    "Youth Projects (Other)"@en ;
+    skos:definition   "Subsidiemaatregel: Jeugdprojecten (Andere)"@nl ;
+    skos:definition   "Grant: Youth Projects (Other)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HC_01
+    a                 skos:Concept ;
+    skos:prefLabel    "Culturele Organisaties (Amateurskunsten)"@nl ;
+    skos:prefLabel    "Cultural Projects (Amateur Arts)"@en ;
+    skos:definition   "Subsidiemaatregel: Culturele Organisaties (Amateurskunsten)"@nl ;
+    skos:definition   "Grant: Cultural Projects (Amateur Arts)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SR
+    a                 skos:Concept ;
+    skos:prefLabel    "ICT"@nl ;
+    skos:prefLabel    "ICT"@en ;
+    skos:definition   "Subsidiemaatregel: ICT"@nl ;
+    skos:definition   "Grant: ICT"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:MB
+    a                 skos:Concept ;
+    skos:prefLabel    "Luchthavenbeleid"@nl ;
+    skos:prefLabel    "Airport Policy"@en ;
+    skos:definition   "Subsidiemaatregel: Luchthavenbeleid"@nl ;
+    skos:definition   "Grant: Airport Policy"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HP
+    a                 skos:Concept ;
+    skos:prefLabel    "Gezond en ethisch sporten"@nl ;
+    skos:prefLabel    "Healthy and ethical sports"@en ;
+    skos:definition   "Subsidiemaatregel: Gezond en ethisch sporten"@nl ;
+    skos:definition   "Grant: Healthy and ethical sports"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:EJ
+    a                 skos:Concept ;
+    skos:prefLabel    "Onderzoeksinfrastructuur"@nl ;
+    skos:prefLabel    "Research infrastructure"@en ;
+    skos:definition   "Subsidiemaatregel: Onderzoeksinfrastructuur"@nl ;
+    skos:definition   "Grant: Research infrastructure"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HO
+    a                 skos:Concept ;
+    skos:prefLabel    "Sportinfrastructuur"@nl ;
+    skos:prefLabel    "Sports infrastructure"@en ;
+    skos:definition   "Subsidiemaatregel: Sportinfrastructuur"@nl ;
+    skos:definition   "Grant: Sports infrastructure"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HD_02
+    a                 skos:Concept ;
+    skos:prefLabel    "Culturele Projecten (Circus)"@nl ;
+    skos:prefLabel    "Cultural Projects (Circus)"@en ;
+    skos:definition   "Subsidiemaatregel: Culturele Projecten (Circus)"@nl ;
+    skos:definition   "Grant: Cultural Projects (Circus)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GC
+    a                 skos:Concept ;
+    skos:prefLabel    "Armoedebeleid"@nl ;
+    skos:prefLabel    "Poverty policy"@en ;
+    skos:definition   "Subsidiemaatregel: Armoedebeleid"@nl ;
+    skos:definition   "Grant: Poverty policy"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GS_05
+    a                 skos:Concept ;
+    skos:prefLabel    "Uitgaven klimaat"@nl ;
+    skos:prefLabel    "Climate spending"@en ;
+    skos:definition   "Subsidiemaatregel: Uitgaven klimaat"@nl ;
+    skos:definition   "Grant: Climate spending"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SJ_01
+    a                 skos:Concept ;
+    skos:prefLabel    "Justitiehuizen en elektronisch toezicht"@nl ;
+    skos:prefLabel    "Houses of justice and electronic surveillance"@en ;
+    skos:definition   "Subsidiemaatregel: Justitiehuizen en elektronisch toezicht"@nl ;
+    skos:definition   "Grant: Houses of justice and electronic surveillance"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SI
+    a                 skos:Concept ;
+    skos:prefLabel    "Buitenlands beleid"@nl ;
+    skos:prefLabel    "Foreign policy"@en ;
+    skos:definition   "Subsidiemaatregel: Buitenlands beleid"@nl ;
+    skos:definition   "Grant: Foreign policy"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HF_02
+    a                 skos:Concept ;
+    skos:prefLabel    "Jeugdverblijfcentra"@nl ;
+    skos:prefLabel    "Youth accommodation centers"@en ;
+    skos:definition   "Subsidiemaatregel: Jeugdverblijfcentra"@nl ;
+    skos:definition   "Grant: Youth accommodation centers"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SQ
+    a                 skos:Concept ;
+    skos:prefLabel    "Facilities"@nl ;
+    skos:prefLabel    "Facilities"@en ;
+    skos:definition   "Subsidiemaatregel: Facilities"@nl ;
+    skos:definition   "Grant: Facilities"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HC_08
+    a                 skos:Concept ;
+    skos:prefLabel    "Topstukken"@nl ;
+    skos:prefLabel    "Masterpieces"@en ;
+    skos:definition   "Subsidiemaatregel: Topstukken"@nl ;
+    skos:definition   "Grant: Masterpieces"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HF_05
+    a                 skos:Concept ;
+    skos:prefLabel    "Jeugdorganisaties (Andere)"@nl ;
+    skos:prefLabel    "Youth Organizations (Other)"@en ;
+    skos:definition   "Subsidiemaatregel: Jeugdorganisaties (Andere)"@nl ;
+    skos:definition   "Grant: Youth Organizations (Other)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GT_05
+    a                 skos:Concept ;
+    skos:prefLabel    "Mobiliteit en hulpmiddelen"@nl ;
+    skos:prefLabel    "Mobility and tools"@en ;
+    skos:definition   "Subsidiemaatregel: Mobiliteit en hulpmiddelen"@nl ;
+    skos:definition   "Grant: Mobility and tools"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:MO
+    a                 skos:Concept ;
+    skos:prefLabel    "Verkeersbeleid"@nl ;
+    skos:prefLabel    "Traffic policy"@en ;
+    skos:definition   "Subsidiemaatregel: Verkeersbeleid"@nl ;
+    skos:definition   "Grant: Traffic policy"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:QA
+    a                 skos:Concept ;
+    skos:prefLabel    "Thema-overschrijdend instrumentarium onroerend erfgoed"@nl ;
+    skos:prefLabel    "Cross-thematic instruments of immovable heritage"@en ;
+    skos:definition   "Subsidiemaatregel: Thema-overschrijdend instrumentarium onroerend erfgoed"@nl ;
+    skos:definition   "Grant: Cross-thematic instruments of immovable heritage"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:FE
+    a                 skos:Concept ;
+    skos:prefLabel    "Hoger onderwijs"@nl ;
+    skos:prefLabel    "Higher education"@en ;
+    skos:definition   "Subsidiemaatregel: Hoger onderwijs"@nl ;
+    skos:definition   "Grant: Higher education"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:KB_01
+    a                 skos:Concept ;
+    skos:prefLabel    "Ondersteuning landbouw en landbouwbedrijf"@nl ;
+    skos:prefLabel    "Agriculture and farm support"@en ;
+    skos:definition   "Subsidiemaatregel: Ondersteuning landbouw en landbouwbedrijf"@nl ;
+    skos:definition   "Grant: Agriculture and farm support"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SN
+    a                 skos:Concept ;
+    skos:prefLabel    "Digitalisering"@nl ;
+    skos:prefLabel    "Digitization"@en ;
+    skos:definition   "Subsidiemaatregel: Digitalisering"@nl ;
+    skos:definition   "Grant: Digitization"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GQ
+    a                 skos:Concept ;
+    skos:prefLabel    "Groeipakket"@nl ;
+    skos:prefLabel    "Groeipakket"@en ;
+    skos:definition   "Subsidiemaatregel: Groeipakket"@nl ;
+    skos:definition   "Grant: Groeipakket"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:MW
+    a                 skos:Concept ;
+    skos:prefLabel    "Scheepvaartverkeer"@nl ;
+    skos:prefLabel    "Shipping traffic"@en ;
+    skos:definition   "Subsidiemaatregel: Scheepvaartverkeer"@nl ;
+    skos:definition   "Grant: Shipping traffic"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:QP
+    a                 skos:Concept ;
+    skos:prefLabel    "Vraagzijde woningmarkt"@nl ;
+    skos:prefLabel    "Demand side housing market"@en ;
+    skos:definition   "Subsidiemaatregel: Vraagzijde woningmarkt"@nl ;
+    skos:definition   "Grant: Demand side housing market"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:QO
+    a                 skos:Concept ;
+    skos:prefLabel    "Thema-overschrijdend instrumentarium omgeving"@nl ;
+    skos:prefLabel    "Theme-crossing instruments environment"@en ;
+    skos:definition   "Subsidiemaatregel: Thema-overschrijdend instrumentarium omgeving"@nl ;
+    skos:definition   "Grant: Theme-crossing instruments environment"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:QI
+    a                 skos:Concept ;
+    skos:prefLabel    "Klimaat"@nl ;
+    skos:prefLabel    "Climate"@en ;
+    skos:definition   "Subsidiemaatregel: Klimaat"@nl ;
+    skos:definition   "Grant: Climate"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HC_06
+    a                 skos:Concept ;
+    skos:prefLabel    "Culturele Organisaties (Sociaal-cultureel volwassenenwerk)"@nl ;
+    skos:prefLabel    "Cultural Organizations (Social-Cultural Adult Work)"@en ;
+    skos:definition   "Subsidiemaatregel: Culturele Organisaties (Sociaal-cultureel volwassenenwerk)"@nl ;
+    skos:definition   "Grant: Cultural Organizations (Social-Cultural Adult Work)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:CE
+    a                 skos:Concept ;
+    skos:prefLabel    "Boekhouding"@nl ;
+    skos:prefLabel    "Accountancy"@en ;
+    skos:definition   "Subsidiemaatregel: Boekhouding"@nl ;
+    skos:definition   "Grant: Accountancy"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GT_04
+    a                 skos:Concept ;
+    skos:prefLabel    "Basisondersteuningsbudget"@nl ;
+    skos:prefLabel    "Basic support budget"@en ;
+    skos:definition   "Subsidiemaatregel: Basisondersteuningsbudget"@nl ;
+    skos:definition   "Grant: Basic support budget"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GT_10
+    a                 skos:Concept ;
+    skos:prefLabel    "Thuis- en gezinszorgbeleid"@nl ;
+    skos:prefLabel    "Home and family care policies"@en ;
+    skos:definition   "Subsidiemaatregel: Thuis- en gezinszorgbeleid"@nl ;
+    skos:definition   "Grant: Home and family care policies"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HC_04
+    a                 skos:Concept ;
+    skos:prefLabel    "Culturele Organisaties (Bovenlokale cultuurwerking)"@nl ;
+    skos:prefLabel    "Cultural Organizations (Supra-local cultural activities)"@en ;
+    skos:definition   "Subsidiemaatregel: Culturele Organisaties (Bovenlokale cultuurwerking)"@nl ;
+    skos:definition   "Grant: Cultural Organizations (Supra-local cultural activities)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SH_02
+    a                 skos:Concept ;
+    skos:prefLabel    "Stedenbeleid (excl. investeringsfonds lokale besturen)"@nl ;
+    skos:prefLabel    "Urban policy (excl. local government investment fund)"@en ;
+    skos:definition   "Subsidiemaatregel: Stedenbeleid (excl. investeringsfonds lokale besturen)"@nl ;
+    skos:definition   "Grant: Urban policy (excl. local government investment fund)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SB
+    a                 skos:Concept ;
+    skos:prefLabel    "Ondersteuning Vlaamse Regering"@nl ;
+    skos:prefLabel    "Support Flemish Government"@en ;
+    skos:definition   "Subsidiemaatregel: Ondersteuning Vlaamse Regering"@nl ;
+    skos:definition   "Grant: Support Flemish Government"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:KE
+    a                 skos:Concept ;
+    skos:prefLabel    "Landbouw- en zeevisserijonderzoek"@nl ;
+    skos:prefLabel    "Agricultural and marine fisheries research"@en ;
+    skos:definition   "Subsidiemaatregel: Landbouw- en zeevisserijonderzoek"@nl ;
+    skos:definition   "Grant: Agricultural and marine fisheries research"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HC_09
+    a                 skos:Concept ;
+    skos:prefLabel    "Filmfonds"@nl ;
+    skos:prefLabel    "Film fund"@en ;
+    skos:definition   "Subsidiemaatregel: Filmfonds"@nl ;
+    skos:definition   "Grant: Film fund"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:EL
+    a                 skos:Concept ;
+    skos:prefLabel    "Brugfunctie fundamenteel en toegepast onderzoek"@nl ;
+    skos:prefLabel    "Bridge function fundamental and applied research"@en ;
+    skos:definition   "Subsidiemaatregel: Brugfunctie fundamenteel en toegepast onderzoek"@nl ;
+    skos:definition   "Grant: Bridge function fundamental and applied research"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HG_01
+    a                 skos:Concept ;
+    skos:prefLabel    "Jeugdprojecten (Jeugd- en kinderrechtenbeleid)"@nl ;
+    skos:prefLabel    "Youth projects (Youth and children's rights policy)"@en ;
+    skos:definition   "Subsidiemaatregel: Jeugdprojecten (Jeugd- en kinderrechtenbeleid)"@nl ;
+    skos:definition   "Grant: Youth projects (Youth and children's rights policy)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:KB_02
+    a                 skos:Concept ;
+    skos:prefLabel    "Ondersteuning van de agrovoedingsketen en landbouwgerelateerde organisaties"@nl ;
+    skos:prefLabel    "Support of the agri-food chain and agriculture-related organisations"@en ;
+    skos:definition   "Subsidiemaatregel: Ondersteuning van de agrovoedingsketen en landbouwgerelateerde organisaties"@nl ;
+    skos:definition   "Grant: Support of the agri-food chain and agriculture-related organisations"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SO
+    a                 skos:Concept ;
+    skos:prefLabel    "Internationale economische belangenbehartiging en vertegenwoordiging"@nl ;
+    skos:prefLabel    "International economic advocacy and representation"@en ;
+    skos:definition   "Subsidiemaatregel: Internationale economische belangenbehartiging en vertegenwoordiging"@nl ;
+    skos:definition   "Grant: International economic advocacy and representation"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HH
+    a                 skos:Concept ;
+    skos:prefLabel    "Internationaal en Interregionaal Jeugdbeleid"@nl ;
+    skos:prefLabel    "International and Interregional Youth Policy"@en ;
+    skos:definition   "Subsidiemaatregel: Internationaal en Interregionaal Jeugdbeleid"@nl ;
+    skos:definition   "Grant: International and Interregional Youth Policy"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:KF
+    a                 skos:Concept ;
+    skos:prefLabel    "Promotie landbouw, tuinbouw en zeevisserij"@nl ;
+    skos:prefLabel    "Promotion of agriculture, horticulture and sea fishing"@en ;
+    skos:definition   "Subsidiemaatregel: Promotie landbouw, tuinbouw en zeevisserij"@nl ;
+    skos:definition   "Grant: Promotion of agriculture, horticulture and sea fishing"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SD
+    a                 skos:Concept ;
+    skos:prefLabel    "Integratie en inburgering"@nl ;
+    skos:prefLabel    "Integration and naturalization"@en ;
+    skos:definition   "Subsidiemaatregel: Integratie en inburgering"@nl ;
+    skos:definition   "Grant: Integration and naturalization"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HD_06
+    a                 skos:Concept ;
+    skos:prefLabel    "Culturele Projecten (Kunsten)"@nl ;
+    skos:prefLabel    "Cultural Projects (Arts)"@en ;
+    skos:definition   "Subsidiemaatregel: Culturele Projecten (Kunsten)"@nl ;
+    skos:definition   "Grant: Cultural Projects (Arts)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HQ
+    a                 skos:Concept ;
+    skos:prefLabel    "Topsport"@nl ;
+    skos:prefLabel    "Top sport"@en ;
+    skos:definition   "Subsidiemaatregel: Topsport"@nl ;
+    skos:definition   "Grant: Top sport"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:MR
+    a                 skos:Concept ;
+    skos:prefLabel    "Investeringen Weginfrastructuur"@nl ;
+    skos:prefLabel    "Investments Road infrastructure"@en ;
+    skos:definition   "Subsidiemaatregel: Investeringen Weginfrastructuur"@nl ;
+    skos:definition   "Grant: Investments Road infrastructure"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HC_10
+    a                 skos:Concept ;
+    skos:prefLabel    "Literatuur"@nl ;
+    skos:prefLabel    "Literatuur"@en ;
+    skos:definition   "Subsidiemaatregel: Literatuur"@nl ;
+    skos:definition   "Grant: Literatuur"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:FG
+    a                 skos:Concept ;
+    skos:prefLabel    "Ondersteuning onderwijsinstellingen en onderwijsveld"@nl ;
+    skos:prefLabel    "Support educational institutions and educational field"@en ;
+    skos:definition   "Subsidiemaatregel: Ondersteuning onderwijsinstellingen en onderwijsveld"@nl ;
+    skos:definition   "Grant: Support educational institutions and educational field"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GM
+    a                 skos:Concept ;
+    skos:prefLabel    "Jeugdhulp"@nl ;
+    skos:prefLabel    "Youth aid"@en ;
+    skos:definition   "Subsidiemaatregel: Jeugdhulp"@nl ;
+    skos:definition   "Grant: Youth aid"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SH_01
+    a                 skos:Concept ;
+    skos:prefLabel    "Investeringsfonds lokale besturen"@nl ;
+    skos:prefLabel    "Investment fund for local authorities"@en ;
+    skos:definition   "Subsidiemaatregel: Investeringsfonds lokale besturen"@nl ;
+    skos:definition   "Grant: Investment fund for local authorities"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:QR
+    a                 skos:Concept ;
+    skos:prefLabel    "Woningkwaliteit"@nl ;
+    skos:prefLabel    "Housing quality"@en ;
+    skos:definition   "Subsidiemaatregel: Woningkwaliteit"@nl ;
+    skos:definition   "Grant: Housing quality"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HR
+    a                 skos:Concept ;
+    skos:prefLabel    "Internationaal en interregionaal sportbeleid"@nl ;
+    skos:prefLabel    "International and interregional sports policy"@en ;
+    skos:definition   "Subsidiemaatregel: Internationaal en interregionaal sportbeleid"@nl ;
+    skos:definition   "Grant: International and interregional sports policy"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HM
+    a                 skos:Concept ;
+    skos:prefLabel    "Openbare omroep"@nl ;
+    skos:prefLabel    "Public announcement"@en ;
+    skos:definition   "Subsidiemaatregel: Openbare omroep"@nl ;
+    skos:definition   "Grant: Public announcement"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HE_01
+    a                 skos:Concept ;
+    skos:prefLabel    "Internationaal en Interregionaal Cultuurbeleid (Amateurskunsten)"@nl ;
+    skos:prefLabel    "International and Interregional Cultural Policy (Amateur Arts)"@en ;
+    skos:definition   "Subsidiemaatregel: Internationaal en Interregionaal Cultuurbeleid (Amateurskunsten)"@nl ;
+    skos:definition   "Grant: International and Interregional Cultural Policy (Amateur Arts)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:FD
+    a                 skos:Concept ;
+    skos:prefLabel    "Kleuter- en leerplichtonderwijs"@nl ;
+    skos:prefLabel    "Nursery and compulsory education"@en ;
+    skos:definition   "Subsidiemaatregel: Kleuter- en leerplichtonderwijs"@nl ;
+    skos:definition   "Grant: Nursery and compulsory education"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HJ
+    a                 skos:Concept ;
+    skos:prefLabel    "Mediaprojecten"@nl ;
+    skos:prefLabel    "Media projects"@en ;
+    skos:definition   "Subsidiemaatregel: Mediaprojecten"@nl ;
+    skos:definition   "Grant: Media projects"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:ML
+    a                 skos:Concept ;
+    skos:prefLabel    "Modi-Overschrijdend Mobiliteitsbeleid"@nl ;
+    skos:prefLabel    "Mode-Crossing Mobility Policy"@en ;
+    skos:definition   "Subsidiemaatregel: Modi-Overschrijdend Mobiliteitsbeleid"@nl ;
+    skos:definition   "Grant: Mode-Crossing Mobility Policy"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HC_03
+    a                 skos:Concept ;
+    skos:prefLabel    "Culturele Organisaties (Cultureel erfgoed)"@nl ;
+    skos:prefLabel    "Cultural Projects (Cultural Heritage)"@en ;
+    skos:definition   "Subsidiemaatregel: Culturele Organisaties (Cultureel erfgoed)"@nl ;
+    skos:definition   "Grant: Cultural Projects (Cultural Heritage)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:FI
+    a                 skos:Concept ;
+    skos:prefLabel    "Onderwijsinspectie"@nl ;
+    skos:prefLabel    "Education Inspectorate"@en ;
+    skos:definition   "Subsidiemaatregel: Onderwijsinspectie"@nl ;
+    skos:definition   "Grant: Education Inspectorate"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GE_04
+    a                 skos:Concept ;
+    skos:prefLabel    "Commissies juridische bijstand"@nl ;
+    skos:prefLabel    "Legal Aid Committees"@en ;
+    skos:definition   "Subsidiemaatregel: Commissies juridische bijstand"@nl ;
+    skos:definition   "Grant: Legal Aid Committees"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SJ_02
+    a                 skos:Concept ;
+    skos:prefLabel    "Hulp- en dienstverlening aan gedetineerden"@nl ;
+    skos:prefLabel    "Assistance and services to detainees"@en ;
+    skos:definition   "Subsidiemaatregel: Hulp- en dienstverlening aan gedetineerden"@nl ;
+    skos:definition   "Grant: Assistance and services to detainees"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GS_03
+    a                 skos:Concept ;
+    skos:prefLabel    "Instandhoudingsforfait"@nl ;
+    skos:prefLabel    "Instandhoudingsforfait"@en ;
+    skos:definition   "Subsidiemaatregel: Instandhoudingsforfait"@nl ;
+    skos:definition   "Grant: Instandhoudingsforfait"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GL
+    a                 skos:Concept ;
+    skos:prefLabel    "Gespecialiseerde zorg"@nl ;
+    skos:prefLabel    "Specialized care"@en ;
+    skos:definition   "Subsidiemaatregel: Gespecialiseerde zorg"@nl ;
+    skos:definition   "Grant: Specialized care"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SL
+    a                 skos:Concept ;
+    skos:prefLabel    "Ontwikkelingssamenwerking"@nl ;
+    skos:prefLabel    "Development cooperation"@en ;
+    skos:definition   "Subsidiemaatregel: Ontwikkelingssamenwerking"@nl ;
+    skos:definition   "Grant: Development cooperation"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HI_01
+    a                 skos:Concept ;
+    skos:prefLabel    "Mediadecreet"@nl ;
+    skos:prefLabel    "Media decree"@en ;
+    skos:definition   "Subsidiemaatregel: Mediadecreet"@nl ;
+    skos:definition   "Grant: Media decree"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HA_03
+    a                 skos:Concept ;
+    skos:prefLabel    "Beleidswerking en Internationaal Beleid Ondersteunen (Andere)"@nl ;
+    skos:prefLabel    "Policy Operations and International Policy Support (Other)"@en ;
+    skos:definition   "Subsidiemaatregel: Beleidswerking en Internationaal Beleid Ondersteunen (Andere)"@nl ;
+    skos:definition   "Grant: Policy Operations and International Policy Support (Other)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GS_01
+    a                 skos:Concept ;
+    skos:prefLabel    "Alternatieve financiering"@nl ;
+    skos:prefLabel    "Alternative financing"@en ;
+    skos:definition   "Subsidiemaatregel: Alternatieve financiering"@nl ;
+    skos:definition   "Grant: Alternative financing"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GU_02
+    a                 skos:Concept ;
+    skos:prefLabel    "Buitenschoolse opvang"@nl ;
+    skos:prefLabel    "Buitenschoolse opvang"@en ;
+    skos:definition   "Subsidiemaatregel: Buitenschoolse opvang"@nl ;
+    skos:definition   "Grant: Buitenschoolse opvang"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HD_08
+    a                 skos:Concept ;
+    skos:prefLabel    "Culturele Projecten (Andere)"@nl ;
+    skos:prefLabel    "Cultural Projects (Other)"@en ;
+    skos:definition   "Subsidiemaatregel: Culturele Projecten (Andere)"@nl ;
+    skos:definition   "Grant: Cultural Projects (Other)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:JF
+    a                 skos:Concept ;
+    skos:prefLabel    "Competenties"@nl ;
+    skos:prefLabel    "Competences"@en ;
+    skos:definition   "Subsidiemaatregel: Competenties"@nl ;
+    skos:definition   "Grant: Competences"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SC
+    a                 skos:Concept ;
+    skos:prefLabel    "Gelijke kansen"@nl ;
+    skos:prefLabel    "Equal opportunities"@en ;
+    skos:definition   "Subsidiemaatregel: Gelijke kansen"@nl ;
+    skos:definition   "Grant: Equal opportunities"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:CA
+    a                 skos:Concept ;
+    skos:prefLabel    "Thema-overschrijdend (Financiën en begroting)"@nl ;
+    skos:prefLabel    "Cross-theme (Finance and budget)"@en ;
+    skos:definition   "Subsidiemaatregel: Thema-overschrijdend (Financiën en begroting)"@nl ;
+    skos:definition   "Grant: Cross-theme (Finance and budget)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:EC
+    a                 skos:Concept ;
+    skos:prefLabel    "Ondernemerschap"@nl ;
+    skos:prefLabel    "Entrepreneurship"@en ;
+    skos:definition   "Subsidiemaatregel: Ondernemerschap"@nl ;
+    skos:definition   "Grant: Entrepreneurship"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:JI
+    a                 skos:Concept ;
+    skos:prefLabel    "Duurzame arbeidsmarkt (Werk)"@nl ;
+    skos:prefLabel    "Sustainable labor market (Work)"@en ;
+    skos:definition   "Subsidiemaatregel: Duurzame arbeidsmarkt (Werk)"@nl ;
+    skos:definition   "Grant: Sustainable labor market (Work)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HF_04
+    a                 skos:Concept ;
+    skos:prefLabel    "Lokaal jeugdbeleid"@nl ;
+    skos:prefLabel    "Local youth policy"@en ;
+    skos:definition   "Subsidiemaatregel: Lokaal jeugdbeleid"@nl ;
+    skos:definition   "Grant: Local youth policy"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HE_03
+    a                 skos:Concept ;
+    skos:prefLabel    "Internationaal en Interregionaal Cultuurbeleid (Kunsten)"@nl ;
+    skos:prefLabel    "International and Interregional Cultural Policy (Arts)"@en ;
+    skos:definition   "Subsidiemaatregel: Internationaal en Interregionaal Cultuurbeleid (Kunsten)"@nl ;
+    skos:definition   "Grant: International and Interregional Cultural Policy (Arts)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GT_07
+    a                 skos:Concept ;
+    skos:prefLabel    "Multidisciplinair overleg"@nl ;
+    skos:prefLabel    "Multidisciplinary consultation"@en ;
+    skos:definition   "Subsidiemaatregel: Multidisciplinair overleg"@nl ;
+    skos:definition   "Grant: Multidisciplinary consultation"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:MN
+    a                 skos:Concept ;
+    skos:prefLabel    "Verkeersveiligheid"@nl ;
+    skos:prefLabel    "Road safety"@en ;
+    skos:definition   "Subsidiemaatregel: Verkeersveiligheid"@nl ;
+    skos:definition   "Grant: Road safety"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:QB
+    a                 skos:Concept ;
+    skos:prefLabel    "Partnerschappen onroerenderfgoedzorg"@nl ;
+    skos:prefLabel    "Property heritage care partnerships"@en ;
+    skos:definition   "Subsidiemaatregel: Partnerschappen onroerenderfgoedzorg"@nl ;
+    skos:definition   "Grant: Property heritage care partnerships"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GE_03
+    a                 skos:Concept ;
+    skos:prefLabel    "Hulp- en dienstverlening aan gedetineerden"@nl ;
+    skos:prefLabel    "Assistance and services to detainees"@en ;
+    skos:definition   "Subsidiemaatregel: Hulp- en dienstverlening aan gedetineerden"@nl ;
+    skos:definition   "Grant: Assistance and services to detainees"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:KB_03
+    a                 skos:Concept ;
+    skos:prefLabel    "VLIF-steun"@nl ;
+    skos:prefLabel    "VLIF-support"@en ;
+    skos:definition   "Subsidiemaatregel: VLIF-steun"@nl ;
+    skos:definition   "Grant: VLIF-support"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SP
+    a                 skos:Concept ;
+    skos:prefLabel    "Vastgoed"@nl ;
+    skos:prefLabel    "Property"@en ;
+    skos:definition   "Subsidiemaatregel: Vastgoed"@nl ;
+    skos:definition   "Grant: Property"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:QE
+    a                 skos:Concept ;
+    skos:prefLabel    "Bodem en ondergrond"@nl ;
+    skos:prefLabel    "Soil and subsoil"@en ;
+    skos:definition   "Subsidiemaatregel: Bodem en ondergrond"@nl ;
+    skos:definition   "Grant: Soil and subsoil"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GU_03
+    a                 skos:Concept ;
+    skos:prefLabel    "Adoptie"@nl ;
+    skos:prefLabel    "Adoption"@en ;
+    skos:definition   "Subsidiemaatregel: Adoptie"@nl ;
+    skos:definition   "Grant: Adoption"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GR_02
+    a                 skos:Concept ;
+    skos:prefLabel    "Subsidies aan organisaties die rechtstreekse zorg bieden"@nl ;
+    skos:prefLabel    "Subsidies to organizations that provide direct care"@en ;
+    skos:definition   "Subsidiemaatregel: Subsidies aan organisaties die rechtstreekse zorg bieden"@nl ;
+    skos:definition   "Grant: Subsidies to organizations that provide direct care"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:MU
+    a                 skos:Concept ;
+    skos:prefLabel    "Onderhoud Waterinfrastructuur"@nl ;
+    skos:prefLabel    "Maintenance Water infrastructure"@en ;
+    skos:definition   "Subsidiemaatregel: Onderhoud Waterinfrastructuur"@nl ;
+    skos:definition   "Grant: Maintenance Water infrastructure"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:MD
+    a                 skos:Concept ;
+    skos:prefLabel    "Luchthaveninfrastructuur"@nl ;
+    skos:prefLabel    "Airport infrastructure"@en ;
+    skos:definition   "Subsidiemaatregel: Luchthaveninfrastructuur"@nl ;
+    skos:definition   "Grant: Airport infrastructure"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HA_01
+    a                 skos:Concept ;
+    skos:prefLabel    "Beleidswerking en Internationaal Beleid Ondersteunen (Participatie)"@nl ;
+    skos:prefLabel    "Policy Operations and International Policy Support (Participation)"@en ;
+    skos:definition   "Subsidiemaatregel: Beleidswerking en Internationaal Beleid Ondersteunen (Participatie)"@nl ;
+    skos:definition   "Grant: Policy Operations and International Policy Support (Participation)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:FH
+    a                 skos:Concept ;
+    skos:prefLabel    "Studietoelagen"@nl ;
+    skos:prefLabel    "Study Grants"@en ;
+    skos:definition   "Subsidiemaatregel: Studietoelagen"@nl ;
+    skos:definition   "Grant: Study Grants"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HC_11
+    a                 skos:Concept ;
+    skos:prefLabel    "Culturele Organisaties (Andere)"@nl ;
+    skos:prefLabel    "Cultural Organizations (Other)"@en ;
+    skos:definition   "Subsidiemaatregel: Culturele Organisaties (Andere)"@nl ;
+    skos:definition   "Grant: Cultural Organizations (Other)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SJ_03
+    a                 skos:Concept ;
+    skos:prefLabel    "Beleidsontwikkeling en -ondersteuning"@nl ;
+    skos:prefLabel    "Policy development and support"@en ;
+    skos:definition   "Subsidiemaatregel: Beleidsontwikkeling en -ondersteuning"@nl ;
+    skos:definition   "Grant: Policy development and support"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:SF
+    a                 skos:Concept ;
+    skos:prefLabel    "Vlaamse rand"@nl ;
+    skos:prefLabel    "Flemish border"@en ;
+    skos:definition   "Subsidiemaatregel: Vlaamse rand"@nl ;
+    skos:definition   "Grant: Flemish border"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:EO
+    a                 skos:Concept ;
+    skos:prefLabel    "Wetenschapscommunicatie"@nl ;
+    skos:prefLabel    "Science communication"@en ;
+    skos:definition   "Subsidiemaatregel: Wetenschapscommunicatie"@nl ;
+    skos:definition   "Grant: Science communication"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:EK
+    a                 skos:Concept ;
+    skos:prefLabel    "Post inititieel onderwijs"@nl ;
+    skos:prefLabel    "Post initial education"@en ;
+    skos:definition   "Subsidiemaatregel: Post inititieel onderwijs"@nl ;
+    skos:definition   "Grant: Post initial education"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:HA_02
+    a                 skos:Concept ;
+    skos:prefLabel    "Beleidswerking en Internationaal Beleid Ondersteunen (Lokaal cultuurbeleid)"@nl ;
+    skos:prefLabel    "Policy Operations and International Policy Support (Local Cultural Policy)"@en ;
+    skos:definition   "Subsidiemaatregel: Beleidswerking en Internationaal Beleid Ondersteunen (Lokaal cultuurbeleid)"@nl ;
+    skos:definition   "Grant: Policy Operations and International Policy Support (Local Cultural Policy)"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:GU_04
+    a                 skos:Concept ;
+    skos:prefLabel    "Preventieve gezinsondersteuning"@nl ;
+    skos:prefLabel    "Preventive family support"@en ;
+    skos:definition   "Subsidiemaatregel: Preventieve gezinsondersteuning"@nl ;
+    skos:definition   "Grant: Preventive family support"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:FC
+    a                 skos:Concept ;
+    skos:prefLabel    "Deeltijds kunstonderwijs"@nl ;
+    skos:prefLabel    "Part-time art education"@en ;
+    skos:definition   "Subsidiemaatregel: Deeltijds kunstonderwijs"@nl ;
+    skos:definition   "Grant: Part-time art education"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:QF
+    a                 skos:Concept ;
+    skos:prefLabel    "Natuur en biodiversiteit"@nl ;
+    skos:prefLabel    "Nature and biodiversity"@en ;
+    skos:definition   "Subsidiemaatregel: Natuur en biodiversiteit"@nl ;
+    skos:definition   "Grant: Nature and biodiversity"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .
+
+dvc:JE
+    a                 skos:Concept ;
+    skos:prefLabel    "Loopbanen"@nl ;
+    skos:prefLabel    "careers"@en ;
+    skos:definition   "Subsidiemaatregel: Loopbanen"@nl ;
+    skos:definition   "Grant: careers"@en ;
+    skos:inScheme     dvcs:Subsidiemaatregel ;
+    skos:topConceptOf dvcs:Subsidiemaatregel .

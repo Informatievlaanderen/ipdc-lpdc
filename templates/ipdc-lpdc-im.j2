@@ -6,4 +6,11 @@ en volgt het <a href="https://data.vlaanderen.be/ns/dienst">OSLO Vocabularium 'D
 lokale producten- en dienstencatalogus (LPDC) en de interbestuurlijke producten- en dienstencatalogus (IPDC).</p>
 <p>Veel zaken worden overgenomen vanuit het ICEG model en zijn daarom enkel in het Engels beschreven.
 Specifieke uitbreidingen binnen dit datamodel worden wel in het Nederlands beschreven.</p>
+
+<p>Doordat er een verschil is tussen het formele en informele taalgebruik binnen de Vlaamse overheid en de lokale besturen is er beslist om dit te reflecteren binnen TaalStrings.
+Er wordt bij zowel het inlezen als het uitsturen van de Nederlandse taal een ondersteuning voorzien voor volgende tags: nl, nl-BE-x-formal, nl-BE-x-informal.
+Bij het uitsturen kan het ook zijn dat de volgende talen uitgestuurd worden nl-BE-x-generated-formal, nl-BE-x-generated-informal.
+Het verschil tussen het al dan niet bevatten van de -generated tag is of dit een originele taal was, gevalideerd door een persoon. Of een computer gegeneerde taal gebasseerd op een taalmodel dat dus nog imperfecties kan bevatten.
+De nl taal tag wordt altijd voorzien, en bevat desnoods een copy van een van de taalvarianten. Er kan echter geen garantie gegeven worden over welke taalvariant dit gaat.
+</p>
 {% endblock %}
