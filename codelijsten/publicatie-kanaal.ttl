@@ -8,8 +8,7 @@ dvcs:PublicatieKanaal
     skos:prefLabel     "Publication medium"@en ;
     skos:definition    "Publicatiekanaal van een publieke dienst beschrijft op welke plaaten de dienst zichtbaar zal zijn"@nl ;
     skos:definition    "Publication medium of a public service describes on wich sites the service is visible"@en ;
-    skos:hasTopConcept dvc:YourEurope ;
-    skos:hasTopConcept dvc:Rechtenverkenner .
+    skos:hasTopConcept dvc:YourEurope .
 
 dvc:YourEurope
     a                 skos:Concept ;
@@ -17,14 +16,5 @@ dvc:YourEurope
     skos:prefLabel    "Your Europe"@en ;
     skos:definition   "Publicatiekanaal: Your Europe"@nl ;
     skos:definition   "Publication medium: Your Europe"@en ;
-    skos:inScheme     dvcs:PublicatieKanaal ;
-    skos:topConceptOf dvcs:PublicatieKanaal .
-
-dvc:Rechtenverkenner
-    a                 skos:Concept ;
-    skos:prefLabel    "Rechtenverkenner"@nl ;
-    skos:prefLabel    "Rechtenverkenner"@en ;
-    skos:definition   "Publicatiekanaal: Rechtenverkenner"@nl ;
-    skos:definition   "Publication medium: Rechtenverkenner"@en ;
     skos:inScheme     dvcs:PublicatieKanaal ;
     skos:topConceptOf dvcs:PublicatieKanaal .
