@@ -1,7 +1,0 @@
-### GET Concept Sheme
-GET https://data.vlaanderen.be/id/conceptscheme/Contactkanaal
-Accept: application/json
-
-### GET Concept
-GET https://data.vlaanderen.be/id/concept/Contactkanaal/Passief
-Accept: application/json
