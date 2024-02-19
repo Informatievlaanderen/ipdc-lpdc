@@ -9,6 +9,6 @@ lokale producten- en dienstencatalogus (LPDC) en de interbestuurlijke producten-
 
 **_Editors:_**
 
-- first read [deze richtlijnen](https://github.com/Informatievlaanderen/OSLO-toolchain/blob/master/doc-user/README.md) .
-- Use [TagsAndNotes.xlsm](https://github.com/Informatievlaanderen/OSLO-allerleiTooltjes/tree/master/EA-Excel/TagsAndNotes)
-to edit tags in Excel. The files `*.xlsm` are included in the repo as git-ignored.
+- Lees [deze richtlijnen](https://github.com/Informatievlaanderen/OSLO-toolchain/blob/master/doc-user/README.md) .
+- Gebruik [TagsAndNotes.xlsm](https://github.com/Informatievlaanderen/OSLO-allerleiTooltjes/tree/master/EA-Excel/TagsAndNotes)
+om tags te wijzigen m.b.v excel.
