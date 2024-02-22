@@ -9,9 +9,9 @@ lokale producten- en dienstencatalogus (LPDC) en de interbestuurlijke producten-
 
 ## Publicaties
 
-- [Implementatiemodel](https://data.vlaanderen.be/doc/implementatiemodel/ipdc-lpdc)
+- [Implementatiemodel](https://productencatalogus.data.vlaanderen.be/doc/implementatiemodel/ipdc-lpdc/)
     - [Gegegenereerde bestanden](https://github.com/Informatievlaanderen/data.vlaanderen.be-generated/tree/production/doc/implementatiemodel/ipdc-lpdc)
-- [Vocabularium](https://data.vlaanderen.be/ns/ipdc-lpdc/)
+- [Vocabularium](https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc/)
     - [Gegegenereerde bestanden](https://github.com/Informatievlaanderen/data.vlaanderen.be-generated/tree/production/ns/ipdc-lpdc)
 
 ## Werken met [Enterprise Architect](https://github.com/Informatievlaanderen/OSLO-EA-to-RDF)
