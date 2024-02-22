@@ -34,6 +34,29 @@ je [hier](https://vlaamseoverheid.sharepoint.com/:v:/r/sites/informatie_vlaander
 - [Documentation](https://github.com/Informatievlaanderen/OSLO-EA-to-RDF?tab=readme-ov-file#class-datatype--enumeration)
 - `uri`: in te vullen voor extern gedefinieerde klasses, heeft voorrang op default `baseURI``name` combinatie
 
+#### Enumeration
+
+##### Definitie
+
+Enumerations worden enkel getoond als type van een attribuut op het applicatieprofiel/implementatiemodel. Ze worden niet
+weergegeven in het vocabularium.
+We modelleren alle codelijsten (`skos:ConceptScheme`) als enumeration klasses in Enterprise architect met volgende tags:
+
+- `uri`: `http://www.w3.org/2004/02/skos/core#Concept`
+- `definition-nl`: beschrijving + owner
+- `usageNote-nl`: geldige waardes
+- `ap-codelist`: link naar de codelijst
+
+##### Gebruik als attribuut type
+
+Een attribuut met als type een eigen enumeration modelleren we als volgt:
+
+- `naam`: naam van het attribuut
+- `type`: enumeration klasse
+- `multiplicity`: kardinaliteit
+- `tags`: worden overgenomen van de enumeration
+  - `uri`: specifiëren als een externe definitie gebruikt wordt
+
 ### Attribuut
 
 - [Documentation](https://github.com/Informatievlaanderen/OSLO-EA-to-RDF?tab=readme-ov-file#attribute)
