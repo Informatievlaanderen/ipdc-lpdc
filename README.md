@@ -80,6 +80,7 @@ Een attribuut met als type een eigen enumeration modelleren we als volgt:
 - `ap-definition-nl`: beschrijving
     - fallback: `definition-nl`
 - `ap-usageNote-nl`
+    - fallback: `usageNote-nl`?
 - `ap-codelist`: url met verwijzing naar de codelijst
 
 #### Vocabularium tags
