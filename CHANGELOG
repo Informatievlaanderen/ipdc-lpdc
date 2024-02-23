@@ -1,4 +1,10 @@
 2022-06-15
   - Initiële ontwerp standaard
 2024-02-28
-  - ...
+  - Codelijsten
+    - Lijst: CompetentAuthorityLevel, ConceptTag, ExecutingAuthorityLevel, InstanceTag, Language, PublicationMedium, Spatial, TargetAudience, Theme, Type, YourEuropeCategory
+    - Language toegevoegd ter vervanging van het type LinguisticSystem van het attribuut InstancePublicService::language
+    - Link toegevoegd naar de bron met het skos:ConceptScheme en alle onderliggende skos:Concept
+    - Versiebeheer van codelijsten door te linken naar een geversioneerde bron of aan te geven in de usage note welke versie van de codelijst gebruikt wordt
+    - Als niet alle waardes ondersteund worden in het implementatiemodel wordt in de usage note aangegeven welke waardes geldig zijn
+    - Toegevoegd wie de beheerder is die verantwoordelijk is voor de evolutie van de codelijst
