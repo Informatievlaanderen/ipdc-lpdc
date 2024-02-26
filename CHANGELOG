@@ -15,11 +15,17 @@
   - Requirement
     - name: uri veranderd voor consistentie: http://www.w3.org/2004/02/skos/core#prefLabel -> http://purl.org/dc/terms/title
   - Website
-    - https://schema.org/WebSite -> http://schema.org/WebSite
+    - Correctie: https://schema.org/WebSite -> http://schema.org/WebSite
     - location
-        - uri: https://schema.org/url -> http://schema.org/url
+        - uri: Correctie: https://schema.org/url -> http://schema.org/url
         - type: fix me verwijderd
   - FinancialAdvantage
     - http://data.europa.eu/m8g/Output -> https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc#
     - Specialisatie van http://data.europa.eu/m8g/Output
+  - ContactPoint
+    - Correctie: https://schema.org/ContactPoint -> http://schema.org/ContactPoint
+    - hasEmail: Correctie: https://schema.org/email -> http://schema.org/email
+    - hasTelephone: Correctie: https://schema.org/telephone -> http://schema.org/telephone
+    - openinghours: Correctie: https://schema.org/openingHours -> http://schema.org/openingHours
+    - website: Correctie: https://schema.org/url -> http://schema.org/url
   - Documenatie verbeteringen
