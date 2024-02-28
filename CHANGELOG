@@ -1,6 +1,6 @@
 2022-06-15
   - Initiële ontwerp standaard
-2024-02-28
+2024-02-29
   - Codelijsten
     - Lijst: CompetentAuthorityLevel, ConceptTag, ExecutingAuthorityLevel, InstanceTag, Language, PublicationMedium, Spatial, TargetAudience, Theme, Type, YourEuropeCategory
     - Language toegevoegd ter vervanging van het type LinguisticSystem van het attribuut InstancePublicService::language
