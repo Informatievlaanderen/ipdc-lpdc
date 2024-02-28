@@ -94,6 +94,7 @@ Een attribuut met als type een eigen enumeration modelleren we als volgt:
 - `target`: doel
 - `source multiplicity`: bron kardinaliteit (optioneel)
 - `target multiplicity`: doel kardinaliteit
+- `direction`: to destination (rechtsklik associatie naam -> direction -> to destination => voegt de dikke zwarte pijl toe)
 - `tags`
     - `uri`: in te vullen voor extern gedefinieerde associaties, heeft voorrang op default `baseURI``name` combinatie
     - `label-nl`: label
