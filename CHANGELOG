@@ -29,8 +29,10 @@
     - hasTelephone: Correctie: https://schema.org/telephone -> http://schema.org/telephone
     - openinghours: Correctie: https://schema.org/openingHours -> http://schema.org/openingHours
     - website: Correctie: https://schema.org/url -> http://schema.org/url
+  - Address
+    - administrativeUnitLevel2 en fullAddress verwijderd
   - Lijsten met volgorde: aan volgende items werd een order attribuut toegevoegd om de relatieve volgorde in een lijst vast te leggen
-    - Websit
+    - Website
     - Cost
     - FinancialAdvantage
     - LegalResource
