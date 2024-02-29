@@ -21,26 +21,26 @@
     <a href="https://www.rfc-editor.org/rfc/rfc5646.html">language tag</a>. De standaard language tags die ondersteund
     worden in dit implementatiemodel zijn de volgende. Houd er rekening mee dat op termijn nieuwe language tags ondersteund kunnen worden.
     <ul>
-        <li><code>nl</code>: Nederlands (verplicht)</li>
-        <li><code>en</code>: Engels (optioneel)</li>
-        <li><code>fr</code>: Frans (optioneel)</li>
-        <li><code>de</code>: Duits (optioneel)</li>
+        <li>nl: Nederlands (verplicht)</li>
+        <li>en: Engels (optioneel)</li>
+        <li>fr: Frans (optioneel)</li>
+        <li>de: Duits (optioneel)</li>
     </ul>
 </p>
 <p>
     Om voor Nederlandse teksten het onderscheid te kunnen maken tussen formele teksten (u vorm) en informele teksten
     (je vorm) werden enkele <a href="https://www.rfc-editor.org/rfc/rfc5646.html#section-2.2.7">private use language subtags</a> afgesproken.
     <ul>
-        <li><code>nl-BE-x-formal</code>: formele tekst manueel ingegeven door een redacteur</li>
-        <li><code>nl-BE-x-informal</code>: informele tekst manueel ingegeven door een redacteur</li>
-        <li><code>nl-BE-x-generated-formal</code>: automatisch gegenereerde formele tekst</li>
-        <li><code>nl-BE-x-generated-informal</code>: automatisch gegenereerde informele tekst</li>
+        <li>nl-BE-x-formal: formele tekst manueel ingegeven door een redacteur</li>
+        <li>nl-BE-x-informal: informele tekst manueel ingegeven door een redacteur</li>
+        <li>nl-BE-x-generated-formal: automatisch gegenereerde formele tekst</li>
+        <li>nl-BE-x-generated-informal: automatisch gegenereerde informele tekst</li>
     </ul>
-    De <code>nl</code> tag zal steeds aanwezig zijn. Hiernaast zal steeds ofwel de door een redacteur ingegeven formele vorm
-    (<code>nl-BE-x-formal</code>) of gegeneerde formele vorm (<code>nl-BE-x-generated-formal</code>) beschikbaar zijn. Alsook de door een
-    redacteur ingegeven informele vorm (<code>nl-BE-x-informal</code>) of gegeneerde informele vorm ( <code>nl-BE-x-generated-informal</code>)
+    De nl tag zal steeds aanwezig zijn. Hiernaast zal steeds ofwel de door een redacteur ingegeven formele vorm
+    (nl-BE-x-formal) of gegeneerde formele vorm (nl-BE-x-generated-formal) beschikbaar zijn. Alsook de door een
+    redacteur ingegeven informele vorm (nl-BE-x-informal) of gegeneerde informele vorm ( nl-BE-x-generated-informal)
 
-    Bij het schrijven naar de IPDC API zijn de <code>generated</code> tags niet toegelaten. Deze zullen genegeerd worden.
+    Bij het schrijven naar de IPDC API zijn de generated tags niet toegelaten. Deze zullen genegeerd worden.
 </p>
 <p>
     In het implementatiemodel worden de kardinaliteiten voor TaalStrings altijd aangegeven vanuit één taal. Zo geeft
