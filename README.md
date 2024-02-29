@@ -62,15 +62,15 @@ We modelleren alle codelijsten (`skos:ConceptScheme`) als enumeration klasses in
 - [Documentatie](https://github.com/Informatievlaanderen/OSLO-EA-to-RDF?tab=readme-ov-file#attribute)
 - `naam`: naam van het attribuut
 - `type`: type
-  - One of the supported primitive XSD/RDF/RDFS types if the datatype is Boolean, Date, DateTime, Double,
+    - One of the supported primitive XSD/RDF/RDFS types if the datatype is Boolean, Date, DateTime, Double,
       Duration,HTML, Int, Integer, LangString, Literal, Month, MonthDay, String, Time, URI, Year or YearMonth
-  - The class (or datatype) whose name matches the datatype
-- `multiplicity`: kardinaliteit 
+    - The class (or datatype) whose name matches the datatype
+- `multiplicity`: kardinaliteit
 - `tags`:
-  - `uri`: in te vullen voor extern gedefinieerde klasses, heeft voorrang op default `baseURI` + `name` combinatie
-  - `label-nl`: label
-  - `definition-nl`: optionele beschrijving
-  - `usageNote-nl`: optioneel gebruiksadvies
+    - `uri`: in te vullen voor extern gedefinieerde klasses, heeft voorrang op default `baseURI` + `name` combinatie
+    - `label-nl`: label
+    - `definition-nl`: optionele beschrijving
+    - `usageNote-nl`: optioneel gebruiksadvies
 
 #### Enumeration
 
@@ -94,9 +94,10 @@ Een attribuut met als type een eigen enumeration modelleren we als volgt:
 - `target`: doel
 - `source multiplicity`: bron kardinaliteit (optioneel)
 - `target multiplicity`: doel kardinaliteit
-- `direction`: to destination (rechtsklik associatie naam -> direction -> to destination => voegt de dikke zwarte pijl toe)
+- `direction`: to destination (rechtsklik associatie naam -> direction -> to destination => voegt de dikke zwarte pijl
+  toe)
 - `tags`
-    - `uri`: in te vullen voor extern gedefinieerde associaties, heeft voorrang op default `baseURI``name` combinatie
+    - `uri`: altijd in te vullen, `baseURI`+`name` default lijkt niet te werken
     - `label-nl`: label
     - `definition-nl`: optionele beschrijving
     - `usageNote-nl`: optioneel gebruiksadvies
