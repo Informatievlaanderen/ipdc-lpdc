@@ -39,3 +39,6 @@
     - ContactPoint
   - Snapshot klasses toegevoegd
   - Documentatie verbeteringen
+2024-03-08
+  - InstancePubliceService is subklasse van cpsv::PublicService
+  - LegalResource heeft optionele naam en beschrijving en verplichte location url
