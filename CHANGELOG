@@ -42,3 +42,5 @@
 2024-03-08
   - InstancePubliceService is subklasse van cpsv::PublicService
   - LegalResource heeft optionele naam en beschrijving en verplichte location url
+2024-03-22
+  - Verduidelijking nl language tags: lezen versus schrijven
