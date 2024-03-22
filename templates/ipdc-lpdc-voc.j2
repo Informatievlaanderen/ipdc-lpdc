@@ -14,42 +14,6 @@
     Er wordt beschreven hoe er gecommuniceerd kan worden vanuit en naar de lokale producten- en dienstencatalogus (LPDC) en de interbestuurlijke producten- en dienstencatalogus (IPDC).
 </p>
 
-<h4>Meertaligheid</h4>
-<p>
-    Alle vertaalbare velden hebben het type TaalString. Een TaalString is de combinatie van een tekstuele waarde met
-    een aanduiding van de taal. De aanduiding van de taal wordt gedaan aan de hand van een
-    <a href="https://www.rfc-editor.org/rfc/rfc5646.html">language tag</a>. De standaard language tags die ondersteund
-    worden in dit implementatiemodel zijn de volgende. Houd er rekening mee dat op termijn nieuwe language tags ondersteund kunnen worden.
-    <ul>
-        <li>nl: Nederlands (verplicht)</li>
-        <li>en: Engels (optioneel)</li>
-        <li>fr: Frans (optioneel)</li>
-        <li>de: Duits (optioneel)</li>
-    </ul>
-</p>
-<p>
-    Om voor Nederlandse teksten het onderscheid te kunnen maken tussen formele teksten (u vorm) en informele teksten
-    (je vorm) werden enkele <a href="https://www.rfc-editor.org/rfc/rfc5646.html#section-2.2.7">private use language subtags</a> afgesproken.
-    <ul>
-        <li>nl-BE-x-formal: formele tekst manueel ingegeven door een redacteur</li>
-        <li>nl-BE-x-informal: informele tekst manueel ingegeven door een redacteur</li>
-        <li>nl-BE-x-generated-formal: automatisch gegenereerde formele tekst</li>
-        <li>nl-BE-x-generated-informal: automatisch gegenereerde informele tekst</li>
-    </ul>
-    Bij het schrijven naar IPDC of LPDC, of bij het doorgeven van wijzigingen via LDES mag slechts één enkele van de volgende language tags doorgegeven worden: nl-BE-x-formal, nl-BE-x-informal of nl.
-    Bij voorkeur wordt gekozen voor nl-BE-x-formal of nl-BE-x-informal. Op deze manier is duidelijk in welke vorm de redacteur de oorspronkelijke tekst schreef.
-    Bij het schrijven naar de IPDC of LPDC zijn de generated tags nl-BE-x-generated-formal en nl-BE-x-generated-informal niet toegelaten. Deze zullen genegeerd worden.
-    <br/>
-    Bij het uitlezen van IPDC zal de nl tag steeds aanwezig zijn. Hiernaast zal steeds ofwel de door een redacteur ingegeven formele vorm (nl-BE-x-formal) of gegeneerde formele vorm (nl-BE-x-generated-formal) beschikbaar zijn.
-    Alsook de door een redacteur ingegeven informele vorm (nl-BE-x-informal) of gegeneerde informele vorm (nl-BE-x-generated-informal).
-</p>
-<p>
-    In het implementatiemodel worden de kardinaliteiten voor TaalStrings altijd aangegeven vanuit één taal. Zo geeft
-    kardinaliteit 1 aan dat er exact 1 tekstuele waarde per taal toegestaan is. Kardinaliteit 0..1 geeft aan dat er per taal
-    geen of één waarde toegelaten is. De uitzonderlijk kardinaliteit 0..* geeft aan dat er per taal meerdere waardes
-    toegestaan zijn.
-</p>
-
 <h4>Meer weten?</h4>
 <p>
     Een volledig overzicht van alle beschikbare concepten en instanties is terug te vinden in <a href="https://productencatalogus-v3.vlaanderen.be">de productencatalogus</a>.
