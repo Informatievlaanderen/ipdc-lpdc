@@ -46,3 +46,8 @@
   - Productnummer: kardinaliteit 0..1 en verduidelijking gebruik
   - Verduidelijking nl language tags: lezen versus schrijven
   - Verduidelijking gebruik rich text
+  - Voor codelijsten werd verduidelijkt dat het verwachte type skos:concept is
+  - Adres werd voorgesteld als klasse i.p.v. data type
+  - Alle klassenamen, attributen en associates zijn vertaald naar het Nederlands
+  - InstantieSnapshot werd uitgebreid met alle attributen en associaties van Instantie
+  - ConceptSnapshot werd uitgebreid met alle attributen en associaties van Concept
