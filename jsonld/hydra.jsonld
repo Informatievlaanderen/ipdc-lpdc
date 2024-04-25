@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "Collection": {
+      "@context": {
+        "hydraPageIndex": {
+          "@id": "http://www.w3.org/ns/hydra/core#pageIndex",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        },
+        "hydraLimit": {
+          "@id": "http://www.w3.org/ns/hydra/core#limit",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        },
+        "hydraTotalItems": "http://www.w3.org/ns/hydra/core#totalItems",
+        "hydraMember": {
+          "@id": "http://www.w3.org/ns/hydra/core#member",
+          "@container": "@set"
+        },
+        "hydraView": {
+          "@id": "http://www.w3.org/ns/hydra/core#view",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://www.w3.org/ns/hydra/core#Collection"
+    },
+    "PartialCollectionView": {
+      "@context": {
+        "hydraFirst": {
+          "@id": "http://www.w3.org/ns/hydra/core#first",
+          "@type": "@id"
+        },
+        "hydraLast": {
+          "@id": "http://www.w3.org/ns/hydra/core#last",
+          "@type": "@id"
+        },
+        "hydraNext": {
+          "@id": "http://www.w3.org/ns/hydra/core#next",
+          "@type": "@id"
+        },
+        "hydraPrevious": {
+          "@id": "http://www.w3.org/ns/hydra/core#previous",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://www.w3.org/ns/hydra/core#PartialCollectionView"
+    }
+  }
+}
