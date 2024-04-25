@@ -42,7 +42,7 @@
 2024-03-08
   - InstancePubliceService is subklasse van cpsv::PublicService
   - LegalResource heeft optionele naam en beschrijving en verplichte location url
-2024-03-22
+2024-04-25
   - Productnummer: kardinaliteit 0..1 en verduidelijking gebruik
   - Verduidelijking nl language tags: lezen versus schrijven
   - Verduidelijking gebruik rich text
@@ -51,3 +51,10 @@
   - Alle klassenamen, attributen en associates zijn vertaald naar het Nederlands
   - InstantieSnapshot werd uitgebreid met alle attributen en associaties van Instantie
   - ConceptSnapshot werd uitgebreid met alle attributen en associaties van Concept
+2024-04-25
+  - JsonLD context toegevoegd die het IPDC-LPDC implementatiemodel formaliseert. In de automatisch gegenereerde context ontbraken volgende zaken:
+    - TaalStrings voorgesteld als "@type": "@id" i.p.v. "@container": "@language"
+    - Codelijsten bevatten geen base url
+    - PubliekeOrganisaties bevatten geen base url voor wegwijs, welke als standaard register voor organisaties gebruikt wordt
+  - JsonLD context toegevoegd die het gebruik van LDES in het kader van IPDC-LPDC formaliseert
+  - JsonLD context toegevoegd die het gebruik van Hydra in het kader van IPDC-LPDC formaliseert
