@@ -3,8 +3,8 @@
 {% block summary %}
 <p>
     <em>
-        Dit implementatiemodel is een implementatiemodel van het <a href="https://belgif.github.io/thematic/models/public%20services/index_en.html">ICEG applicatieprofiel public service</a>
-        en volgt het <a href="https://data.vlaanderen.be/ns/dienst">OSLO Vocabularium 'Dienst'</a>.
+        Dit implementatiemodel is een implementatiemodel van het <a target="_blank" href="https://belgif.github.io/thematic/models/public%20services/index_en.html">ICEG applicatieprofiel public service</a>
+        en volgt het <a target="_blank" href="https://data.vlaanderen.be/ns/dienst">OSLO Vocabularium 'Dienst'</a>.
         Veel zaken worden overgenomen vanuit het ICEG model en zijn daarom enkel in het Engels beschreven. Specifieke uitbreidingen binnen dit datamodel worden wel in het Nederlands beschreven.
     </em>
 </p>
@@ -14,11 +14,45 @@
     Er wordt beschreven hoe er gecommuniceerd kan worden vanuit en naar de lokale producten- en dienstencatalogus (LPDC) en de interbestuurlijke producten- en dienstencatalogus (IPDC).
 </p>
 
+<h4>JSON-LD Context</h4>
+<p>
+    Een herbruikbare JSON-LD context voor dit implementatiemodel is op volgende locatie terug te vinden:
+    <ul>
+        <li><a target="_blank" href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/jsonld/ipdc-lpdc-im.jsonld">IPDC-LPDC JSON-LD context</a></li>
+    </ul>
+    Naast het uitwisselen van individuele instanties, concepten en bijhorende snapshots is het ook mogelijk lijsten van deze gegevens uit te wisselen. Dit gebeurt op verschillende manieren:
+    <ul>
+        <li>
+            Lijsten van instantie- en conceptsnapshots worden gepagineerd aangeboden door gebruik te maken van de <a target="_blank" href="https://semiceu.github.io/LinkedDataEventStreams/">LDES specificatie</a>.
+            In volgende <a target="_blank" href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/jsonld/ldes.jsonld">LDES JSON-LD context</a> wordt vastgelegd welke definities gebruikt worden.
+        </li>
+        <li>
+            Lijsten van instanties en concepten worden gepagineerd aangeboden door gebruik te maken van de <a target="_blank" href="https://www.hydra-cg.com/spec/latest/core/">Hydra specificatie</a>.
+            In volgende <a target="_blank" href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-04-25/jsonld/hydra.jsonld">Hydra JSON-LD context</a> wordt vastgelegd welke definities gebruikt worden.
+        </li>
+    </ul>
+    <em>
+        Opgelet: de JSON-LD context onderaan deze pagina is automatisch gegenereerd en niet normatief.
+        Bij één van de volgende releases zal deze verwijderd worden. Gebruik steeds de JSON-LD contexten die hierboven in deze sectie beschreven worden.
+    </em>
+</p>
+
+<h4>SHACL Template</h4>
+<p>
+    Een herbruikbare SHACL template voor dit implementatiemodel is momenteel nog in opbouw en zal zodra beschikbaar hier aangeboden worden.
+    <br>
+    <br>
+    <em>
+        Opgelet: de SHACL template onderaan deze pagina is automatisch gegenereerd en niet normatief.
+        Bij één van de volgende releases zal deze verwijderd worden. Gebruik steeds de SHACL template die hierboven in deze sectie beschreven wordt.
+    </em>
+</p>
+
 <h4>Meertaligheid</h4>
 <p>
     Alle vertaalbare velden hebben het type TaalString. Een TaalString is de combinatie van een tekstuele waarde met
     een aanduiding van de taal. De aanduiding van de taal wordt gedaan aan de hand van een
-    <a href="https://www.rfc-editor.org/rfc/rfc5646.html">language tag</a>. De standaard language tags die ondersteund
+    <a target="_blank" href="https://www.rfc-editor.org/rfc/rfc5646.html">language tag</a>. De standaard language tags die ondersteund
     worden in dit implementatiemodel zijn de volgende. Houd er rekening mee dat op termijn nieuwe language tags ondersteund kunnen worden.
     <ul>
         <li>nl: Nederlands (verplicht)</li>
@@ -29,7 +63,7 @@
 </p>
 <p>
     Om voor Nederlandse teksten het onderscheid te kunnen maken tussen formele teksten (u vorm) en informele teksten
-    (je vorm) werden enkele <a href="https://www.rfc-editor.org/rfc/rfc5646.html#section-2.2.7">private use language subtags</a> afgesproken.
+    (je vorm) werden enkele <a target="_blank" href="https://www.rfc-editor.org/rfc/rfc5646.html#section-2.2.7">private use language subtags</a> afgesproken.
     <ul>
         <li>nl-BE-x-formal: formele tekst manueel ingegeven door een redacteur</li>
         <li>nl-BE-x-informal: informele tekst manueel ingegeven door een redacteur</li>
@@ -53,17 +87,17 @@
 <h4>Snapshots</h4>
 <p>
     Een snapshot geeft weer hoe een instantie of concept er op een bepaald moment in tijd uitzag. Telkens wanneer een functionele wijziging aangebracht wordt zal een nieuwe snapshot aangemaakt worden
-    die alle op dat moment ingevulde attributen en associaties capteert. Op deze manier wordt de volledig redactie historiek van een instatnie of concept vastgelegd.
+    die alle op dat moment ingevulde attributen en associaties capteert. Op deze manier wordt de volledig redactie historiek van een instantie of concept vastgelegd.
     Om het diagram overzichtelijk te houden worden op de snapshot klasses de attributen en associaties van instanties en concepten niet herhaald.
     In de detail beschrijving van deze klasses zijn alle attributen en associaties wel terug te vinden.
 </p>
 
 <h4>Meer weten?</h4>
 <p>
-    Een volledig overzicht van alle beschikbare concepten en instanties is terug te vinden in <a href="https://productencatalogus-v3.vlaanderen.be">de productencatalogus</a>.
-    Achter de schermen wordt al deze dienstverlening bewaart in <a href="https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/interbestuurlijke-producten-en-dienstencatalogus-ipdc">IPDC</a>.
+    Een volledig overzicht van alle beschikbare concepten en instanties is terug te vinden in <a target="_blank" href="https://productencatalogus-v3.vlaanderen.be">de productencatalogus</a>.
+    Achter de schermen wordt al deze dienstverlening bewaart in <a target="_blank" href="https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/interbestuurlijke-producten-en-dienstencatalogus-ipdc">IPDC</a>.
     Wens je de informatie over deze dienstverlening te integreren in je eigen oplossingen dan is dit mogelijk via de
-    <a href="https://ipdc.vlaanderen.be/docs/swagger-ui/index.html">IPDC API</a>. Neem hiervoor zeker een kijkje in
-    <a href="https://vlaamseoverheid.atlassian.net/wiki/external/6317081715/ZGU4MGNlODM2N2U1NDU5MGFlY2NlYzcxYmQyYWUwMTc">de aansluitersgids</a>.
+    <a target="_blank" href="https://ipdc.vlaanderen.be/docs/swagger-ui/index.html">IPDC API</a>. Neem hiervoor zeker een kijkje in
+    <a target="_blank" href="https://vlaamseoverheid.atlassian.net/wiki/external/6317081715/ZGU4MGNlODM2N2U1NDU5MGFlY2NlYzcxYmQyYWUwMTc">de aansluitersgids</a>.
 </p>
 {% endblock %}
