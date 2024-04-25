@@ -42,7 +42,7 @@
 2024-03-08
   - InstancePubliceService is subklasse van cpsv::PublicService
   - LegalResource heeft optionele naam en beschrijving en verplichte location url
-2024-04-25
+2024-03-22
   - Productnummer: kardinaliteit 0..1 en verduidelijking gebruik
   - Verduidelijking nl language tags: lezen versus schrijven
   - Verduidelijking gebruik rich text
