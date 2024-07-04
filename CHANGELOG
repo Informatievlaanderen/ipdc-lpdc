@@ -58,3 +58,7 @@
     - PubliekeOrganisaties bevatten geen base url voor wegwijs, welke als standaard register voor organisaties gebruikt wordt
   - JsonLD context toegevoegd die het gebruik van LDES in het kader van IPDC-LPDC formaliseert
   - JsonLD context toegevoegd die het gebruik van Hydra in het kader van IPDC-LPDC formaliseert
+2024-07-04
+  - Beheerder hernoemd naar aangemaaktDoor
+  - Meerdere procedures toegelaten, elke procedure kan een order veld hebben
+  - Meerdere voorwaarden toegelaten, elke voorwaarde kan een order veld hebben
