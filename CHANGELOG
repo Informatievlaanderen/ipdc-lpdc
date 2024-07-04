@@ -59,6 +59,15 @@
   - JsonLD context toegevoegd die het gebruik van LDES in het kader van IPDC-LPDC formaliseert
   - JsonLD context toegevoegd die het gebruik van Hydra in het kader van IPDC-LPDC formaliseert
 2024-07-04
+  - Update codelijst geografisch toepassingsgebied
+    - Enkel Vlaamse provincies en gemeenten
+    - Geen hiëarchie
+    - Fusies 2019 toegevoegd
+    - Fusies 2025 toegevoegd
+    - Oude fusiegemeenten voorzien van predicate time:hasEnd
+    - Nieuwe fusiegemeenten voorzien van predicate time:hasBeginning
+    - LAU code Aalter gecorrigeerd naar 44084, uri blijft behouden
+    - LAU code Deinze gecorrigeerd naar 44083, uri blijft behouden
   - Beheerder hernoemd naar aangemaaktDoor
   - Meerdere procedures toegelaten, elke procedure kan een order veld hebben
   - Meerdere voorwaarden toegelaten, elke voorwaarde kan een order veld hebben
