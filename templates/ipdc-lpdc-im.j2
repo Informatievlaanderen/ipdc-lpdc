@@ -16,6 +16,11 @@
 
 <h4>JSON-LD Context</h4>
 <p>
+    <em>
+        Onderstaande JSON-LD contexten worden beheerd door het IPDC team van Digitaal Vlaanderen.
+    </em>
+    <br>
+    <br>
     Een herbruikbare JSON-LD context voor dit implementatiemodel is op volgende locatie terug te vinden:
     <ul>
         <li><a target="_blank" href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/jsonld/ipdc-lpdc-im.jsonld">IPDC-LPDC JSON-LD context</a></li>
@@ -31,21 +36,20 @@
             In volgende <a target="_blank" href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/jsonld/hydra.jsonld">Hydra JSON-LD context</a> wordt vastgelegd welke definities gebruikt worden.
         </li>
     </ul>
-    <em>
-        Opgelet: de JSON-LD context onderaan deze pagina is automatisch gegenereerd en niet normatief.
-        Bij één van de volgende releases zal deze verwijderd worden. Gebruik steeds de JSON-LD contexten die hierboven in deze sectie beschreven worden.
-    </em>
 </p>
 
 <h4>SHACL Template</h4>
 <p>
-    Een herbruikbare SHACL template voor dit implementatiemodel is momenteel nog in opbouw en zal zodra beschikbaar hier aangeboden worden.
-    <br>
-    <br>
     <em>
-        Opgelet: de SHACL template onderaan deze pagina is automatisch gegenereerd en niet normatief.
-        Bij één van de volgende releases zal deze verwijderd worden. Gebruik steeds de SHACL template die hierboven in deze sectie beschreven wordt.
+        Onderstaande SHACL templates worden beheerd door het LPDC team van Agentschap Binnenlands Bestuur.
     </em>
+    <br>
+    <br>
+    Herbruikbare SHACL templates voor dit implementatiemodel zijn op volgende locaties terug te vinden en kunnen gebruikt worden om data te valideren:
+    <ul>
+        <li><a target="_blank" href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/shacl/instantie-shape.ttl">Instantie SHACL template</a></li>
+        <li><a target="_blank" href="https://raw.githubusercontent.com/Informatievlaanderen/ipdc-lpdc/ontwerp-2024-07-04/shacl/concept-shape.ttl">Concept SHACL template</a></li>
+    </ul>
 </p>
 
 <h4>Meertaligheid</h4>
@@ -62,6 +66,14 @@
     </ul>
 </p>
 <p>
+    In het implementatiemodel worden de kardinaliteiten voor TaalStrings altijd aangegeven vanuit één taal. Zo geeft
+    kardinaliteit 1 aan dat er exact 1 tekstuele waarde per taal toegestaan is. Kardinaliteit 0..1 geeft aan dat er per taal
+    geen of één waarde toegelaten is. De uitzonderlijk kardinaliteit 0..* geeft aan dat er per taal meerdere waardes
+    toegestaan zijn.
+</p>
+
+<h5>Formeel (u) versus informeel (je)</h5>
+<p>
     Om voor Nederlandse teksten het onderscheid te kunnen maken tussen formele teksten (u vorm) en informele teksten
     (je vorm) werden enkele <a target="_blank" href="https://www.rfc-editor.org/rfc/rfc5646.html#section-2.2.7">private use language subtags</a> afgesproken.
     <ul>
@@ -77,11 +89,15 @@
     Bij het uitlezen van IPDC zal de nl tag steeds aanwezig zijn. Hiernaast zal steeds ofwel de door een redacteur ingegeven formele vorm (nl-BE-x-formal) of gegeneerde formele vorm (nl-BE-x-generated-formal) beschikbaar zijn.
     Alsook de door een redacteur ingegeven informele vorm (nl-BE-x-informal) of gegeneerde informele vorm (nl-BE-x-generated-informal).
 </p>
+
+<h5>Engels</h5>
 <p>
-    In het implementatiemodel worden de kardinaliteiten voor TaalStrings altijd aangegeven vanuit één taal. Zo geeft
-    kardinaliteit 1 aan dat er exact 1 tekstuele waarde per taal toegestaan is. Kardinaliteit 0..1 geeft aan dat er per taal
-    geen of één waarde toegelaten is. De uitzonderlijk kardinaliteit 0..* geeft aan dat er per taal meerdere waardes
-    toegestaan zijn.
+    Instanties met publicatiekanaal YourEurope worden ontsloten op het <a target="_blank" href="https://europa.eu/youreurope">YourEurope portaal</a>.
+    Om deze instanties maximaal vindbaar te maken met een minimum aan redactiewerk worden deze YourEurope instanties automatisch naar het Engelse vertaald.
+    Automatische vertaalde Engelse teksten worden in het model weergegeven door volgende <a target="_blank" href="https://www.rfc-editor.org/rfc/rfc5646.html#section-2.2.7">private use language subtag</a>
+    <ul>
+        <li>en-x-generated: automatisch gegenereerde Engelse tekst</li>
+    </ul>
 </p>
 
 <h4>Snapshots</h4>

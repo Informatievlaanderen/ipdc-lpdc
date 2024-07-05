@@ -71,3 +71,5 @@
   - Beheerder hernoemd naar aangemaaktDoor
   - Meerdere procedures toegelaten, elke procedure kan een order veld hebben
   - Meerdere voorwaarden toegelaten, elke voorwaarde kan een order veld hebben
+  - SHACL templates toegevoegd
+  - documentatie: en-x-generated
