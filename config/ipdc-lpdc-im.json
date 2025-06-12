@@ -5,15 +5,15 @@
   "eap": "IPDC-LPDC-AP.eap",
   "diagram": "ipdc-lpdc-ap",
   "template": "ipdc-lpdc-im.j2",
-  "title": "IPDC - LPDC (Implementatiemodel)",
-  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "title": "Implementatiemodel IPDC - LPDC",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
   "publication-date": "2024-07-04",
   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "Contribution",
   "site": "site-skeleton/ipdc-lpdc-im",
   "feedbackurl": "https://github.com/Informatievlaanderen/ipdc-lpdc/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden",
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/implementatiemodel-ipdc-lpdc",
   "dependencies": []
 }
 ]
