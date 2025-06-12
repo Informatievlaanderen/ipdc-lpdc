@@ -1,0 +1,35 @@
+{
+  "title": "Implementatiemodel IPDC - LPDC",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/NotaWerkgroep",
+  "descriptionFileName": "ipdc-lpdc-description.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Binnenlands Bestuur",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO001835"
+    }
+  ],
+  "publicationDate": "2024-07-04",
+  "specificationDocuments": [
+    {
+      "name": "Implementatiemodel IPDC - LPDC",
+      "resourceReference": "https://productencatalogus.data.vlaanderen.be/doc/implementatiemodel/ipdc-lpdc"
+    }
+  ],
+  "documentation": [
+    {
+      "name": "Vocabularium IPDC - LPDC",
+      "resourceReference": "https://productencatalogus.data.vlaanderen.be/ns/ipdc-lpdc"
+    }
+  ],
+  "reports": [],
+  "charter": [],
+  "presentations": [],
+  "dateOfRegistration": "N.v.t.",
+  "dateOfAcknowledgementByWorkingGroup": "N.v.t.",
+  "dateOfAcknowledgementBySteeringCommittee": "N.v.t.",
+  "repository": "ipdc-lpdc",
+  "datePublicReviewStart": "N.v.t.",
+  "endOfPublicationDate": "N.v.t."
+}

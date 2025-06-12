@@ -1,0 +1,1 @@
+Deze specificatie is opgesteld ter ondersteuning van OSLO Dienst (gebaseerd op CPSV-AP) binnen de context van de 'lokale producten- en dienstencatalogus van het Agentschap Binnenlands Bestuur.
