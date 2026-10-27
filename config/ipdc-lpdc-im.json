@@ -2,7 +2,7 @@
 {
   "name": "ipdc-lpdc-im",
   "type": "ap",
-  "eap": "IPDC-LPDC-AP.eap",
+  "eap": "IPDC-LPDC-AP-v02.eap",
   "diagram": "ipdc-lpdc-ap",
   "template": "ipdc-lpdc-im.j2",
   "title": "Implementatiemodel IPDC - LPDC",
