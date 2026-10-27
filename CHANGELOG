@@ -73,3 +73,15 @@
   - Meerdere voorwaarden toegelaten, elke voorwaarde kan een order veld hebben
   - SHACL templates toegevoegd
   - documentatie: en-x-generated
+  2026-10-27
+  - Procedure
+    - Optioneel veld digitaalAanvraagbaar toegevoegd met kardinaliteit 0..1
+    - Inline enumeratie DigitaalAanvraagbaar toegevoegd met waarden Ja, Nee en Geen info
+  - Contactgegevens
+    - Optioneel veld contactnaam toegevoegd van type String met kardinaliteit 0..1
+  - Concept en Instantie
+    - Optionele velden geldigVan en geldigTot toegevoegd van type DateTime, elk met kardinaliteit 0..1
+  - Tekstcorrecties op pagina IPDC - LPDC (Implementatiemodel)
+    - Meer weten?: "bewaart" gecorrigeerd naar "bewaard"
+    - Beschrijving publicatiekanalen bij Concept, ConceptSnapshot, Instantie en InstantieSnapshot: "plaaten" gecorrigeerd naar "plaatsen"
+    - Beschrijving geografisch toepassingsgebied: "pubieke" gecorrigeerd naar "publieke"
