@@ -73,7 +73,7 @@
   - Meerdere voorwaarden toegelaten, elke voorwaarde kan een order veld hebben
   - SHACL templates toegevoegd
   - documentatie: en-x-generated
-  2026-10-27
+  2026-10-30
   - Procedure
     - Optioneel veld digitaalAanvraagbaar toegevoegd met kardinaliteit 0..1
     - Inline enumeratie DigitaalAanvraagbaar toegevoegd met waarden Ja, Nee en Geen info
