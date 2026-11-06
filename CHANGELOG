@@ -76,10 +76,10 @@
   2026-10-30
   - Procedure
     - Optioneel veld digitaalAanvraagbaar toegevoegd met kardinaliteit 0..1
-    - Inline enumeratie DigitaalAanvraagbaar toegevoegd met waarden Ja, Nee en Geen info
+    - Inline enumeratie DigitaalAanvraagbaar toegevoegd met waarden Ja/Nee (Boolean)
   - Contactgegevens
     - Optioneel veld 'naam' toegevoegd van type String met kardinaliteit 0..1
-  - Concept en Instantie
+  - Concept, ConceptSnapshot, Instantie en InstantieSnapshot
     - Optionele velden geldigVan en geldigTot toegevoegd van type DateTime, elk met kardinaliteit 0..1
   - Tekstcorrecties op pagina IPDC - LPDC (Implementatiemodel)
     - Een aantal spellingscorrecties doorgevoerd
