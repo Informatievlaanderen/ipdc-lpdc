@@ -73,7 +73,7 @@
   - Meerdere voorwaarden toegelaten, elke voorwaarde kan een order veld hebben
   - SHACL templates toegevoegd
   - documentatie: en-x-generated
-  2026-10-30
+2026-10-30
   - Procedure
     - Optioneel veld digitaalAanvraagbaar toegevoegd met kardinaliteit 0..1
     - Inline enumeratie DigitaalAanvraagbaar toegevoegd met waarden Ja/Nee (Boolean)
@@ -83,3 +83,16 @@
     - Optionele velden geldigVan en geldigTot toegevoegd van type DateTime, elk met kardinaliteit 0..1
   - Tekstcorrecties op pagina IPDC - LPDC (Implementatiemodel)
     - Een aantal spellingscorrecties doorgevoerd
+2026-11-13
+  - uitvoerendeOverheden
+    - URI hersteld naar #hasExecutingAuthority
+  - Procedure
+    - digitaalAanvraagbaar gewijzigd naar Boolean met kardinaliteit 0..1
+    - URI gewijzigd naar #isDigitallyRequestable
+  - Contactgegevens
+    - naam gemapt op schema:name
+  - Concept, ConceptSnapshot, Instantie en InstantieSnapshot
+    - geldigVan en geldigTot gemapt op schema:availabilityStarts en schema:availabilityEnds
+  - Snapshotklassen
+    - Relaties hersteld in de file, onzichtbaar gemaakt op de diagram overview.jpg
+    - Definities van geldigVan en geldigTot bij InstantieSnapshot gecorrigeerd
