@@ -98,6 +98,18 @@ oss:InstancePublicServiceShape
           shacl:name "endDate"@nl;
           shacl:path schema:endDate
       ], [
+          shacl:datatype xsd:dateTime;
+          shacl:description "Datum en tijd vanaf wanneer de instantie geldig is."@nl;
+          shacl:maxCount 1;
+          shacl:name "geldigVan"@nl;
+          shacl:path schema:availabilityStarts
+      ], [
+          shacl:datatype xsd:dateTime;
+          shacl:description "Datum en tijd tot wanneer de instantie geldig is."@nl;
+          shacl:maxCount 1;
+          shacl:name "geldigTot"@nl;
+          shacl:path schema:availabilityEnds
+      ], [
           shacl:datatype rdf:langString;
           shacl:description "Tekstveld waarin uitzondering op procedures, kostprijzen, ... kunnen aangegeven worden"@nl;
           shacl:maxCount 4; # one for each language allowed
@@ -276,6 +288,12 @@ oss:InstanceRuleShape
            shacl:name "order"@nl;
            shacl:path shacl:order
        ], [
+           shacl:datatype xsd:boolean ;
+           shacl:description "Geeft aan of de procedure digitaal aangevraagd kan worden."@nl;
+           shacl:maxCount 1;
+           shacl:name "digitaalAanvraagbaar"@nl;
+           shacl:path lpdcExt:isDigitallyRequestable
+       ], [
            shacl:class schema:WebSite;
            shacl:description "Link naar online locatie waar de procedure opgestart kan worden."@nl;
            shacl:name "hasWebsite"@nl;
@@ -447,6 +465,12 @@ oss:InstanceContactPointShape
           shacl:maxCount 1;
           shacl:name "address"@nl;
           shacl:path lpdcExt:address
+      ], [
+          shacl:datatype xsd:string;
+          shacl:description "Naam van het contactpunt."@nl;
+          shacl:maxCount 1;
+          shacl:name "naam"@nl;
+          shacl:path schema:name
       ], [
           shacl:datatype xsd:string;
           shacl:description "A property through which an e-mail address for the Public Organization, or a representative of it, can be contacted."@nl;
