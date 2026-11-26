@@ -467,7 +467,7 @@ oss:InstanceContactPointShape
           shacl:path lpdcExt:address
       ], [
           shacl:datatype xsd:string;
-          shacl:description "Naam van het contactpunt."@nl;
+          shacl:description "Naam van het contact."@nl;
           shacl:maxCount 1;
           shacl:name "naam"@nl;
           shacl:path schema:name
